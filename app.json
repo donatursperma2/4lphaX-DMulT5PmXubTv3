@@ -1,9 +1,9 @@
 {
-  "name": "DEADLY MULTI SPAM BOT",
-  "description": "A POWERFULL AND FAST SPAM BOT.",
-  "logo": "https://telegra.ph/file/e0626b3a0bae9adcea7d6.jpg",
+  "name": "DEADLY MULTI 5P4MX UBOT",
+  "description": "A POWERFULL AND FAST 5P4MX UBOT.",
+  "logo": "https://telegra.ph/file/36eb117322594ce579f66.jpg",
   "keywords": [
-    "spambot",
+    "spamxubot",
     "telegram",
     "userbot"
   ],
@@ -144,7 +144,7 @@
         "required": true
       },
       "SUDO": {
-        "description": "Sudo Users Id",
+        "description": "Sudo Users Id, separate by whitespace!",
         "value": "",
         "required": true
       }
