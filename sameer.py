@@ -1888,12 +1888,13 @@ async def help(e):
         
 text = """
 
-💥💥CONGRATULATIONS UR DEADLY-X 5P4MX UBOT IS READY!💥💥💥
-💥💥💥💥💥💥 BY OP SAMEER 💥💥💥💥💥💥"""
+💥💥 CONGRATULATIONS UR DEADLY-X MULTI 5P4MX UBOT v3.0.0  IS READY! 💥💥💥
+💥💥💥💥💥💥 Original Code By OP SAMEER from Deadly Team 💥💥💥💥💥💥
+💥💥💥💥💥💥 Modded Code By OP @AlphaxProject Team 💥💥💥💥💥💥"""
 
 print(text)
 print("")
-print("🙏🔥🔥SMEX! DEADLY-X MULTI 5P4MX UBOT STARTED SUCCESFULLY.🔥🔥🙏")
+print("🙏🔥🔥 SMEX! DEADLY-X MULTI 5P4MX UBOT v3.0.0 STARTED SUCCESFULLY!. 🔥🔥🙏")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
