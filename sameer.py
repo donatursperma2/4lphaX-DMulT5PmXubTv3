@@ -8,6 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
+# Version : 3.0.0
 
 
 import os
@@ -1526,8 +1527,9 @@ async def _(e):
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-    
-       
+
+            
+# ======[PING!]======       
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
@@ -1564,7 +1566,45 @@ async def ping(e):
         ms = (end-start).microseconds / 1000
         await event.edit(f"😁 🇵 🇴 🇳 🇬 !\n`{ms}` 𝗺𝘀")
 
+        
+# ======[PINX!]======       
 
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
+        start = datetime.now()
+        text = "Ponx!"
+        event = await e.reply(text, parse_mode=None, link_preview=None )
+        end = datetime.now()
+        ms = (end-start).microseconds / 1000
+        await event.edit(f"⏤⏤͟͟★『 P͛o͛n͛x͛ 』\n`{ms}` 𝗺𝘀", del_in=30)
+
+        
 # =====[ABSEN]=====        
         
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
@@ -1839,7 +1879,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n.absen\n.pinx\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
