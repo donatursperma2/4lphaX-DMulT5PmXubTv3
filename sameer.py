@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.0.0
+# Version : 3.0.0.1
 
 
 import os
@@ -57,6 +57,7 @@ baish = STRING22
 teish = STRING23
 tfour = STRING24
 tfive = STRING25
+tsixth = STRING26
 
 
 idk = ""
@@ -84,6 +85,7 @@ yaa = ""
 dav = ""
 raj = ""
 put = ""
+tsi = ""
 
 
 que = {}
@@ -118,6 +120,7 @@ async def start_yukki():
     global dav
     global raj
     global put
+    global tsi
     
     if smex:
         session_name = str(smex)
@@ -771,7 +774,7 @@ async def start_yukki():
         print("String 25 Found")
         put = TelegramClient(StringSession(session_name), a, b)
         try:
-            print("Booting Up The Client 1")
+            print("Booting Up The Client 25")
             await put.start()
             botme = await put.get_me()
             await put(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
@@ -791,7 +794,32 @@ async def start_yukki():
             await put.start()
         except Exception as e:
             pass
-   
+
+    if tsixth:
+        session_name = str(tsixth)
+        print("String 26 Found")
+        put = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 26")
+            await tsi.start()
+            botme = await tsi.get_me()
+            await put(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await put(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await put(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await put(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 26 not Found")
+        session_name = "startup"
+        tsi = TelegramClient(session_name, a, b)
+        try:
+            await tsi.start()
+        except Exception as e:
+            pass
    
 loop = asyncio.get_event_loop()
 loop.run_until_complete(start_yukki())       
@@ -838,6 +866,7 @@ async def gifspam(e, smex):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
@@ -849,7 +878,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio By MULTI SPAMBOT")
+                await event.edit("Succesfully Changed Bio By MULTI 5P4MXUBOT")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -880,6 +909,7 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
@@ -922,7 +952,7 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 
 
 async def _(e):
@@ -967,6 +997,7 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
@@ -1013,6 +1044,8 @@ USTAD_PIC = "https://telegra.ph/file/36eb117322594ce579f66.jpg"
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+
 async def start(event):
     if event.sender_id in SMEX_USERS:
      await idk.send_file(event.chat_id,
@@ -1118,7 +1151,12 @@ async def start(event):
      await put.send_file(event.chat_id,
                                   USTAD_PIC,
                                   caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )        
+                              )   
+     await tsi.send_file(event.chat_id,
+                                  USTAD_PIC,
+                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
+                              )
+        
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
@@ -1144,6 +1182,8 @@ async def start(event):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
@@ -1200,6 +1240,7 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
@@ -1265,6 +1306,7 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
@@ -1326,6 +1368,7 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
@@ -1393,6 +1436,7 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True))
 @raj.on(events.NewMessage(incoming=True))
 @put.on(events.NewMessage(incoming=True))
+@tsi.on(events.NewMessage(incoming=True))
 
 
 async def _(event):
@@ -1435,6 +1479,7 @@ async def _(event):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 
 
 async def _(e):
@@ -1494,6 +1539,7 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 
 async def _(e):
     global que
@@ -1556,6 +1602,7 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 
 async def ping(e):
     if e.sender_id in SMEX_USERS:
@@ -1594,6 +1641,7 @@ async def ping(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 
 async def ping(e):
     if e.sender_id in SMEX_USERS:
@@ -1632,6 +1680,7 @@ async def ping(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 
 async def absen(e):
     if e.sender_id in SMEX_USERS:
@@ -1737,6 +1786,7 @@ def user_full_name(user):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 
 async def get_users(event):
     if event.sender_id in SMEX_USERS:
@@ -1799,6 +1849,8 @@ async def get_users(event):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+
 async def restart(e):
     if e.sender_id in SMEX_USERS:
         text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
@@ -1876,10 +1928,11 @@ async def restart(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n.absen\n.pinx\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name\n\nBot Version: 3.0.0"
+       text = "🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n.absen\n.pinx\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name\n\nBot Version: 3.0.0.1"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -1888,13 +1941,13 @@ async def help(e):
         
 text = """
 
-💥💥 CONGRATULATIONS UR DEADLY-X MULTI 5P4MX UBOT v3.0.0  IS READY! 💥💥💥
+💥💥 CONGRATULATIONS UR DEADLY-X MULTI 5P4MX UBOT v3.0.0.1  IS READY! 💥💥💥
 💥💥💥💥💥💥 Original Code By OP Sameer from Deadly Team 💥💥💥💥💥💥
 💥💥💥💥💥💥 Modded Code By @AlphaxProject Team 💥💥💥💥💥💥"""
 
 print(text)
 print("")
-print("🙏🔥🔥 SMEX! DEADLY-X MULTI 5P4MX UBOT v3.0.0 STARTED SUCCESFULLY!. 🔥🔥🙏")
+print("🙏🔥🔥 SMEX! DEADLY-X MULTI 5P4MX UBOT v3.0.0.1 STARTED SUCCESFULLY!. 🔥🔥🙏")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
@@ -1996,6 +2049,10 @@ if len(sys.argv) not in (1, 3, 4):
         put.disconnect()
     except Exception as e:
         pass
+    try:
+        tsi.disconnect()
+    except Exception as e:
+        pass
 else:
     try:
         idk.run_until_disconnected()
@@ -2095,5 +2152,9 @@ else:
         pass
     try:
         put.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        tsi.run_until_disconnected()
     except Exception as e:
         pass
