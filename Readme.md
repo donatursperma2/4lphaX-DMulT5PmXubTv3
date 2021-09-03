@@ -1,7 +1,7 @@
-# DEADLY SPAMMER
+# AlphaX-Mult15P4mX-UBOT
 
 <p align="center">
-  <img src="https://telegra.ph/file/b8e3d5d94082a37b61d8a.jpg">
+  <img src="https://telegra.ph/file/36eb117322594ce579f66.jpg">
 </p>
 
 
@@ -29,7 +29,7 @@
 -------------------------------------------------
 
 ## 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 -[𝚂𝙰𝙼𝙴𝙴𝚁](https://t.me/SAMEER_795)
-
+## MODDED -[ALPHA-XPROJECT](https://t.me/AlphaXProject)
 -------------------------------------------------
 
 ## 🚀 Deploy on Heroku 
