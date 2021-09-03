@@ -29,6 +29,14 @@ from Utils import RAID, RRAID
 import git
 import heroku3
 
+text = """
+
+💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.0.0.2  IS STARTING... 💥💥💥
+
+"""
+
+print(text)
+print("")
 
 a = API_ID
 b = API_HASH
@@ -121,6 +129,7 @@ async def start_yukki():
     global raj
     global put
     global tsi
+
     
     if smex:
         session_name = str(smex)
