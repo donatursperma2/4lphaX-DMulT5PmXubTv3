@@ -44,8 +44,7 @@
 -------------------------------------------------
 
 ## credits 
-
-[yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot)
-  [𝚂ameer](https://t.me/SAMEER_795)
-  [Alpha-XProject](https://t.me/AlphaXProject)
+* [yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot)
+* [𝚂ameer](https://t.me/SAMEER_795)
+* [Alpha-XProject](https://t.me/AlphaXProject)
   
