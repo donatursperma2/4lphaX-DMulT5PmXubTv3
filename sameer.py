@@ -124,7 +124,7 @@ async def start_yukki():
     global tsi
 
 
-print("\n💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.0.0.2  IS STARTING... 💥💥💥\n")
+    print("\n💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.0.0.2  IS STARTING... 💥💥💥\n")
     
     
     if smex:
