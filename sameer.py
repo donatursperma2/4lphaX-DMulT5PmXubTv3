@@ -798,7 +798,7 @@ async def start_yukki():
     if tsixth:
         session_name = str(tsixth)
         print("String 26 Found")
-        put = TelegramClient(StringSession(session_name), a, b)
+        tsi = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 26")
             await tsi.start()
