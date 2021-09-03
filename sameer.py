@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.0.0.1
+# Version : 3.0.0.2
 
 
 import os
@@ -19,7 +19,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, HEROKU_API_KEY, HEROKU_APP_NAME
+from Config import STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
 import asyncio
 import telethon.utils
 from telethon.tl import functions
@@ -1941,13 +1941,13 @@ async def help(e):
         
 text = """
 
-💥💥 CONGRATULATIONS UR DEADLY-X MULTI 5P4MX UBOT v3.0.0.1  IS READY! 💥💥💥
+💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULTI 5P4MX UBOT v3.0.0.2  IS READY! 💥💥💥
 💥💥💥💥💥💥 Original Code By OP Sameer from Deadly Team 💥💥💥💥💥💥
 💥💥💥💥💥💥 Modded Code By @AlphaxProject Team 💥💥💥💥💥💥"""
 
 print(text)
 print("")
-print("🙏🔥🔥 SMEX! DEADLY-X MULTI 5P4MX UBOT v3.0.0.1 STARTED SUCCESFULLY!. 🔥🔥🙏")
+print("🙏🔥🔥 SMEX! DEADLY ALPHA-X MULTI 5P4MX UBOT v3.0.0.2 STARTED SUCCESFULLY!. 🔥🔥🙏")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
