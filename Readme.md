@@ -30,10 +30,12 @@
 
 ## CREATOR -[𝚂𝙰𝙼𝙴𝙴𝚁](https://t.me/SAMEER_795)
 ## MODDED -[ALPHA-XPROJECT](https://t.me/AlphaXProject)
+  
 -------------------------------------------------
 
 ## 🚀 Deploy on Heroku 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sameerpanthi/DEADLY-SPAM-BOT-HOST.git)
+  
 ------------------------------------------------
 
 
@@ -44,7 +46,7 @@
 -------------------------------------------------
 
 ## Project Credits 
-* [yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot)
-* [𝚂ameer](https://t.me/SAMEER_795)
+* [Yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot)
+* [𝚂ameer](https://github.com/sameerpanthi/DEADLY-SPAM-BOT)
 * [Alpha-XProject](https://t.me/AlphaXProject)
   
