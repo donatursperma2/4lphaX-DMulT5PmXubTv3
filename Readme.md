@@ -28,7 +28,7 @@
 
 -------------------------------------------------
 
-## 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 -[𝚂𝙰𝙼𝙴𝙴𝚁](https://t.me/SAMEER_795)
+## CREATOR -[𝚂𝙰𝙼𝙴𝙴𝚁](https://t.me/SAMEER_795)
 ## MODDED -[ALPHA-XPROJECT](https://t.me/AlphaXProject)
 -------------------------------------------------
 
@@ -46,3 +46,5 @@
 ## credits 
 
 [yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot)
+[𝚂ameer](https://t.me/SAMEER_795)
+[Alpha-XProject](https://t.me/AlphaXProject)
