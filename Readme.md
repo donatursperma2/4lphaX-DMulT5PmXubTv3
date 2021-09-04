@@ -23,8 +23,8 @@
 
 ## 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 
                           
-<a href="https://t.me/deadly_spam_bot"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a>
-<a href="https://t.me/deadly_spammer"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-red.svg?logo=Telegram"></a>
+<a href="https://t.me/AlphaXProject"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a>
+<a href="https://t.me/AlphaXProject"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-red.svg?logo=Telegram"></a>
 
 -------------------------------------------------
 
@@ -45,7 +45,7 @@
 -------------------------------------------------
 
 ## Project Credits 
-* [Alpha-XProject](https://t.me/AlphaXProject)
+* [Alpha-XProject](https://t.me/AlphaXProject) Team-X
 * [Yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot)
-* [𝚂ameer](https://github.com/sameerpanthi/DEADLY-SPAM-BOT)
-* [Vivek Roy ](https://github.com/unknownforall1/RDX-MULTI-SPAM-BOT)
+* [𝚂ameer](https://github.com/sameerpanthi/DEADLY-SPAM-BOT) Deadly Team
+* [Vivek Roy ](https://github.com/unknownforall1/RDX-MULTI-SPAM-BOT) RDX Team
