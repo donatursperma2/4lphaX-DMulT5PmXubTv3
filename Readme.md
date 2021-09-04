@@ -28,8 +28,7 @@
 
 -------------------------------------------------
 
-## CREATOR -[𝚂𝙰𝙼𝙴𝙴𝚁](https://t.me/SAMEER_795)
-## MODDED -[ALPHA-XPROJECT](https://t.me/AlphaXProject)
+## REMODDED -[ALPHA-XPROJECT](https://t.me/AlphaXProject)
   
 -------------------------------------------------
 
@@ -46,7 +45,7 @@
 -------------------------------------------------
 
 ## Project Credits 
+* [Alpha-XProject](https://t.me/AlphaXProject)
 * [Yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot)
 * [𝚂ameer](https://github.com/sameerpanthi/DEADLY-SPAM-BOT)
-* [Alpha-XProject](https://t.me/AlphaXProject)
 * [Vivek Roy ](https://github.com/unknownforall1/RDX-MULTI-SPAM-BOT)
