@@ -168,8 +168,32 @@ async def start_yukki():
     global yaa
     global dav
     global raj
-    global put
+    global put #batas 25
     global tsi
+    global tsf
+    global teg
+    global tnn
+    global tth
+    global ton
+    global ttw
+    global ttr
+    global tfr
+    global tfv
+    global tsx
+    global tsv
+    global ttg
+    global ttn
+    global fft
+    global ffo
+    global ftw
+    global ftr
+    global ffr
+    global ffv
+    global fsx
+    global fsv
+    global feg
+    global fnn
+    global fvt  
 
 
     print("\n💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.0.0  IS STARTING... 💥💥💥\n")
