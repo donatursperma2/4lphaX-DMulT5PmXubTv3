@@ -3040,7 +3040,7 @@ print(text)
 print("")
 print("🙏🔥🔥 SMEX! DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.0.0 STARTED SUCCESFULLY!. 🔥🔥🙏")
 if len(sys.argv) not in (1, 3, 4):
-try:
+    try:
         idk.disconnect()
     except Exception as e:
         pass
