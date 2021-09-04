@@ -111,7 +111,7 @@ dav = ""
 raj = ""
 put = ""
 tsi = ""
-tsv = ""
+tsf = ""
 teg = ""
 tnn = ""
 tth = ""
@@ -894,9 +894,9 @@ async def start_yukki():
     else:
         print("Session 27 not Found")
         session_name = "startup"
-        tsv = TelegramClient(session_name, a, b)
+        tsf = TelegramClient(session_name, a, b)
         try:
-            await tsv.start()
+            await tsf.start()
         except Exception as e:
             pass
    
@@ -1149,15 +1149,15 @@ async def start_yukki():
     if trsev:
         session_name = str(trsev)
         print("String 37 Found")
-        tsv = TelegramClient(StringSession(session_name), a, b)
+        tsf = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 37")
-            await tsv.start()
-            await tsv(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
-            await tsv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
-            await tsv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
-            await tsv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
-            botme = await tsv.get_me()
+            await tsf.start()
+            await tsf(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await tsf(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await tsf(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await tsf(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await tsf.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1167,9 +1167,9 @@ async def start_yukki():
         print("Session 37 not Found")
         pass
         session_name = "startup"
-        tsv = TelegramClient(session_name, a, b)
+        tsf = TelegramClient(session_name, a, b)
         try:
-            await tsv.start()
+            await tsf.start()
         except Exception as e:
             pass
         
