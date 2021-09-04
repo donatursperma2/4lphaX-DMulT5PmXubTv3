@@ -49,4 +49,4 @@
 * [Yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot)
 * [𝚂ameer](https://github.com/sameerpanthi/DEADLY-SPAM-BOT)
 * [Alpha-XProject](https://t.me/AlphaXProject)
-  
+* [Vivek Roy ](https://github.com/unknownforall1/RDX-MULTI-SPAM-BOT)
