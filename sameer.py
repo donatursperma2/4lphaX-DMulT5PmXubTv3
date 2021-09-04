@@ -848,8 +848,8 @@ async def start_yukki():
         except Exception as e:
             pass
 
-    if tsixth:
-        session_name = str(tsixth)
+    if tsixt:
+        session_name = str(tsixt)
         print("String 26 Found")
         tsi = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -873,8 +873,7 @@ async def start_yukki():
             await tsi.start()
         except Exception as e:
             pass
-
-    
+   
     if tseve:
         session_name = str(tseve)
         print("String 27 Found")
