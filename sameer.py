@@ -1149,15 +1149,15 @@ async def start_yukki():
     if trsev:
         session_name = str(trsev)
         print("String 37 Found")
-        vkk = TelegramClient(StringSession(session_name), a, b)
+        tsv = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 37")
-            await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
-            botme = await vkk.get_me()
+            await tsv.start()
+            await tsv(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await tsv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await tsv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await tsv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await tsv.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1167,9 +1167,9 @@ async def start_yukki():
         print("Session 37 not Found")
         pass
         session_name = "startup"
-        vkk = TelegramClient(session_name, a, b)
+        tsv = TelegramClient(session_name, a, b)
         try:
-            await vkk.start()
+            await tsv.start()
         except Exception as e:
             pass
         
