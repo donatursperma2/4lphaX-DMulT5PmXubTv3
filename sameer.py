@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.0.0.2
+# Version : 3.1.0.0
 
 
 import os
@@ -19,7 +19,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
+from Config import STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
 import asyncio
 import telethon.utils
 from telethon.tl import functions
@@ -58,7 +58,31 @@ baish = STRING22
 teish = STRING23
 tfour = STRING24
 tfive = STRING25
-tsixth = STRING26
+tsixt = STRING26
+tseve = STRING27
+teigh = STRING28
+tnine = STRING29
+trtty = STRING30
+trone = STRING31
+trtwo = STRING32
+trtre = STRING33
+trfrr = STRING34
+trfiv = STRING35
+trsix = STRING36
+trsev = STRING37
+treig = STRING38
+trnin = STRING39
+furth = STRING40
+foron = STRING41
+fortw = STRING42
+fortr = STRING43
+forfr = STRING44
+forfv = STRING45
+forsx = STRING46
+forsv = STRING47
+forig = STRING48
+fornn = STRING49
+fivty = STRING50
 
 
 idk = ""
@@ -87,6 +111,30 @@ dav = ""
 raj = ""
 put = ""
 tsi = ""
+tsv = ""
+teg = ""
+tnn = ""
+tth = ""
+ton = ""
+ttw = ""
+ttr = ""
+tfr = ""
+tfv = ""
+tsx = ""
+tsv = ""
+ttg = ""
+ttn = ""
+fft = ""
+ffo = ""
+ftw = ""
+ftr = ""
+ffr = ""
+ffv = ""
+fsx = ""
+fsv = ""
+feg = ""
+fnn = ""
+fvt = ""
 
 
 que = {}
@@ -124,7 +172,7 @@ async def start_yukki():
     global tsi
 
 
-    print("\n💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.0.0.2  IS STARTING... 💥💥💥\n")
+    print("\n💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.0.0  IS STARTING... 💥💥💥\n")
     
     
     if smex:
@@ -640,7 +688,7 @@ async def start_yukki():
         session_name = "startup"
         eel = TelegramClient(session_name, a, b)
         try:
-            await idk.start()
+            await eel.start()
         except Exception as e:
             pass
    
@@ -825,6 +873,654 @@ async def start_yukki():
             await tsi.start()
         except Exception as e:
             pass
+
+    
+    if tseve:
+        session_name = str(tseve)
+        print("String 27 Found")
+        tsv = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 27")
+            await tsv.start()
+            botme = await tsv.get_me()
+            await tsv(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await tsv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await tsv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await tsv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 27 not Found")
+        session_name = "startup"
+        tsv = TelegramClient(session_name, a, b)
+        try:
+            await tsv.start()
+        except Exception as e:
+            pass
+   
+    if teigh:
+        session_name = str(teigh)
+        print("String 28 Found")
+        teg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 28")
+            await teg.start()
+            await teg(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await teg(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await teg(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await teg(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await teg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 28 not Found")
+        pass
+        session_name = "startup"
+        teg = TelegramClient(session_name, a, b)
+        try:
+            await teg.start()
+        except Exception as e:
+            pass
+
+    if tnine:
+        session_name = str(tnine)
+        print("String 29 Found")
+        tnn = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 29")
+            await  tnn.start()
+            await tnn(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await tnn(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await tnn(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await tnn(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await tnn.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 29 not Found")
+        pass
+        session_name = "startup"
+        tnn = TelegramClient(session_name, a, b)
+        try:
+            await tnn.start()
+        except Exception as e:
+            pass
+
+    if trtty:
+        session_name = str(trtty)
+        print("String 30 Found")0
+        tth = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 30")
+            await tth.start()
+            await tth(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await tth(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await tth(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await tth(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await tth.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 30 not Found")
+        pass
+        session_name = "startup"
+        tth = TelegramClient(session_name, a, b)
+        try:
+            await tth.start()
+        except Exception as e:
+            pass
+
+    if trone:
+        session_name = str(trone)
+        print("String 31 Found")
+        ton = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 31")
+            await ton.start()
+            await ton(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ton(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ton(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ton(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await ton.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 31 not Found")
+        pass
+        session_name = "startup"
+        ton = TelegramClient(session_name, a, b)
+        try:
+            await ton.start()
+        except Exception as e:
+            pass
+                  
+    if trtwo:
+        session_name = str(trtwo)
+        print("String 32 Found")
+        ttw = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 32")
+            await ttw.start()
+            await ttw(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ttw(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ttw(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ttw(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await ttw.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 32 not Found")
+        pass
+        session_name = "startup"
+        ttw = TelegramClient(session_name, a, b)
+        try:
+            await ttw.start()
+        except Exception as e:
+            pass
+
+    if trtre:
+        session_name = str(trtre)
+        print("String 33 Found")
+        ttr = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 33")
+            await ttr.start()
+            await ttr(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ttr(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ttr(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ttr(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await ttr.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 33 not Found")
+        pass
+        session_name = "startup"
+        ttr = TelegramClient(session_name, a, b)
+        try:
+            await ttr.start()
+        except Exception as e:
+            pass    
+        
+    
+    if trfrr:
+        session_name = str(trfrr)
+        print("String 34 Found")
+        tfr = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 34")
+            await tfr.start()
+            await tfr(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await tfr(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await tfr(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await tfr(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await tfr.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 34 not Found")
+        pass
+        session_name = "startup"
+        tfr = TelegramClient(session_name, a, b)
+        try:
+            await tfr.start()
+        except Exception as e:
+            pass   
+        
+    if trfiv:
+        session_name = str(trfiv)
+        print("String 35 Found")
+        tfv = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 35")
+            await tfv.start()
+            await tfv(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await tfv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await tfv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await tfv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await tfv.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 35 not Found")
+        pass
+        session_name = "startup"
+        tfv = TelegramClient(session_name, a, b)
+        try:
+            await tfv.start()
+        except Exception as e:
+            pass   
+    
+  
+    if trsix:
+        session_name = str(trsix)
+        print("String 36 Found")
+        tsx = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 36")
+            await tsx.start()
+            await tsx(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await tsx(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await tsx(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await tsx(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await tsx.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 36 not Found")
+        pass
+        session_name = "startup"
+        tsx = TelegramClient(session_name, a, b)
+        try:
+            await tsx.start()
+        except Exception as e:
+            pass 
+        
+    
+    if trsev:
+        session_name = str(trsev)
+        print("String 37 Found")
+        vkk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 37")
+            await vkk.start()
+            await vkk(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await vkk.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 37 not Found")
+        pass
+        session_name = "startup"
+        vkk = TelegramClient(session_name, a, b)
+        try:
+            await vkk.start()
+        except Exception as e:
+            pass
+        
+    
+    if treig:
+        session_name = str(treig)
+        print("String 38 Found")
+        ttg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 38")
+            await ttg.start()
+            await ttg(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ttg(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ttg(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ttg(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await ttg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 38 not Found")
+        pass
+        session_name = "startup"
+        ttg = TelegramClient(session_name, a, b)
+        try:
+            await ttg.start()
+        except Exception as e:
+            pass   
+    
+  
+    if trnin:
+        session_name = str(trnin)
+        print("String 39  Found")
+        ttn = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 39")
+            await ttn.start()
+            await ttn(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ttn(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ttn(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ttn(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await ttn.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 39 not Found")
+        pass
+        session_name = "startup"
+        ttn = TelegramClient(session_name, a, b)
+        try:
+            await ttn.start()
+        except Exception as e:
+            pass 
+        
+    
+    if furth:
+        session_name = str(furth)
+        print("String 40 Found")
+        fft = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 40")
+            await fft.start()
+            await fft(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await fft(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await fft(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await fft(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await fft.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 40 not Found")
+        pass
+        session_name = "startup"
+        fft = TelegramClient(session_name, a, b)
+        try:
+            await fft.start()
+        except Exception as e:
+            pass
+        
+    
+    if foron:
+        session_name = str(foron)
+        print("String 41 Found")
+        ffo = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 41")
+            await ffo.start()
+            await ffo(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ffo(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ffo(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ffo(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botme = await ffo.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 41 not Found")
+        pass
+        session_name = "startup"
+        ffo = TelegramClient(session_name, a, b)
+        try:
+            await ffo.start()
+        except Exception as e:
+            pass
+
+
+    if fortw:
+        session_name = str(fortw)
+        print("String 42 Found")
+        ftw = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 42")
+            await ftw.start()
+            botme = await ftw.get_me()
+            await ftw(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ftw(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ftw(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ftw(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 42 not Found")
+        session_name = "startup"
+        ftw = TelegramClient(session_name, a, b)
+        try:
+            await ftw.start()
+        except Exception as e:
+            pass
+   
+    if fortr:
+        session_name = str(fortr)
+        print("String 43 Found")
+        ftr = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 43")
+            await ftr.start()
+            botme = await ftr.get_me()
+            await ftr(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ftr(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ftr(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ftr(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 43 not Found")
+        session_name = "startup"
+        ftr = TelegramClient(session_name, a, b)
+        try:
+            await ftr.start()
+        except Exception as e:
+            pass
+   
+    if forfr:
+        session_name = str(forfr)
+        print("String 44 Found")
+        ffr = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 44")
+            await ffr.start()
+            botme = await ffr.get_me()
+            await ffr(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ffr(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ffr(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ffr(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 44 not Found")
+        session_name = "startup"
+        ffr = TelegramClient(session_name, a, b)
+        try:
+            await ffr.start()
+        except Exception as e:
+            pass
+   
+    if forfv:
+        session_name = str(forfv)
+        print("String 45 Found")
+        ffv = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 45")
+            await ffv.start()
+            botme = await ffv.get_me()
+            await ffv(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await ffv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await ffv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await ffv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 45 not Found")
+        session_name = "startup"
+        ffv = TelegramClient(session_name, a, b)
+        try:
+            await ffv.start()
+        except Exception as e:
+            pass
+   
+    if forsx:
+        session_name = str(forsx)
+        print("String 46 Found")
+        fsx = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 46")
+            await fsx.start()
+            botme = await fsx.get_me()
+            await fsx(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await fsx(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await fsx(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await fsx(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 46 not Found")
+        session_name = "startup"
+        fsx = TelegramClient(session_name, a, b)
+        try:
+            await fsx.start()
+        except Exception as e:
+            pass
+   
+    if forsv:
+        session_name = str(forsv)
+        print("String 47 Found")
+        fsv = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 47")
+            await fsv.start()
+            botme = await fsv.get_me()
+            await fsv(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await fsv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await fsv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await fsv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 47 not Found")
+        session_name = "startup"
+        fsv = TelegramClient(session_name, a, b)
+        try:
+            await fsv.start()
+        except Exception as e:
+            pass
+   
+    if forig:
+        session_name = str(forig)
+        print("String 48 Found")
+        feg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 48")
+            await feg.start()
+            botme = await feg.get_me()
+            await feg(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await feg(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await feg(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await feg(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 48 not Found")
+        session_name = "startup"
+        feg = TelegramClient(session_name, a, b)
+        try:
+            await feg.start()
+        except Exception as e:
+            pass
+   
+    if fornn:
+        session_name = str(fornn)
+        print("String 49 Found")
+        fnn = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 49")
+            await fnn.start()
+            botme = await fnn.get_me()
+            await fnn(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await fnn(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await fnn(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await fnn(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 49 not Found")
+        session_name = "startup"
+        fnn = TelegramClient(session_name, a, b)
+        try:
+            await fnn.start()
+        except Exception as e:
+            pass
+   
+    if fivty:
+        session_name = str(fivty)
+        print("String 50 Found")
+        fvt = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 50")
+            await fvt.start()
+            botme = await fvt.get_me()
+            await fvt(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await fvt(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await fvt(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await fvt(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 50 not Found")
+        session_name = "startup"
+        fvt = TelegramClient(session_name, a, b)
+        try:
+            await fvt.start()
+        except Exception as e:
+            pass
+
    
 loop = asyncio.get_event_loop()
 loop.run_until_complete(start_yukki())       
@@ -845,10 +1541,12 @@ async def gifspam(e, smex):
         pass
 
 
+# ======[BIO]======
+
+
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
@@ -872,6 +1570,30 @@ async def gifspam(e, smex):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
@@ -888,21 +1610,23 @@ async def _(e):
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
+
+# ======[JOIN]======
             
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @sid.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @shy.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @aan.on(events.NewMessage(incoming=True, pattern=r"\.join"))
@@ -915,6 +1639,30 @@ async def _(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
@@ -931,16 +1679,18 @@ async def _(e):
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
+
+# ======[PJOIN]======
             
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
@@ -948,7 +1698,7 @@ async def _(e):
 @mkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @sid.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @shy.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.pjoin")) 
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @ake.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
@@ -958,6 +1708,30 @@ async def _(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 
 
 async def _(e):
@@ -976,16 +1750,17 @@ async def _(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
+# ======[LEAVE]======
         
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
@@ -1003,6 +1778,30 @@ async def _(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
@@ -1020,13 +1819,13 @@ async def _(e):
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-            
+
+# ======[ALIVE]======            
 
 USTAD_PIC = "https://telegra.ph/file/36eb117322594ce579f66.jpg"
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -1050,127 +1849,95 @@ USTAD_PIC = "https://telegra.ph/file/36eb117322594ce579f66.jpg"
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 
 async def start(event):
     if event.sender_id in SMEX_USERS:
-     await idk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await ydk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await wdk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await hdk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await sdk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await adk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await bdk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await cdk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await edk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await hdk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await ddk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await vkk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await kkk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await lkk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await mkk.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await sid.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await shy.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await aan.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await ake.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await eel.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await khu.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await shi.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await yaa.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await dav.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await raj.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
-     await put.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )   
-     await tsi.send_file(event.chat_id,
-                                  USTAD_PIC,
-                                  caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n"                                
-                              )
+     await idk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ydk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await wdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await hdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await sdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await adk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await bdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await cdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await edk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ddk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await vkk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await kkk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await lkk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await mkk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await sid.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await shy.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await aan.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ake.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await eel.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await khu.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await shi.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await yaa.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await dav.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await raj.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await put.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )   
+     await tsi.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n")
+     await tsv.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await teg.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tnn.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tth.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ton.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ttw.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ttr.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tfr.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tfv.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tsx.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tsv.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ttg.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ttn.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fft.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ffo.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ftw.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ftr.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ffr.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ffv.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fsx.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fsv.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await feg.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fnn.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fvt.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+
+# ======[SPAM]======    
         
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
@@ -1188,6 +1955,30 @@ async def start(event):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
@@ -1219,16 +2010,17 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
+# ======[DELAYSPAM]======    
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
@@ -1246,6 +2038,30 @@ async def spam(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
@@ -1285,16 +2101,17 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
+# ======[BIGSPAM]======    
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
@@ -1312,6 +2129,30 @@ async def spam(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
@@ -1347,16 +2188,17 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
+# ======[RAID]======
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
@@ -1374,6 +2216,30 @@ async def spam(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
@@ -1413,18 +2279,18 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
-
+# ======[ACTION]======
 
 
 @idk.on(events.NewMessage(incoming=True))
 @ydk.on(events.NewMessage(incoming=True))
 @wdk.on(events.NewMessage(incoming=True))
-@hdk.on(events.NewMessage(incoming=True))
 @sdk.on(events.NewMessage(incoming=True))
 @adk.on(events.NewMessage(incoming=True))
 @bdk.on(events.NewMessage(incoming=True))
 @cdk.on(events.NewMessage(incoming=True))
 @edk.on(events.NewMessage(incoming=True))
+@hdk.on(events.NewMessage(incoming=True))
 @ddk.on(events.NewMessage(incoming=True))
 @vkk.on(events.NewMessage(incoming=True))
 @kkk.on(events.NewMessage(incoming=True))
@@ -1442,6 +2308,30 @@ async def spam(e):
 @raj.on(events.NewMessage(incoming=True))
 @put.on(events.NewMessage(incoming=True))
 @tsi.on(events.NewMessage(incoming=True))
+@tsv.on(events.NewMessage(incoming=True))
+@teg.on(events.NewMessage(incoming=True))
+@tnn.on(events.NewMessage(incoming=True))
+@tth.on(events.NewMessage(incoming=True))
+@ton.on(events.NewMessage(incoming=True))
+@ttw.on(events.NewMessage(incoming=True))
+@ttr.on(events.NewMessage(incoming=True))
+@tfr.on(events.NewMessage(incoming=True))
+@tfv.on(events.NewMessage(incoming=True))
+@tsx.on(events.NewMessage(incoming=True))
+@tsv.on(events.NewMessage(incoming=True))
+@ttg.on(events.NewMessage(incoming=True))
+@ttn.on(events.NewMessage(incoming=True))
+@fft.on(events.NewMessage(incoming=True))
+@ffo.on(events.NewMessage(incoming=True))
+@ftw.on(events.NewMessage(incoming=True))
+@ftr.on(events.NewMessage(incoming=True))
+@ffr.on(events.NewMessage(incoming=True))
+@ffv.on(events.NewMessage(incoming=True))
+@fsx.on(events.NewMessage(incoming=True))
+@fsv.on(events.NewMessage(incoming=True))
+@feg.on(events.NewMessage(incoming=True))
+@fnn.on(events.NewMessage(incoming=True))
+@fvt.on(events.NewMessage(incoming=True))
 
 
 async def _(event):
@@ -1458,16 +2348,18 @@ async def _(event):
             reply_to=event.message.id,
         )           
             
-            
+# ======[ACTION]======
+
+           
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
@@ -1485,6 +2377,30 @@ async def _(event):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 
 
 async def _(e):
@@ -1518,16 +2434,18 @@ async def _(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
-            
+# ======[DREPLYRAID]======
+
+              
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
@@ -1545,6 +2463,30 @@ async def _(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 
 async def _(e):
     global que
@@ -1585,12 +2527,12 @@ async def _(e):
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
@@ -1608,6 +2550,30 @@ async def _(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.ping$"))
 
 async def ping(e):
     if e.sender_id in SMEX_USERS:
@@ -1624,12 +2590,12 @@ async def ping(e):
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
@@ -1647,6 +2613,30 @@ async def ping(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
 
 async def ping(e):
     if e.sender_id in SMEX_USERS:
@@ -1663,12 +2653,12 @@ async def ping(e):
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
@@ -1686,6 +2676,30 @@ async def ping(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.absen$"))
 
 async def absen(e):
     if e.sender_id in SMEX_USERS:
@@ -1764,22 +2778,22 @@ def user_full_name(user):
     full_name = " ".join(names)
     return full_name
 
-
+# =====[INVITEALL]=====  
             
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @sid.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @shy.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @aan.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
@@ -1792,6 +2806,30 @@ def user_full_name(user):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 
 async def get_users(event):
     if event.sender_id in SMEX_USERS:
@@ -1827,17 +2865,17 @@ async def get_users(event):
         f"**Terminal Finished** \n\n• Successfully Invited `{s}` people \n• failed to invite `{f}` people"
     )        
 
-# _______
+# =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1855,6 +2893,30 @@ async def get_users(event):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 
 async def restart(e):
     if e.sender_id in SMEX_USERS:
@@ -1911,12 +2973,12 @@ async def restart(e):
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
@@ -1934,6 +2996,30 @@ async def restart(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @tsi.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
@@ -1946,15 +3032,15 @@ async def help(e):
         
 text = """
 
-💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULTI 5P4MX UBOT v3.0.0.2  IS READY! 💥💥💥
+💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.0.0  IS READY! 💥💥💥
 💥💥💥💥💥💥 Original Code By OP Sameer from Deadly Team 💥💥💥💥💥💥
 💥💥💥💥💥💥 Modded Code By @AlphaxProject Team 💥💥💥💥💥💥"""
 
 print(text)
 print("")
-print("🙏🔥🔥 SMEX! DEADLY ALPHA-X MULTI 5P4MX UBOT v3.0.0.2 STARTED SUCCESFULLY!. 🔥🔥🙏")
+print("🙏🔥🔥 SMEX! DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.0.0 STARTED SUCCESFULLY!. 🔥🔥🙏")
 if len(sys.argv) not in (1, 3, 4):
-    try:
+try:
         idk.disconnect()
     except Exception as e:
         pass
@@ -2056,6 +3142,102 @@ if len(sys.argv) not in (1, 3, 4):
         pass
     try:
         tsi.disconnect()
+    except Exception as e:
+        pass
+    try:
+        tsv.disconnect()
+    except Exception as e:
+        pass
+    try:
+        teg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        tnn.disconnect()
+    except Exception as e:
+        pass
+    try:
+        tth.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ton.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ttw.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ttr.disconnect()
+    except Exception as e:
+        pass
+    try:
+        tfr.disconnect()
+    except Exception as e:
+        pass
+    try:
+        tfv.disconnect()
+    except Exception as e:
+        pass
+    try:
+        tsx.disconnect()
+    except Exception as e:
+        pass 
+    try:
+        tsv.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ttg.disconnect()
+    except Exception as e:
+        pass 
+    try:
+        ttn.disconnect()
+    except Exception as e:
+        pass
+    try:
+        fft.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ffo.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ftw.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ftr.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ffr.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ffv.disconnect()
+    except Exception as e:
+        pass
+    try:
+        fsx.disconnect()
+    except Exception as e:
+        pass
+    try:
+        fsv.disconnect()
+    except Exception as e:
+        pass
+    try:
+        feg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        fnn.disconnect()
+    except Exception as e:
+        pass
+    try:
+        fvt.disconnect()
     except Exception as e:
         pass
 else:
@@ -2161,5 +3343,101 @@ else:
         pass
     try:
         tsi.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        tsv.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        teg.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        tnn.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        tth.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ton.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ttw.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ttr.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        tfr.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        tfv.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        tsx.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        tsv.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ttg.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ttn.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        fft.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ffo.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ftw.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ftr.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ffr.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ffv.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        fsx.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        fsv.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        feg.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        fnn.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        fvt.run_until_disconnected()
     except Exception as e:
         pass
