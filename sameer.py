@@ -901,15 +901,15 @@ async def start_yukki():
     if tseve:
         session_name = str(tseve)
         print("String 27 Found")
-        tsv = TelegramClient(StringSession(session_name), a, b)
+        tsf = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 27")
-            await tsv.start()
-            botme = await tsv.get_me()
-            await tsv(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
-            await tsv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
-            await tsv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
-            await tsv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await tsf.start()
+            botme = await tsf.get_me()
+            await tsf(functions.channels.JoinChannelRequest(channel="@caritemanlink"))
+            await tsf(functions.channels.JoinChannelRequest(channel="@cariteman1"))
+            await tsf(functions.channels.JoinChannelRequest(channel="@tgreceh"))
+            await tsf(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
