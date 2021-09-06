@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.0.0
+# Version : 3.1.1.0
 
 
 import os
@@ -196,7 +196,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.0.0  IS STARTING... 💥💥💥\n")
+    print("\n💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.1.0  IS STARTING... 💥💥💥\n")
     
     
     if smex:
@@ -3046,7 +3046,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n.absen\n.pinx\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name\n\nBot Version: 3.0.0.1"
+       text = "🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n.absen\n.pinx\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name\n\nBot Version: 3.1.1.0"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -3055,13 +3055,13 @@ async def help(e):
         
 text = """
 
-💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.0.0  IS READY! 💥💥💥
-💥💥💥💥💥💥 Original Code By OP Sameer from Deadly Team 💥💥💥💥💥💥
-💥💥💥💥💥💥 Modded Code By @AlphaxProject Team 💥💥💥💥💥💥"""
+💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.0  IS READY! 💥💥
+💥💥 Original Code By OP Sameer from Deadly Team 💥💥
+💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
 print("")
-print("🙏🔥🔥 SMEX! DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.0.0 STARTED SUCCESFULLY!. 🔥🔥🙏")
+print("🔥🔥 SMEX! DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.1.0 STARTED SUCCESFULLY!. 🔥🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
