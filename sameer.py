@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.4
+# Version : 3.1.1.5
 
 
 import os
@@ -196,7 +196,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.4  IS STARTING... 💥💥💥\n")
+    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.5  IS STARTING... 💥💥💥\n")
     
     
     if smex:
@@ -2803,56 +2803,56 @@ def user_full_name(user):
 
 # =====[INVITEALL]=====  
             
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@tsi.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@tsf.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@teg.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@tnn.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@tth.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ton.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ttw.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ttr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@tfr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@tfv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@tsx.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@tsv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ttg.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ttn.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@fft.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ffo.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ftw.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ftr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ffr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@ffv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@fsx.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@fsv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@feg.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@fnn.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
-@fvt.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(?: |$)(.*)"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(1)?(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(2)?(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(3)?(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(4)?(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(5)?(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(6)?(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(7)?(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(8)?(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(9)?(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(10)?(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(11)?(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(12)?(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(13)?(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(14)?(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(15)?(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(16)?(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(17)?(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(18)?(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(19)?(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(20)?(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(21)?(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(22)?(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(23)?(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(24)?(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(25)?(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(26)?(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(27)?(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(28)?(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(29)?(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(30)?(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(31)?(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(32)?(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(33)?(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(34)?(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(35)?(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(36)?(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(37)?(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(38)?(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(39)?(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(40)?(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(41)?(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(42)?(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(43)?(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(44)?(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(45)?(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(46)?(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(47)?(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(48)?(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(49)?(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.inviteall(50)?(?: |$)(.*)"))
 
 async def get_users(event):
     if event.sender_id in SMEX_USERS:
@@ -3055,13 +3055,13 @@ async def help(e):
         
 text = """
 
-💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.4  IS READY! 💥💥
+💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.5  IS READY! 💥💥
 💥💥 Original Code By OP Sameer from Deadly Team 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
 print("")
-print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.4 STARTED SUCCESFULLY!. 🔥🔥")
+print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.5 STARTED SUCCESFULLY!. 🔥🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
