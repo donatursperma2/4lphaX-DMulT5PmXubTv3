@@ -196,7 +196,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.1.0  IS STARTING... 💥💥💥\n")
+    print("\n💥💥 BOT DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.1.1  IS STARTING... 💥💥💥\n")
     
     
     if smex:
@@ -3055,13 +3055,13 @@ async def help(e):
         
 text = """
 
-💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.0  IS READY! 💥💥
+💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.1  IS READY! 💥💥
 💥💥 Original Code By OP Sameer from Deadly Team 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
 print("")
-print("🔥🔥 SMEX! DEADLY ALPHA-X MULTI 5P4MX UBOT v3.1.1.0 STARTED SUCCESFULLY!. 🔥🔥")
+print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.1 STARTED SUCCESFULLY!. 🔥🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
