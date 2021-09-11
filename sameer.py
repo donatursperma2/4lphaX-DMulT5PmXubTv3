@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.0
+# Version : 3.1.1.4
 
 
 import os
@@ -196,7 +196,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.2  IS STARTING... 💥💥💥\n")
+    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.4  IS STARTING... 💥💥💥\n")
     
     
     if smex:
@@ -2673,56 +2673,56 @@ async def ping(e):
         
 # =====[ABSEN]=====        
         
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.absen(1)?"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.absen(2)?"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.absen(3)?"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.absen(4)?"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.absen(5)?"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.absen(6)?"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.absen(7)?"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.absen(8)?"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.absen(9)?"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.absen(10)?"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.absen(11)?"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.absen(12)?"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.absen(13)?"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.absen(14)?"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.absen(15)?"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.absen(16)?"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.absen(17)?"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.absen(18)?"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.absen(19)?"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.absen(20)?"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.absen(21)?"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.absen(22)?"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.absen(23)?"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.absen(24)?"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.absen(25)?"))
-@tsi.on(events.NewMessage(incoming=True, pattern=r"\.absen(26)?"))
-@tsf.on(events.NewMessage(incoming=True, pattern=r"\.absen(27)?"))
-@teg.on(events.NewMessage(incoming=True, pattern=r"\.absen(28)?"))
-@tnn.on(events.NewMessage(incoming=True, pattern=r"\.absen(29)?"))
-@tth.on(events.NewMessage(incoming=True, pattern=r"\.absen(30)?"))
-@ton.on(events.NewMessage(incoming=True, pattern=r"\.absen(31)?"))
-@ttw.on(events.NewMessage(incoming=True, pattern=r"\.absen(32)?"))
-@ttr.on(events.NewMessage(incoming=True, pattern=r"\.absen(33)?"))
-@tfr.on(events.NewMessage(incoming=True, pattern=r"\.absen(34)?"))
-@tfv.on(events.NewMessage(incoming=True, pattern=r"\.absen(35)?"))
-@tsx.on(events.NewMessage(incoming=True, pattern=r"\.absen(36)?"))
-@tsv.on(events.NewMessage(incoming=True, pattern=r"\.absen(37)?"))
-@ttg.on(events.NewMessage(incoming=True, pattern=r"\.absen(38)?"))
-@ttn.on(events.NewMessage(incoming=True, pattern=r"\.absen(39)?"))
-@fft.on(events.NewMessage(incoming=True, pattern=r"\.absen(40)?"))
-@ffo.on(events.NewMessage(incoming=True, pattern=r"\.absen(41)?"))
-@ftw.on(events.NewMessage(incoming=True, pattern=r"\.absen(42)?"))
-@ftr.on(events.NewMessage(incoming=True, pattern=r"\.absen(43)?"))
-@ffr.on(events.NewMessage(incoming=True, pattern=r"\.absen(44)?"))
-@ffv.on(events.NewMessage(incoming=True, pattern=r"\.absen(45)?"))
-@fsx.on(events.NewMessage(incoming=True, pattern=r"\.absen(46)?"))
-@fsv.on(events.NewMessage(incoming=True, pattern=r"\.absen(47)?"))
-@feg.on(events.NewMessage(incoming=True, pattern=r"\.absen(48)?"))
-@fnn.on(events.NewMessage(incoming=True, pattern=r"\.absen(49)?"))
-@fvt.on(events.NewMessage(incoming=True, pattern=r"\.absen(50)?"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((1)$|(\s+.*))"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((2)$|(\s+.*))"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((3)$|(\s+.*))"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((4)$|(\s+.*))"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((5)$|(\s+.*))"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((6)$|(\s+.*))"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((7)$|(\s+.*))"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((8)$|(\s+.*))"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((9)$|(\s+.*))"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((10)$|(\s+.*))"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((11)$|(\s+.*))"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((12)$|(\s+.*))"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((13)$|(\s+.*))"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((14)$|(\s+.*))"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((15)$|(\s+.*))"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((16)$|(\s+.*))"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((17)$|(\s+.*))"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((18)$|(\s+.*))"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((19)$|(\s+.*))"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((20)$|(\s+.*))"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((21)$|(\s+.*))"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((22)$|(\s+.*))"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((23)$|(\s+.*))"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((24)$|(\s+.*))"))
+@put.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((25)$|(\s+.*))"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((26)$|(\s+.*))"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((27)$|(\s+.*))"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((28)$|(\s+.*))"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((29)$|(\s+.*))"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((30)$|(\s+.*))"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((31)$|(\s+.*))"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((32)$|(\s+.*))"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((33)$|(\s+.*))"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((34)$|(\s+.*))"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((35)$|(\s+.*))"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((36)$|(\s+.*))"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((37)$|(\s+.*))"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((38)$|(\s+.*))"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((39)$|(\s+.*))"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((40)$|(\s+.*))"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((41)$|(\s+.*))"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((42)$|(\s+.*))"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((43)$|(\s+.*))"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((44)$|(\s+.*))"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((45)$|(\s+.*))"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((46)$|(\s+.*))"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((47)$|(\s+.*))"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((48)$|(\s+.*))"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((49)$|(\s+.*))"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]absen((50)$|(\s+.*))")) 
 
 async def absen(e):
     if e.sender_id in SMEX_USERS:
@@ -3055,13 +3055,13 @@ async def help(e):
         
 text = """
 
-💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.2  IS READY! 💥💥
+💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.4  IS READY! 💥💥
 💥💥 Original Code By OP Sameer from Deadly Team 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
 print("")
-print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.2 STARTED SUCCESFULLY!. 🔥🔥")
+print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.4 STARTED SUCCESFULLY!. 🔥🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
