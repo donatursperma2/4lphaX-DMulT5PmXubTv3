@@ -45,7 +45,7 @@
 -------------------------------------------------
 
 ## Project Credits 
-* [Alpha-XProject](https://t.me/AlphaXProject) Team-X
-* [Yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot)
-* [𝚂ameer](https://github.com/sameerpanthi/DEADLY-SPAM-BOT) Deadly Team
-* [Vivek Roy ](https://github.com/unknownforall1/RDX-MULTI-SPAM-BOT) RDX Team
+* [Alpha-XProject](https://t.me/AlphaXProject) (Team-X)
+* [Yukki bot](https://github.com/YukkiBot/YukkiMultiSpamBot) (Yukki Team)
+* [𝚂ameer](https://github.com/sameerpanthi/DEADLY-SPAM-BOT) (Deadly Team)
+* [Vivek Roy ](https://github.com/unknownforall1/RDX-MULTI-SPAM-BOT) (RDX Team)
