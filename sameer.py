@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.5
+# Version : 3.1.1.6
 
 
 import os
@@ -196,7 +196,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.5  IS STARTING... 💥💥💥\n")
+    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.6  IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3141,13 +3141,13 @@ async def help(e):
         
 text = """
 
-💥💥 CONGRATULATIONS UR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.5  IS READY! 💥💥
+💥💥 [CONGRATULATIONS] \nUR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.6 IS READY! 💥💥
 💥💥 Original Code By OP Sameer from Deadly Team 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
 print("")
-print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.5 STARTED SUCCESFULLY!. 🔥🔥")
+print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.6 STARTED SUCCESFULLY!. 🔥🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
