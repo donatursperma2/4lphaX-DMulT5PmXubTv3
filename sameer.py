@@ -2607,6 +2607,92 @@ async def ping(e):
         ms = (end-start).microseconds / 1000
         await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
 
+
+# ======PURGEME
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.purgeme"))
+
+
+async def purgeme(delme):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝙋𝙪𝙧𝙜𝙚𝙢𝙚\n\nCommand:\n\n.purgeme <count> | delete x count of your latest message."
+    if delme.sender_id in SMEX_USERS:
+        """ For .purgeme, delete x count of your latest message."""
+        message = delme.text
+        count = int(message[9:])
+        i = 1
+
+        async for message in delme.client.iter_messages(delme.chat_id,
+                                                    from_user='me'):
+            if i > count + 1:
+                break
+            i = i + 1
+            await message.delete()
+
+        smsg = await delme.client.send_message(
+            delme.chat_id,
+            "`Purge complete!` Purged " + str(count) + " messages.",
+        )
+        """
+        if BOTLOG:
+            await delme.client.send_message(
+                BOTLOG_CHATID,
+                "#PURGEME \nPurge of " + str(count) + " messages done successfully.")
+        """
+        await sleep(2)
+        i = 1
+        await smsg.delete()
+        
+
+
         
 # ======[PINX!]======       
 
