@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.10 beta8
+# Version : 3.1.1.10 beta9
 
 
 import os
@@ -197,7 +197,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta8 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta9 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3039,6 +3039,84 @@ async def get_users(event):
         f"**Terminal Finished** \n\n• Successfully Invited `{s}` people \n• failed to invite `{f}` people"
     )        
 
+
+# ========[name changer]
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
+
+# ported by @AlphaXProject from ultroid plugin
+
+async def setname(event):
+    if event.sender_id in SMEX_USERS:
+        ok = await event.reply("...")
+        names = event.pattern_match.group(1)
+        first_name = names
+        last_name = ""
+        if "//" in names:
+            first_name, last_name = names.split("//", 1)
+        try:
+            await event.client(
+                UpdateProfileRequest(
+                    first_name=first_name,
+                    last_name=last_name,
+                ),
+            )
+            await ok.edit(f"Name changed to `{names}`")
+        except Exception as ex:
+            await ok.edit("Error occured.\n`{}`".format(str(ex)))
+
+
+
+
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -3223,10 +3301,11 @@ async def help(e):
 <code>.pinx</code>
 <code>.purgeme</code>
 <code>.rabsen</code>
+<code>.setname</code>
 
 For more help regarding usage of plugins type plugins name
 
-🤖 𝘽𝙤𝙩 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: <code>3.1.1.10 beta8</code>"""
+🤖 𝘽𝙤𝙩 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: <code>3.1.1.10 beta9</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
@@ -3235,7 +3314,7 @@ For more help regarding usage of plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta8 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta9 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
