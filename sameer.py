@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.10 beta7
+# Version : 3.1.1.10 beta8
 
 
 import os
@@ -197,7 +197,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta7 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta8 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -2882,7 +2882,7 @@ async def rabsen(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"***{reply}***\n`{ms}` 𝗺𝘀")
+        await event.edit(f"**{reply}**\n`{ms}` 𝗺𝘀")
     
         
 # INVITE ALL OP
@@ -3202,10 +3202,6 @@ async def help(e):
 🛠 𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
 <code>.ping</code>
 <code>.restart</code>
-<code>.absen</code>
-<code>.pinx</code>
-<code>.purgeme</code>
-<code>.rabsen</code>
 
 🎛 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
 <code>.bio</code>
@@ -3222,9 +3218,15 @@ async def help(e):
 <code>.replyraid</code>
 <code>.dreplyraid</code>
 
+⚔️ 𝙓𝙩𝙧𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
+<code>.absen</code>
+<code>.pinx</code>
+<code>.purgeme</code>
+<code>.rabsen</code>
+
 For more help regarding usage of plugins type plugins name
 
-❇️ 𝘽𝙤𝙩 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: <code>3.1.1.10 beta7</code>"""
+🤖 𝘽𝙤𝙩 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: <code>3.1.1.10 beta8</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
@@ -3233,7 +3235,7 @@ For more help regarding usage of plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta7 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta8 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
