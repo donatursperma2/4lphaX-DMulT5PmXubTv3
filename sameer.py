@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.10beta
+# Version : 3.1.1.10 beta2
 
 
 import os
@@ -197,7 +197,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10beta  IS STARTING... 💥💥\n")
+    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta2  IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3132,8 +3132,8 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = f"🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n``.ping``\n``.restart``\n``.absen``\n``.pinx``\n``.purgeme``\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n``.bio``\n``.join``\n``.pjoin\n``.leave``\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n``.spam\n``.delayspam``\n``.bigspam``\n``.raid``\n``.replyraid``\n``.dreplyraid``\n\n\nFor more help regarding usage of plugins type plugins name\n\nBot Version: ``3.1.1.10beta``"
-       await e.reply(text, parse_mode=None, link_preview=None )
+       text = "🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n``.ping``\n``.restart``\n``.absen``\n``.pinx``\n``.purgeme``\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n``.bio``\n``.join``\n``.pjoin``\n``.leave``\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n``.spam``\n``.delayspam``\n``.bigspam``\n``.raid``\n``.replyraid``\n``.dreplyraid``\n\n\nFor more help regarding usage of plugins type plugins name\n\nBot Version: ``3.1.1.10 beta2``"
+       await e.reply(text, parse_mode=Markdown, link_preview=None )
 
         
 
@@ -3141,12 +3141,12 @@ async def help(e):
         
 text = """
 
-💥💥 [CONGRATULATIONS] \nUR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10beta IS READY! 💥💥
+💥💥 [CONGRATULATIONS] \nUR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta2 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
 print("")
-print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10beta STARTED SUCCESFULLY!. 🔥🔥")
+print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta2 STARTED SUCCESFULLY!. 🔥🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
