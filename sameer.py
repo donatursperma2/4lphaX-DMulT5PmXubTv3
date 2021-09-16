@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.10 beta5
+# Version : 3.1.1.10 beta6
 
 
 import os
@@ -197,7 +197,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta5 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta6 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3134,30 +3134,31 @@ async def help(e):
     if e.sender_id in SMEX_USERS:
        text = """🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
 
-       𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
-       <code>.ping</code>
-       <code>.restart</code>
-       <code>.absen</code>
-       <code>.pinx</code>
-       <code>.purgeme</code>
+🛠 𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
+<code>.ping</code>
+<code>.restart</code>
+<code>.absen</code>
+<code>.pinx</code>
+<code>.purgeme</code>
 
-       𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
-       <code>.bio</code>
-       <code>.join</code>
-       <code>.pjoin</code>
-       <code>.leave</code>
+🎛 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
+<code>.bio</code>
+<code>.join</code>
+<code>.pjoin</code>
+<code>.leave</code>
+<code>.inviteall</code>
 
-       𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
-       <code>.spam</code>
-       <code>.delayspam</code>
-       <code>.bigspam</code>
-       <code>.raid</code>
-       <code>.replyraid</code>
-       <code>.dreplyraid</code>
+☠️ 𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
+<code>.spam</code>
+<code>.delayspam</code>
+<code>.bigspam</code>
+<code>.raid</code>
+<code>.replyraid</code>
+<code>.dreplyraid</code>
 
-       For more help regarding usage of plugins type plugins name
+For more help regarding usage of plugins type plugins name
 
-       Bot Version: <code>3.1.1.10 beta5</code>"""
+❇️ 𝘽𝙤𝙩 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: <code>3.1.1.10 beta6</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
@@ -3166,12 +3167,12 @@ async def help(e):
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta5 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta6 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
 print("")
-print("🔥🔥 SMEX! A50X 5P4MX UBOT v3.1.1.10 beta5 STARTED SUCCESFULLY!. 🔥🔥")
+print("🔥🔥 SMEX! A50X 5P4MX UBOT STARTED SUCCESFULLY!. 🔥🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
