@@ -30,6 +30,33 @@ import git
 import heroku3
 from asyncio import sleep
 
+import html
+
+from telethon.tl.functions.account import UpdateProfileRequest
+from telethon.tl.functions.photos import DeletePhotosRequest, UploadProfilePhotoRequest
+from telethon.tl.functions.users import GetFullUserRequest
+from telethon.tl.types import MessageEntityMentionName
+
+from telethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
+
+from telethon.errors.rpcerrorlist import (PhotoExtInvalidError,
+                                          UsernameOccupiedError)
+
+from telethon.tl.functions.account import (UpdateProfileRequest,
+                                           UpdateUsernameRequest)
+
+from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest
+
+from telethon.tl.functions.photos import (DeletePhotosRequest,
+                                          GetUserPhotosRequest,
+                                          UploadProfilePhotoRequest)
+
+from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
+from telethon.tl.functions.users import GetFullUserRequest
+from telethon.tl.types import MessageEntityMentionName
+from telethon.utils import get_input_location
+
+
 
 
 a = API_ID
@@ -197,7 +224,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta9 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta11 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3040,6 +3067,102 @@ async def get_users(event):
     )        
 
 
+
+# ====================== CONSTANT ===============================
+INVALID_MEDIA = "```The extension of the media entity is invalid.```"
+PP_CHANGED = "```Profile picture changed successfully.```"
+PP_TOO_SMOL = "```This image is too small, use a bigger image.```"
+PP_ERROR = "```Failure occured while processing image.```"
+
+BIO_SUCCESS = "```Successfully edited Bio.```"
+
+NAME_OK = "```Your name was succesfully changed.```"
+USERNAME_SUCCESS = "```Your username was succesfully changed.```"
+USERNAME_TAKEN = "```This username is already taken.```"
+# ===============================================================
+
+# ==== SET PHOTO PROFIL
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.setpfp$"))
+
+# @bot.on(geezbot_cmd(outgoing=True, pattern="setpfp$"))
+async def set_profilepic(propic):
+    if propic.sender_id in SMEX_USERS:    
+        """ For .profilepic command, change your profile picture in Telegram. """
+        replymsg = await propic.get_reply_message()
+        photo = None
+        if replymsg.media:
+            if isinstance(replymsg.media, MessageMediaPhoto):
+                photo = await propic.client.download_media(message=replymsg.photo)
+            elif "image" in replymsg.media.document.mime_type.split('/'):
+                photo = await propic.client.download_file(replymsg.media.document)
+            else:
+                await propic.reply(INVALID_MEDIA)
+
+        if photo:
+            try:
+                await propic.client(
+                    UploadProfilePhotoRequest(await
+                                              propic.client.upload_file(photo)))
+                os.remove(photo)
+                await propic.reply(PP_CHANGED)
+            except PhotoCropSizeSmallError:
+                await propic.reply(PP_TOO_SMOL)
+            except ImageProcessFailedError:
+                await propic.reply(PP_ERROR)
+            except PhotoExtInvalidError:
+                await propic.reply(INVALID_MEDIA)
+
+
 # ========[name changer]
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
@@ -3302,6 +3425,7 @@ async def help(e):
 <code>.purgeme</code>
 <code>.rabsen</code>
 <code>.setname</code>
+<code>.setpfp</code>
 
 For more help regarding usage of plugins type plugins name
 
@@ -3314,7 +3438,7 @@ For more help regarding usage of plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta9 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta11 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
