@@ -164,3 +164,22 @@ RRAID = [
     "kalo ngerep tuh yang bagus, nafasnya diatur, pengucapan dan lain sebagainya tuh jangan asal ehh,, gini loh 8ball *%#**#@&!%!*",
     "itu bukan ngerep man, iyu ngawur namanya ya tolol, goblok, pake otak anjing", 
 ]
+
+
+RABSEN = [
+		"Hadir bosskuh! 😀",
+		"Hadir dev! 😃",
+		"Hadir ngab! 😄",
+		"Hadir kak!😁 ",
+		"Hadir broh! 😆",
+		"Hadir guru! 😂",
+		"Hadir mastah! 🤣",
+		"Hadir suhu! ☺️",
+		"Hadir brader 😊",
+		"Hadir brada 😇",
+		"Hadir man! 😉",
+		"Hadir master! 🤩",
+		"Hadir kawan! 😎",
+		"Hadir capt! 🥳",
+		"Hadir sir! 🤓"
+]
