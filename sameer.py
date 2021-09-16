@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.10 beta6
+# Version : 3.1.1.10 beta7
 
 
 import os
@@ -25,7 +25,7 @@ import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from Utils import RAID, RRAID
+from Utils import RAID, RRAID, RABSEN
 import git
 import heroku3
 from asyncio import sleep
@@ -197,7 +197,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta6 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta7 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -2819,6 +2819,71 @@ async def absen(e):
         ms = (end-start).microseconds / 1000
         await event.edit(f"𝙃𝙖𝙙𝙞𝙧 ˁ˚ᴥ˚ˀ\n`{ms}` 𝗺𝘀")
     
+
+# =====[RABSEN]=====  
+@idk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((1)$|(\s+.*))"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((2)$|(\s+.*))"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((3)$|(\s+.*))"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((4)$|(\s+.*))"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((5)$|(\s+.*))"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((6)$|(\s+.*))"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((7)$|(\s+.*))"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((8)$|(\s+.*))"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((9)$|(\s+.*))"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((10)$|(\s+.*))"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((11)$|(\s+.*))"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((12)$|(\s+.*))"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((13)$|(\s+.*))"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((14)$|(\s+.*))"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((15)$|(\s+.*))"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((16)$|(\s+.*))"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((17)$|(\s+.*))"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((18)$|(\s+.*))"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((19)$|(\s+.*))"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((20)$|(\s+.*))"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((21)$|(\s+.*))"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((22)$|(\s+.*))"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((23)$|(\s+.*))"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((24)$|(\s+.*))"))
+@put.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((25)$|(\s+.*))"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((26)$|(\s+.*))"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((27)$|(\s+.*))"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((28)$|(\s+.*))"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((29)$|(\s+.*))"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((30)$|(\s+.*))"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((31)$|(\s+.*))"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((32)$|(\s+.*))"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((33)$|(\s+.*))"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((34)$|(\s+.*))"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((35)$|(\s+.*))"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((36)$|(\s+.*))"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((37)$|(\s+.*))"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((38)$|(\s+.*))"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((39)$|(\s+.*))"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((40)$|(\s+.*))"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((41)$|(\s+.*))"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((42)$|(\s+.*))"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((43)$|(\s+.*))"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((44)$|(\s+.*))"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((45)$|(\s+.*))"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((46)$|(\s+.*))"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((47)$|(\s+.*))"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((48)$|(\s+.*))"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((49)$|(\s+.*))"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"[\.\/\!]rabsen((50)$|(\s+.*))"))
+
+# =====[RABSEN]=====  
+
+async def rabsen(e):
+    if e.sender_id in SMEX_USERS:
+        reply = random.choice(RABSEN)
+        start = datetime.now()
+        text = "Hadir!"
+        event = await e.reply(text, parse_mode=None, link_preview=None )
+        end = datetime.now()
+        ms = (end-start).microseconds / 1000
+        await event.edit(f"***{reply}***\n`{ms}` 𝗺𝘀")
+    
         
 # INVITE ALL OP
 
@@ -3140,6 +3205,7 @@ async def help(e):
 <code>.absen</code>
 <code>.pinx</code>
 <code>.purgeme</code>
+<code>.rabsen</code>
 
 🎛 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
 <code>.bio</code>
@@ -3158,7 +3224,7 @@ async def help(e):
 
 For more help regarding usage of plugins type plugins name
 
-❇️ 𝘽𝙤𝙩 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: <code>3.1.1.10 beta6</code>"""
+❇️ 𝘽𝙤𝙩 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: <code>3.1.1.10 beta7</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
@@ -3167,7 +3233,7 @@ For more help regarding usage of plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta6 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta7 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
