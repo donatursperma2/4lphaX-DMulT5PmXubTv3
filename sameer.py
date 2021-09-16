@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.7
+# Version : 3.1.1.8
 
 
 import os
@@ -197,7 +197,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.7  IS STARTING... 💥💥\n")
+    print("\n💥💥 BOT DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.8  IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -2692,91 +2692,6 @@ async def purgeme(delme):
         i = 1
         await smsg.delete()
         
-# ======SPURGEME [SILENT PURGEME]
-
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@tsi.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@tsf.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@teg.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@tnn.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@tth.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ton.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ttw.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ttr.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@tfr.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@tfv.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@tsx.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@tsv.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ttg.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ttn.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@fft.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ffo.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ftw.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ftr.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ffr.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@ffv.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@fsx.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@fsv.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@feg.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@fnn.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-@fvt.on(events.NewMessage(incoming=True, pattern=r"\.spurgeme"))
-
-
-# ======SPURGEME [SILENT PURGEME]
-
-async def spurgeme(sdelme):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝙋𝙪𝙧𝙜𝙚𝙢𝙚\n\nCommand:\n\n.spurgeme <count> | silent delete x count of your latest message."
-    if sdelme.sender_id in SMEX_USERS:
-        """ For .spurgeme, silent delete x count of your latest message."""
-        message = sdelme.text
-        count = int(message[10:])
-        i = 1
-
-        async for message in sdelme.client.iter_messages(sdelme.chat_id,
-                                                    from_user='me'):
-            if i > count + 1:
-                break
-            i = i + 1
-            await message.delete()
-        """
-        smsg = await sdelme.client.send_message(
-            sdelme.chat_id,
-            "`SPurge complete!` SPurged " + str(count) + " messages.",
-        )
-        
-        if BOTLOG:
-            await sdelme.client.send_message(
-                BOTLOG_CHATID,
-                "#PURGEME \nPurge of " + str(count) + " messages done successfully.")
-       
-        await sleep(2)
-        i = 1
-        await smsg.delete()
-        """
 
         
 # ======[PINX!]======       
@@ -3217,7 +3132,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n.absen\n.pinx\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name\n\nBot Version: 3.1.1.0"
+       text = "🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n`.ping\n.restart\n.absen\n.pinx\n.purgeme`\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n`.bio\n.join\n.pjoin\n.leave`\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n`.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid`\n\n\nFor more help regarding usage of plugins type plugins name\n\nBot Version: `3.1.1.8`"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -3226,13 +3141,13 @@ async def help(e):
         
 text = """
 
-💥💥 [CONGRATULATIONS] \nUR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.7 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] \nUR DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.8 IS READY! 💥💥
 💥💥 Original Code By OP Sameer from Deadly Team 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
 print("")
-print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.7 STARTED SUCCESFULLY!. 🔥🔥")
+print("🔥🔥 SMEX! DEADLY ALPHA-X MULT1 5P4MX UBOT v3.1.1.8 STARTED SUCCESFULLY!. 🔥🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
