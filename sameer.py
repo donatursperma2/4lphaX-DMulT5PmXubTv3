@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.10 beta13
+# Version : v3.1.1.10 beta14
 
 
 import os
@@ -22,6 +22,20 @@ from telethon.tl.functions.account import UpdateProfileRequest
 from Config import STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
 import asyncio
 import telethon.utils
+
+from telethon.tl.types import InputPeerUser, ChatBannedRights
+from telethon.tl.functions.channels import (
+    InviteToChannelRequest,
+    EditBannedRequest,
+    GetFullChannelRequest,
+    LeaveChannelRequest)
+from telethon.tl import functions
+from telethon.tl.functions.messages import GetFullChatRequest
+from telethon.errors import (
+    ChannelInvalidError,
+    ChannelPrivateError,
+    ChannelPublicGroupNaError)
+
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
@@ -224,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta13 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta14 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3967,7 +3981,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.10 beta13</code>
+- version : <code>v3.1.1.10 beta14</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -3978,7 +3992,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta13 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.10 beta14 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
