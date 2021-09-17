@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.10 beta12
+# Version : v3.1.1.10 beta13
 
 
 import os
@@ -224,7 +224,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta12 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta13 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3678,56 +3678,56 @@ async def scrapmem(event):
 
 # ===== ADD MEMBER
 
-@idk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@adk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@edk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@sid.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@shy.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@aan.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ake.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@eel.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@khu.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@shi.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@dav.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@raj.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@put.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@tsi.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@tsf.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@teg.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@tnn.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@tth.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ton.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ttw.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ttr.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@tfr.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@tfv.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@tsx.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@tsv.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ttg.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ttn.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@fft.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ffo.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ftw.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ftr.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ffr.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@ffv.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@fsx.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@fsv.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@feg.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@fnn.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
-@fvt.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.addmemb"))
 
 # credit to geez, ultroid, man userbot, abdul
 
@@ -3967,7 +3967,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.10 beta12</code>
+- version : <code>v3.1.1.10 beta13</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -3978,7 +3978,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta12 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta13 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
