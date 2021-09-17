@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : 3.1.1.10 beta9
+# Version : 3.1.1.10 beta12
 
 
 import os
@@ -55,7 +55,7 @@ from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 from telethon.utils import get_input_location
-
+import time
 
 
 
@@ -224,7 +224,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta11 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta12 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3163,6 +3163,289 @@ async def set_profilepic(propic):
                 await propic.reply(INVALID_MEDIA)
 
 
+# ==== DELETE PHOTO PROFIL
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+
+# credit to geez, ultroid
+
+# @bot.on(geezbot_cmd(outgoing=True, pattern=r"delpfp"))
+async def remove_profilepic(delpfp):
+    if delpfp.sender_id in SMEX_USERS:
+        """ For .delpfp command, delete your current profile picture in Telegram. """
+        group = delpfp.text[8:]
+        if group == 'all':
+            lim = 0
+        elif group.isdigit():
+            lim = int(group)
+        else:
+            lim = 1
+
+        pfplist = await delpfp.client(
+            GetUserPhotosRequest(user_id=delpfp.from_id,
+                                 offset=0,
+                                 max_id=0,
+                                 limit=lim))
+        input_photos = []
+        for sep in pfplist.photos:
+            input_photos.append(
+                InputPhoto(id=sep.id,
+                           access_hash=sep.access_hash,
+                           file_reference=sep.file_reference))
+        await delpfp.client(DeletePhotosRequest(id=input_photos))
+        await delpfp.reply(
+            f"`Successfully deleted {len(input_photos)} profile picture(s).`")
+
+
+
+# ==== SET USERNAME
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.username (.*)"))
+
+# credit to geez, ultroid, man userbot
+
+async def update_username(username):
+    if username.sender_id in SMEX_USERS:
+        """ For .username command, set a new username in Telegram. """
+        newusername = username.pattern_match.group(1)
+        try:
+            await username.client(UpdateUsernameRequest(newusername))
+            await username.reply(USERNAME_SUCCESS)
+        except UsernameOccupiedError:
+            await username.reply(USERNAME_TAKEN)
+
+
+# ==== COUNT CHATS
+
+# STRINGS
+STAT_INDICATION = "`Collecting stats, Please wait....`"
+
+# Functions
+def user_full_name(user):
+    names = [user.first_name, user.last_name]
+    names = [i for i in list(names) if i]
+    return " ".join(names)
+
+
+def inline_mention(user):
+    full_name = user_full_name(user) or "No Name"
+    return f"[{full_name}](tg://user?id={user.id})"
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.stats$"))
+
+# credit to geez, ultroid, man userbot
+
+async def stats(event):
+    if event.sender_id in SMEX_USERS:
+        stat = await event.reply(STAT_INDICATION)
+        start_time = time.time()
+        private_chats = 0
+        bots = 0
+        groups = 0
+        broadcast_channels = 0
+        admin_in_groups = 0
+        creator_in_groups = 0
+        admin_in_broadcast_channels = 0
+        creator_in_channels = 0
+        unread_mentions = 0
+        unread = 0
+        dialog: Dialog
+        async for dialog in event.client.iter_dialogs():
+            entity = dialog.entity
+            if isinstance(entity, Channel) and entity.broadcast:
+                broadcast_channels += 1
+                if entity.creator or entity.admin_rights:
+                    admin_in_broadcast_channels += 1
+                if entity.creator:
+                    creator_in_channels += 1
+            elif (
+                isinstance(entity, Channel)
+                and entity.megagroup
+                or not isinstance(entity, Channel)
+                and not isinstance(entity, User)
+                and isinstance(entity, Chat)
+            ):
+                groups += 1
+                if entity.creator or entity.admin_rights:
+                    admin_in_groups += 1
+                if entity.creator:
+                    creator_in_groups += 1
+            elif not isinstance(entity, Channel) and isinstance(entity, User):
+                private_chats += 1
+                if entity.bot:
+                    bots += 1
+            unread_mentions += dialog.unread_mentions_count
+            unread += dialog.unread_count
+        stop_time = time.time() - start_time
+        full_name = inline_mention(await event.client.get_me())
+        response = f"📊 **Stats for {full_name}** \n\n"
+        response += f"**Private Chats:** {private_chats} \n"
+        response += f"   • `Users: {private_chats - bots}` \n"
+        response += f"   • `Bots: {bots}` \n"
+        response += f"**Groups:** {groups} \n"
+        response += f"**Channels:** {broadcast_channels} \n"
+        response += f"**Admin in Groups:** {admin_in_groups} \n"
+        response += f"   • `Creator: {creator_in_groups}` \n"
+        response += f"   • `Admin Rights: {admin_in_groups - creator_in_groups}` \n"
+        response += f"**Admin in Channels:** {admin_in_broadcast_channels} \n"
+        response += f"   • `Creator: {creator_in_channels}` \n"
+        response += (
+            f"   • `Admin Rights: {admin_in_broadcast_channels - creator_in_channels}` \n"
+        )
+        response += f"**Unread:** {unread} \n"
+        response += f"**Unread Mentions:** {unread_mentions} \n\n"
+        response += f"⏱ __It Took:__ {stop_time:.02f}s \n"
+        await stat.edit(response)
+
+
+
 # ========[name changer]
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.setname ?((.|//)*)"))
@@ -3237,6 +3520,253 @@ async def setname(event):
         except Exception as ex:
             await ok.edit("Error occured.\n`{}`".format(str(ex)))
 
+
+# ===== DM ========
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.dm(?: |$)(.*)"))
+
+# credit to geez, ultroid, man userbot
+
+async def remoteaccess(event):
+    if event.sender_id in SMEX_USERS:
+        p = event.pattern_match.group(1)
+        m = p.split(" ")
+
+        chat_id = m[0]
+        try:
+            chat_id = int(chat_id)
+        except BaseException:
+
+            pass
+
+        msg = ""
+        mssg = await event.get_reply_message()
+        if event.reply_to_msg_id:
+            await event.client.send_message(chat_id, mssg)
+            await event.reply("`Success Mengirim Pesan Anda.`")
+        for i in m[1:]:
+            msg += i + " "
+        if msg == "":
+            return
+        try:
+            await event.client.send_message(chat_id, msg)
+            await event.reply("`Success Mengirim Pesan Anda.`")
+        except BaseException:
+            await event.reply("**Terjadi Error. Gagal Mengirim Pesan.**")
+
+
+
+# ===== GET MEMBER
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.getmemb"))
+
+# credit to geez, ultroid, man userbot, abdul
+
+async def scrapmem(event):
+    if event.sender_id in SMEX_USERS:
+        # text = "`Mohon tunggu...`"
+        chat = event.chat_id
+        y = await event.reply("`Mohon tunggu...`" )
+        client = event.client
+        members = await client.get_participants(chat, aggressive=True)
+
+        with open("members.csv", "w", encoding="UTF-8") as f:
+            writer = csv.writer(f, delimiter=",", lineterminator="\n")
+            writer.writerow(["user_id", "hash"])
+            for member in members:
+                writer.writerow([member.id, member.access_hash])
+        await y.edit(f"`Berhasil Mengumpulkan Member..`")
+
+
+# ===== ADD MEMBER
+
+@idk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@adk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@edk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@sid.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@shy.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@aan.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ake.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@eel.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@khu.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@shi.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@dav.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@raj.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@put.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@teg.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@tth.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ton.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@fft.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@feg.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r^\.addmemb"))
+
+# credit to geez, ultroid, man userbot, abdul
+
+async def admem(event):
+    if event.sender_id in SMEX_USERS:
+        # text = "`Proses Menambahkan 0 Member...`"
+        x = await event.reply("`Proses Menambahkan 0 Member...`")
+        chat = await event.get_chat()
+        client = event.client
+        users = []
+        with open("members.csv", encoding="UTF-8") as f:
+            rows = csv.reader(f, delimiter=",", lineterminator="\n")
+            next(rows, None)
+            for row in rows:
+                user = {'id': int(row[0]), 'hash': int(row[1])}
+                users.append(user)
+        n = 0
+        for user in users:
+            n += 1
+            if n % 10 == 0:
+                await x.edit(f"`Mencapai 10 anggota, tunggu selama {900/60} menit`")
+                await asyncio.sleep(900)
+            try:
+                userin = InputPeerUser(user['id'], user['hash'])
+                await event.client(InviteToChannelRequest(chat, [userin]))
+                await asyncio.sleep(random.randrange(5, 7))
+                await x.edit(f"`Prosess Menambahkan {n} Member...`")
+            except TypeError:
+                n -= 1
+                continue
+            except UserAlreadyParticipantError:
+                n -= 1
+                continue
+            except UserPrivacyRestrictedError:
+                n -= 1
+                continue
+            except UserNotMutualContactError:
+                n -= 1
+                continue
 
 
 
@@ -3402,6 +3932,7 @@ async def help(e):
 
 🛠 𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
 <code>.ping</code>
+<code>.alive</code>
 <code>.restart</code>
 
 🎛 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:
@@ -3426,10 +3957,19 @@ async def help(e):
 <code>.rabsen</code>
 <code>.setname</code>
 <code>.setpfp</code>
+<code>.delpfp</code>
+<code>.username</code>
+<code>.stats</code>
+<code>.dm</code>
+<code>.getmemb</code>
+<code>.addmemb</code>
 
-For more help regarding usage of plugins type plugins name
+For more help regarding usage \nof plugins type plugins name
 
-🤖 𝘽𝙤𝙩 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: <code>3.1.1.10 beta9</code>"""
+🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
+- version : <code>v3.1.1.10 beta12</code>
+- type \t\t: <code>DLX</code>
+- project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
@@ -3438,7 +3978,7 @@ For more help regarding usage of plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta11 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DEADLY ALPHA-X MULT1 A50X 5P4MX UBOT v3.1.1.10 beta12 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
