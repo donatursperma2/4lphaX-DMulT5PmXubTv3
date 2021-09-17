@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.10 beta15
+# Version : v3.1.1.10 beta16
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta15 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta16 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3178,16 +3178,59 @@ async def set_profilepic(propic):
 
 
 # ==== DELETE PHOTO PROFIL
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.delpfp ?(.*)"))
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.delpfp ?(.*)"))
+
+# credit to geez, ultroid
 
 
 # @bot.on(geezbot_cmd(outgoing=True, pattern=r"delpfp"))
@@ -3936,7 +3979,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.10 beta15</code>
+- version : <code>v3.1.1.10 beta16</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -3947,7 +3990,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.10 beta15 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.10 beta16 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
