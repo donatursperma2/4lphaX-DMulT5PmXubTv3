@@ -1,4 +1,4 @@
-# AlphaX-Mult15P4mX-UBOT
+# AlphaX-Mult15PmXubot
 
 <p align="center">
   <img src="https://telegra.ph/file/36eb117322594ce579f66.jpg">
