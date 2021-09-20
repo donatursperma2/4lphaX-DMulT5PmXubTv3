@@ -3840,20 +3840,25 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 async def _(event):
     if event.sender_id in SMEX_USERS:
         await event.reply("`Checking If You Are Limited...`")
+        await event.reply("test task selesai!")
         async with event.client.conversation("@SpamBot") as conv:
             try:
                 response = conv.wait_event(
                     events.NewMessage(incoming=True, from_users=178220800)
                 )
+                await event.reply("test task selesai!")
                 await conv.send_message("/start")
+                await event.reply("test task selesai!")
                 response = await response
                 await event.client.send_read_acknowledge(conv.chat_id)
                 await event.reply("test task selesai!")
             except YouBlockedUserError:
                 await event.edit("`Boss! Please Unblock @SpamBot`")
                 return
+                await event.reply("test task selesai!")
             await event.edit(f"~ {response.message.message}")
             await event.edit(respon)
+            await event.reply("test task selesai!")
             
 
 
