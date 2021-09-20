@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta14
+# Version : v3.1.1.11 beta15
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta14 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta15 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3838,22 +3838,19 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 # port from cat & geez
 # @register(outgoing=True, pattern=r"^\.limit(?: |$)(.*)")
 async def _(event):
-    if event.sender_id in SMEX_USERS:
-        chat_spambot = "@SpamBot"
-        dx_event = await event.reply("`Checking If You Are Limited...`")
-        async with event.client.conversation(chat_spambot) as conv:
-            try:
-                await conv.send_message("/start")
-            except YouBlockedUserError:
-                await event.edit(dx_event, "`Boss! Please Unblock @SpamBot`")
-            responses = []
-            while True:
-                try:
-                    response = await conv.get_respon(timeout=2)
-                except asyncio.TimeoutError:
-                    break
-                responses.append(response.text)
+    await event.reply("`Checking If You Are Limited...`")
+    async with event.client.conversation("@SpamBot") as conv:
+        try:
+            response = conv.wait_event(
+                events.NewMessage(incoming=True, from_users=178220800)
+            )
+            await conv.send_message("/start")
+            response = await response
             await event.client.send_read_acknowledge(conv.chat_id)
+        except YouBlockedUserError:
+            await event.edit("`Boss! Please Unblock @SpamBot`")
+            return
+        await event.edit(f"~ {response.message.message}")
 
 
 # =====[RESTART]=====  
@@ -4215,7 +4212,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta14</code>
+- version : <code>v3.1.1.11 beta15</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4226,12 +4223,12 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta14 IS READY! 💥💥
-💥💥 Modded Code By @AlphaxProject Team 💥💥"""
+💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta15 IS READY! 💥
+💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
 print("")
-print("🔥🔥 SMEX! A50X 5P4MX UBOT STARTED SUCCESFULLY!. 🔥🔥")
+print("🔥 SMEX! A50X 5P4MX UBOT STARTED SUCCESFULLY!. 🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
