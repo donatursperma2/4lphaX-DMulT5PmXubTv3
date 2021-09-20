@@ -3848,12 +3848,13 @@ async def _(event):
                 await conv.send_message("/start")
                 response = await response
                 await event.client.send_read_acknowledge(conv.chat_id)
+                await event.reply("test task selesai!")
             except YouBlockedUserError:
                 await event.edit("`Boss! Please Unblock @SpamBot`")
                 return
             await event.edit(f"~ {response.message.message}")
             await event.edit(respon)
-            await event.reply("test task selesai!")
+            
 
 
 # =====[RESTART]=====  
