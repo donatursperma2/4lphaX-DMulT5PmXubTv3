@@ -3847,7 +3847,7 @@ async def _(event):
                     events.NewMessage(incoming=True, from_users=178220800)
                 )
                 await conv.send_message("/start")
-                response = await response
+                response = conv.get_response()
                 await event.client.send_read_acknowledge(conv.chat_id)
             except YouBlockedUserError:
                 await event.edit("`Boss! Please Unblock @SpamBot`")
