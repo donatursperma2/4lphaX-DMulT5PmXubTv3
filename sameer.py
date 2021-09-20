@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta3
+# Version : v3.1.1.11 beta4
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta3 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta4 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3852,8 +3852,7 @@ async def _(event):
             except YouBlockedUserError:
                 await event.edit("`Boss! Please Unblock @SpamBot`")
                 return
-            await event.edit(f"~ {response.message.message}")
-
+            await event.edit(response.text)
 
 # =====[RESTART]=====  
 
@@ -4214,7 +4213,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta3</code>
+- version : <code>v3.1.1.11 beta4</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4225,7 +4224,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta3 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta4 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
