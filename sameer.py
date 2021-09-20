@@ -3852,6 +3852,8 @@ async def _(event):
                 await event.edit("`Boss! Please Unblock @SpamBot`")
                 return
             await event.edit(f"~ {response.message.message}")
+            await event.edit(respon)
+            await event.reply("test task selesai!")
 
 
 # =====[RESTART]=====  
