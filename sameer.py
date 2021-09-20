@@ -3849,8 +3849,8 @@ async def _(event):
                 await event.reply("test task 2 selesai!")
                 await conv.send_message("/start")
                 await event.reply("test task 3 selesai!")
-                response = await event.client.send_read_acknowledge(conv.chat_id)
-                await event.reply("test task 4 selesai!")
+                # response = await event.client.send_read_acknowledge(conv.chat_id)
+                # await event.reply("test task 4 selesai!")
             except YouBlockedUserError:
                 await event.edit("`Boss! Please Unblock @SpamBot`")
                 await event.reply("test task 5 selesai!")
