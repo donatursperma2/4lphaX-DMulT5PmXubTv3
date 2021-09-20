@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta11
+# Version : v3.1.1.11 beta12
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta11 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta12 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3839,7 +3839,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 # @register(outgoing=True, pattern=r"^\.limit(?: |$)(.*)")
 async def _(event):
     if event.sender_id in SMEX_USERS:
-        await event.reply("`Checking If You Are Limited...`")
+        xevent = await event.reply("`Checking If You Are Limited...`")
         chat_spambot = "@SpamBot"
         async with event.client.conversation(chat_spambot) as conv:
             try:
@@ -3850,9 +3850,9 @@ async def _(event):
                 response = conv.get_response()
                 await event.client.send_read_acknowledge(conv.chat_id)
             except YouBlockedUserError:
-                await event.edit("`Boss! Please Unblock @SpamBot`")
+                await conv.edit(xevent, "`Boss! Please Unblock @SpamBot`")
                 return
-            await event.edit(f"~ {response}")
+            await conv.edit(xevent, f"~ {response}")
 
 
 # =====[RESTART]=====  
@@ -4214,7 +4214,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta11</code>
+- version : <code>v3.1.1.11 beta12</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4225,7 +4225,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta11 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta12 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
