@@ -3855,8 +3855,9 @@ async def _(event):
                 await event.edit("`Boss! Please Unblock @SpamBot`")
                 await event.reply("test task 5 selesai!")
                 return
-            await event.edit(f"~ {response.message.message}")
-            await event.edit(respon)
+            response = await conv.get_response()
+            await event.client.send_read_acknowledge(conv.chat_id)
+            await event.edit(response.text)
             await event.reply("test task 6 selesai!")
             
 
