@@ -3843,23 +3843,22 @@ async def _(event):
         await event.reply("test task 1 selesai!")
         async with event.client.conversation("@SpamBot") as conv:
             try:
-                response = conv.wait_event(
-                    events.NewMessage(incoming=True, from_users=178220800)
-                )
-                await event.reply("test task 2 selesai!")
                 await conv.send_message("/start")
-                await event.reply("test task 3 selesai!")
-                # response = await event.client.send_read_acknowledge(conv.chat_id)
-                # await event.reply("test task 4 selesai!")
+                await event.reply("test task 2 selesai!")
             except YouBlockedUserError:
                 await event.edit("`Boss! Please Unblock @SpamBot`")
+                await event.reply("test task 3 selesai!")
+            responses = []
+            while True:
+                try:
+                    response = await conv.get_response(timeout=2)
+                    await event.reply("test task 4 selesai!")
+                except asyncio.TimeoutError:
+                    break
+                responses.append(response.text)
                 await event.reply("test task 5 selesai!")
-                return
-            response = await conv.get_response()
             await event.client.send_read_acknowledge(conv.chat_id)
-            await event.edit(response.text)
             await event.reply("test task 6 selesai!")
-            
 
 
 # =====[RESTART]=====  
