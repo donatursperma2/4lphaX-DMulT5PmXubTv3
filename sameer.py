@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta1
+# Version : v3.1.1.11 beta2
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta1 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta2 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3837,19 +3837,20 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 # @register(outgoing=True, pattern=r"^\.limit(?: |$)(.*)")
 async def _(event):
-    await event.edit("`Checking If You Are Limited...`")
-    async with bot.conversation("@SpamBot") as conv:
-        try:
-            response = conv.wait_event(
-                events.NewMessage(incoming=True, from_users=178220800)
-            )
-            await conv.send_message("/start")
-            response = await response
-            await bot.send_read_acknowledge(conv.chat_id)
-        except YouBlockedUserError:
-            await event.edit("`Boss! Please Unblock @SpamBot`")
-            return
-        await event.edit(f"~ {response.message.message}")
+    if event.sender_id in SMEX_USERS:
+        await event.reply("`Checking If You Are Limited...`")
+        async with bot.conversation("@SpamBot") as conv:
+            try:
+                response = conv.wait_event(
+                    events.NewMessage(incoming=True, from_users=178220800)
+                )
+                await conv.send_message("/start")
+                response = await response
+                await bot.send_read_acknowledge(conv.chat_id)
+            except YouBlockedUserError:
+                await event.edit("`Boss! Please Unblock @SpamBot`")
+                return
+            await event.edit(f"~ {response.message.message}")
 
 
 # =====[RESTART]=====  
@@ -4210,7 +4211,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta1</code>
+- version : <code>v3.1.1.11 beta2</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4221,7 +4222,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta1 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta2 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
