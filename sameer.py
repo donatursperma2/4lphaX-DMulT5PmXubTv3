@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.10 beta17
+# Version : v3.1.1.11 beta1
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.10 beta17 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta1 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3777,6 +3777,80 @@ async def admem(event):
                 continue
 
 
+# =====[CHECK LIMIT ACCOUNT]=====  
+
+
+from telethon import events
+from telethon.errors.rpcerrorlist import YouBlockedUserError
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
+
+# @register(outgoing=True, pattern=r"^\.limit(?: |$)(.*)")
+async def _(event):
+    await event.edit("`Checking If You Are Limited...`")
+    async with bot.conversation("@SpamBot") as conv:
+        try:
+            response = conv.wait_event(
+                events.NewMessage(incoming=True, from_users=178220800)
+            )
+            await conv.send_message("/start")
+            response = await response
+            await bot.send_read_acknowledge(conv.chat_id)
+        except YouBlockedUserError:
+            await event.edit("`Boss! Please Unblock @SpamBot`")
+            return
+        await event.edit(f"~ {response.message.message}")
+
 
 # =====[RESTART]=====  
 
@@ -3848,11 +3922,11 @@ async def restart(e):
         except Exception as e:
             pass
         try:
-            await hdk.disconnect()
+            await sdk.disconnect()
         except Exception as e:
             pass
         try:
-            await sdk.disconnect()
+            await hdk.disconnect() # 5
         except Exception as e:
             pass
         try:
@@ -3868,15 +3942,176 @@ async def restart(e):
         except Exception as e:
             pass
         try:
-            await ddk.disconnect()
+            await edk.disconnect()
         except Exception as e:
             pass
         try:
-            await edk.disconnect()
+            await ddk.disconnect() # 10
+        except Exception as e:
+            pass
+        try:
+            await vkk.disconnect() 
+        except Exception as e:
+            pass
+        try:
+            await kkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await lkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await mkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await sid.disconnect() # 15
+        except Exception as e:
+            pass
+        try:
+            await shy.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await aan.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await ake.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await eel.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await khu.disconnect() # 20
+        except Exception as e:
+            pass
+        try:
+            await shi.disconnect() 
+        except Exception as e:
+            pass
+        try:
+            await yaa.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await dav.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await raj.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await put.disconnect() # 25
+        except Exception as e:
+            pass
+        try:
+            await tsi.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await tsf.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await teg.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await tnn.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await tth.disconnect() # 30
+        except Exception as e:
+            pass
+        try:
+            await ton.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await ttw.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await ttr.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await tfr.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await tfv.disconnect() # 35
+        except Exception as e:
+            pass
+        try:
+            await tsx.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await tsv.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await ttg.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await ttn.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await fft.disconnect() # 40
+        except Exception as e:
+            pass
+        try:
+            await ffo.disconnect() 
+        except Exception as e:
+            pass
+        try:
+            await ftw.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await ftr.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await ffr.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await ffv.disconnect() # 45
+        except Exception as e:
+            pass
+        try:
+            await fsx.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await fsv.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await feg.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await fnn.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await fvt.disconnect() # 20
         except Exception as e:
             pass
         os.execl(sys.executable, sys.executable, *sys.argv)
         quit()
+
 
         
         
@@ -3975,7 +4210,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.10 beta17</code>
+- version : <code>v3.1.1.11 beta1</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -3986,7 +4221,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.10 beta17 IS READY! 💥💥
+💥💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta1 IS READY! 💥💥
 💥💥 Modded Code By @AlphaxProject Team 💥💥"""
 
 print(text)
