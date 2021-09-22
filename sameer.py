@@ -3789,7 +3789,7 @@ from telethon import *
 
 api_id = (API_ID)
 api_hash = (API_HASH)
-bot = TelegramClient('sameer', api_id, api_hash).start
+bot = TelegramClient('sameer', api_id, api_hash)
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
