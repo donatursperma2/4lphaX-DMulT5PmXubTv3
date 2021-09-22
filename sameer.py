@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta28
+# Version : v3.1.1.11 beta29
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta28 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta29 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3874,8 +3874,7 @@ import asyncio
 from os import remove
 from sys import executable
 
-from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, TERM_ALIAS
-from userbot.events import register
+
 
 # ======[EVAL]======
 
@@ -3931,6 +3930,10 @@ from userbot.events import register
 @fvt.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
 
 async def evaluate(query):
+    # eval
+    usage = f"eval: **✘ Plugin :** `Eval Teks`\
+        \n\n  •  **Perintah :** `.eval` 2 + 3\
+        \n  •  **Function : **Evaluasi ekspresi mini"
     if query.sender_id in SMEX_USERS:
         if query.is_channel and not query.is_group:
             return await query.reply("`Eval isn't permitted on channels`")
@@ -3976,12 +3979,9 @@ async def evaluate(query):
             await query.reply(
                 "**Query : **\n`" f"{expression}" "`\n**Exception : **\n" f"`{err}`"
             )
-        """    
-        if BOTLOG:
-            await query.client.send_message(
-                BOTLOG_CHATID, f"Kueri evaluasi {expression} sukses dieksekusi"
-            )
-        """
+        else:
+            await query.reply(usage, parse_mode=None, link_preview=None)
+
 
 # ======[EXEC]======
 
@@ -4037,7 +4037,11 @@ async def evaluate(query):
 @fvt.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
 
 async def run(run_q):
-    if query.sender_id in SMEX_USERS:
+    # exec
+    usage = f"exec: **✘ Plugin :** `Exec Teks`\
+        \n\n  •  **Perintah :** `.exec` `print('hello')`\
+        \n  •  **Function : **Jalankan skript python kecil"
+    if run_q.sender_id in SMEX_USERS:
         code = run_q.pattern_match.group(1)
 
         if run_q.is_channel and not run_q.is_group:
@@ -4093,16 +4097,13 @@ async def run(run_q):
             await run_q.reply(
                 "**Query : **\n`" f"{codepre}" "`\n**Result : **\n`" f"{result}" "`"
             )
-        else:
+        elif:
             await run_q.reply(
                 "**Query : **\n`" f"{codepre}" "`\n**Result : **\n`Tidak Ada Hasil yang Dikembalikan/Salah`"
             )
-        """      
-        if BOTLOG:
-            await run_q.client.send_message(
-                BOTLOG_CHATID, "kueri exec " + codepre + " sukses dieksekusi"
-            )
-        """  
+        else:
+            await run_q.reply(usage, parse_mode=None, link_preview=None)
+
 
 # ======[TERM]======
 
@@ -4158,7 +4159,11 @@ async def run(run_q):
 @fvt.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
 
 async def terminal_runner(term):
-    if query.sender_id in SMEX_USERS:
+    # term
+    usage = f"term: **✘ Plugin :** `Term Teks`\
+        \n\n  •  **Perintah :** `.term` <cmd>\
+        \n  •  **Function : **Jalankan perintah dan skript bash di server Anda"
+    if term.sender_id in SMEX_USERS:
         curruser = TERM_ALIAS
         command = term.pattern_match.group(1)
         try:
@@ -4200,46 +4205,11 @@ async def terminal_runner(term):
 
         if uid == 0:
             await term.reply("`" f"{curruser} :~# {command}" f"\n{result}" "`")
-        else:
+        elif:
             await term.reply("`" f"{curruser} :~$ {command}" f"\n{result}" "`")
-        """  
-        if BOTLOG:
-            await term.client.send_message(
-                BOTLOG_CHATID,
-                "Terminal Perintah " + command + " sukses dieksekusi"
-            )
-        """  
+        else:
+            await term.reply(usage, parse_mode=None, link_preview=None )
 
-"""  
-CMD_HELP.update(
-    {
-        "eval": "**✘ Plugin :** `Eval Teks`\
-        \n\n  •  **Perintah :** `.eval` 2 + 3\
-        \n  •  **Function : **Evaluasi ekspresi mini\
-    "
-    }
-)
-
-CMD_HELP.update(
-    {
-        "exec": "**✘ Plugin :** `Exec Teks`\
-        \n\n  •  **Perintah :** `.exec` `print('hello')`\
-        \n  •  **Function : **Jalankan skript python kecil\
-    "
-    }
-)
-
-CMD_HELP.update(
-    {
-        "term": "**✘ Plugin :** `Term Teks`\
-        \n\n  •  **Perintah :** `.term` <cmd>\
-        \n  •  **Function : **Jalankan perintah dan skript bash di server Anda\
-    "
-    }
-)
-"""  
-
-# ========================[EVAL, EXEC, TERM]========================
 # ==================================================================
 
 # =====[RESTART]=====  
@@ -4597,11 +4567,14 @@ async def help(e):
 <code>.getmemb</code>
 <code>.addmemb</code>
 <code>.limit</code>
+<code>.eval</code>
+<code>.exec</code>
+<code>.term</code>
 
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta28</code>
+- version : <code>v3.1.1.11 beta29</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4612,7 +4585,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta28 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta29 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
