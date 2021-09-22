@@ -3323,7 +3323,7 @@ async def update_username(username):
 
 
 # =======================[SET BIOGRAPH]=======================
-Credits to Paperplane, Geez
+# Credits to Paperplane, Geez
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
