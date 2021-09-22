@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta30
+# Version : v3.1.1.11 beta32
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta30 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta32 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3835,30 +3835,23 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 @fnn.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
 @fvt.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
 
-# port from cat & geez
+# port from cat, king & geez
 # @register(outgoing=True, pattern=r"^\.limit(?: |$)(.*)")
 async def _(event):
     if event.sender_id in SMEX_USERS:
-        await event.reply("`Checking If You Are Limited...`")
-        await event.reply("test task 1 selesai!")
-        async with event.client.conversation("@SpamBot") as conv:
+        await event.reply("`Mengecek Info Akun Anda...`")
+        async with bot.conversation("@SpamBot") as conv:
             try:
+                response = conv.wait_event(
+                    events.NewMessage(incoming=True, from_users=178220800)
+                )
                 await conv.send_message("/start")
-                await event.reply("test task 2 selesai!")
+                response = await response
+                await bot.send_read_acknowledge(conv.chat_id)
             except YouBlockedUserError:
-                await event.edit("`Boss! Please Unblock @SpamBot`")
-                await event.reply("test task 3 selesai!")
-            responses = []
-            while True:
-                try:
-                    response = await conv.get_response(timeout=2)
-                    await event.reply("test task 4 selesai!")
-                except asyncio.TimeoutError:
-                    break
-                responses.append(response.text)
-                await event.reply("test task 5 selesai!")
-            await event.client.send_read_acknowledge(conv.chat_id)
-            await event.reply("test task 6 selesai!")
+                await event.edit("`Harap unblock @SpamBot dan coba lagi`")
+                return
+            await event.edit(f"**Pesan Info Akunmu**\n\n{response.message.message}")
 
 # ========================[EVAL, EXEC, TERM]========================
 
@@ -4564,7 +4557,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta30</code>
+- version : <code>v3.1.1.11 beta32</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4575,7 +4568,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta30 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta32 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
