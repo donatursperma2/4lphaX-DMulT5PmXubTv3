@@ -4273,8 +4273,21 @@ import os.path
 import time
 from os.path import exists, isdir
 
-from userbot.events import register
-from userbot.utils import humanbytes
+# from userbot.events import register
+# from userbot.utils import humanbytes
+
+# function
+def humanbytes(size: Union[int, float]) -> str:
+    if size is None or isinstance(size, str):
+        return ""
+
+    power = 2**10
+    raised_to_pow = 0
+    dict_power_n = {0: "", 1: "Ki", 2: "Mi", 3: "Gi", 4: "Ti"}
+    while size > power:
+        size /= power
+        raised_to_pow += 1
+    return str(round(size, 2)) + " " + dict_power_n[raised_to_pow] + "B"
 
 MAX_MESSAGE_SIZE_LIMIT = 4095
 
