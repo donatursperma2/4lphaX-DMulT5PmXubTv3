@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta29
+# Version : v3.1.1.11 beta30
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta29 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta30 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3941,7 +3941,7 @@ async def evaluate(query):
         if query.pattern_match.group(1):
             expression = query.pattern_match.group(1)
         else:
-            return await query.reply("`Berikan ekspresi untuk dievaluasi`")
+            return await query.reply(usage, parse_mode=None, link_preview=None)
 
         if expression in ("userbot.session", "config.env"):
             return await query.reply("`Itu evaluasi yang berbahaya! Tidak diperbolehkan!`")
@@ -3979,8 +3979,6 @@ async def evaluate(query):
             await query.reply(
                 "**Query : **\n`" f"{expression}" "`\n**Exception : **\n" f"`{err}`"
             )
-        else:
-            await query.reply(usage, parse_mode=None, link_preview=None)
 
 
 # ======[EXEC]======
@@ -4048,10 +4046,7 @@ async def run(run_q):
             return await run_q.reply("`Exec tidak diizinkan di saluran!`")
 
         if not code:
-            return await run_q.reply(
-                "```Setidaknya variabel diperlukan untuk"
-                "execute Menggunakan help exec untuk contoh```"
-            )
+            return await run_q.reply(usage, parse_mode=None, link_preview=None)
 
         if code in ("userbot.session", "config.env"):
             return await run_q.reply("`Itu exec yang berbahaya! Tidak diperbolehkan!`")
@@ -4097,12 +4092,11 @@ async def run(run_q):
             await run_q.reply(
                 "**Query : **\n`" f"{codepre}" "`\n**Result : **\n`" f"{result}" "`"
             )
-        elif:
+        else:
             await run_q.reply(
                 "**Query : **\n`" f"{codepre}" "`\n**Result : **\n`Tidak Ada Hasil yang Dikembalikan/Salah`"
             )
-        else:
-            await run_q.reply(usage, parse_mode=None, link_preview=None)
+
 
 
 # ======[TERM]======
@@ -4177,9 +4171,7 @@ async def terminal_runner(term):
             return await term.reply("`Perintah istilah tidak diizinkan di saluran!`")
 
         if not command:
-            return await term.reply(
-                "```Berikan perintah atau gunakan .help term untuk contoh```"
-            )
+            return await term.reply(usage, parse_mode=None, link_preview=None)
 
         if command in ("userbot.session", "config.env"):
             return await term.reply("`Itu term yang berbahaya! Tidak diperbolehkan!`")
@@ -4574,7 +4566,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta29</code>
+- version : <code>v3.1.1.11 beta30</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4585,7 +4577,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta29 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta30 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
