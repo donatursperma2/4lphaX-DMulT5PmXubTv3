@@ -4158,7 +4158,7 @@ async def terminal_runner(term):
         \n\n  •  **Perintah :** `.term` <cmd>\
         \n  •  **Function : **Jalankan perintah dan skript bash di server Anda"
     if term.sender_id in SMEX_USERS:
-        curruser = TERM_ALIAS
+        # curruser = TERM_ALIAS
         command = term.pattern_match.group(1)
         try:
             from os import geteuid
