@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta15
+# Version : v3.1.1.11 beta28
 
 
 import os
@@ -238,7 +238,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta15 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta28 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3860,6 +3860,387 @@ async def _(event):
             await event.client.send_read_acknowledge(conv.chat_id)
             await event.reply("test task 6 selesai!")
 
+# ========================[EVAL, EXEC, TERM]========================
+
+# Copyright (C) 2019 The Raphielscape Company LLC.
+#
+# Licensed under the Raphielscape Public License, Version 1.c (the "License");
+# you may not use this file except in compliance with the License.
+#
+
+
+
+import asyncio
+from os import remove
+from sys import executable
+
+from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, TERM_ALIAS
+from userbot.events import register
+
+# ======[EVAL]======
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+
+async def evaluate(query):
+    if query.sender_id in SMEX_USERS:
+        if query.is_channel and not query.is_group:
+            return await query.reply("`Eval isn't permitted on channels`")
+
+        if query.pattern_match.group(1):
+            expression = query.pattern_match.group(1)
+        else:
+            return await query.reply("`Berikan ekspresi untuk dievaluasi`")
+
+        if expression in ("userbot.session", "config.env"):
+            return await query.reply("`Itu evaluasi yang berbahaya! Tidak diperbolehkan!`")
+
+        try:
+            evaluation = str(eval(expression))
+            if evaluation:
+                if isinstance(evaluation, str):
+                    if len(evaluation) >= 4096:
+                        file = open("output.txt", "w+")
+                        file.write(evaluation)
+                        file.close()
+                        await query.client.send_file(
+                            query.chat_id,
+                            "output.txt",
+                            reply_to=query.id,
+                            caption="`Output terlalu besar, mengirim sebagai file`",
+                        )
+                        remove("output.txt")
+                        return
+                    await query.reply(
+                        "**Query : **\n`"
+                        f"{expression}"
+                        "`\n**Result : **\n`"
+                        f"{evaluation}"
+                        "`"
+                    )
+            else:
+                await query.reply(
+                    "**Query : **\n`"
+                    f"{expression}"
+                    "`\n**Result : **\n`Tidak Ada Hasil yang Dikembalikan/Salah`"
+                )
+        except Exception as err:
+            await query.reply(
+                "**Query : **\n`" f"{expression}" "`\n**Exception : **\n" f"`{err}`"
+            )
+        """    
+        if BOTLOG:
+            await query.client.send_message(
+                BOTLOG_CHATID, f"Kueri evaluasi {expression} sukses dieksekusi"
+            )
+        """
+
+# ======[EXEC]======
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.exec(?: |$)([\s\S]*)"))
+
+async def run(run_q):
+    if query.sender_id in SMEX_USERS:
+        code = run_q.pattern_match.group(1)
+
+        if run_q.is_channel and not run_q.is_group:
+            return await run_q.reply("`Exec tidak diizinkan di saluran!`")
+
+        if not code:
+            return await run_q.reply(
+                "```Setidaknya variabel diperlukan untuk"
+                "execute Menggunakan help exec untuk contoh```"
+            )
+
+        if code in ("userbot.session", "config.env"):
+            return await run_q.reply("`Itu exec yang berbahaya! Tidak diperbolehkan!`")
+
+        if len(code.splitlines()) <= 5:
+            codepre = code
+        else:
+            clines = code.splitlines()
+            codepre = (
+                clines[0] +
+                "\n" +
+                clines[1] +
+                "\n" +
+                clines[2] +
+                "\n" +
+                clines[3] +
+                "...")
+
+        command = "".join(f"\n {l}" for l in code.split("\n.strip()"))
+        process = await asyncio.create_subprocess_exec(
+            executable,
+            "-c",
+            command.strip(),
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+        )
+        stdout, stderr = await process.communicate()
+        result = str(stdout.decode().strip()) + str(stderr.decode().strip())
+
+        if result:
+            if len(result) > 4096:
+                file = open("output.txt", "w+")
+                file.write(result)
+                file.close()
+                await run_q.client.send_file(
+                    run_q.chat_id,
+                    "output.txt",
+                    reply_to=run_q.id,
+                    caption="`Output too large, sending as file`",
+                )
+                remove("output.txt")
+                return
+            await run_q.reply(
+                "**Query : **\n`" f"{codepre}" "`\n**Result : **\n`" f"{result}" "`"
+            )
+        else:
+            await run_q.reply(
+                "**Query : **\n`" f"{codepre}" "`\n**Result : **\n`Tidak Ada Hasil yang Dikembalikan/Salah`"
+            )
+        """      
+        if BOTLOG:
+            await run_q.client.send_message(
+                BOTLOG_CHATID, "kueri exec " + codepre + " sukses dieksekusi"
+            )
+        """  
+
+# ======[TERM]======
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.term(?: |$)(.*)"))
+
+async def terminal_runner(term):
+    if query.sender_id in SMEX_USERS:
+        curruser = TERM_ALIAS
+        command = term.pattern_match.group(1)
+        try:
+            from os import geteuid
+
+            uid = geteuid()
+        except ImportError:
+            uid = "Ini bukan kepala!"
+
+        if term.is_channel and not term.is_group:
+            return await term.reply("`Perintah istilah tidak diizinkan di saluran!`")
+
+        if not command:
+            return await term.reply(
+                "```Berikan perintah atau gunakan .help term untuk contoh```"
+            )
+
+        if command in ("userbot.session", "config.env"):
+            return await term.reply("`Itu term yang berbahaya! Tidak diperbolehkan!`")
+
+        process = await asyncio.create_subprocess_shell(
+            command, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
+        )
+        stdout, stderr = await process.communicate()
+        result = str(stdout.decode().strip()) + str(stderr.decode().strip())
+
+        if len(result) > 4096:
+            output = open("output.txt", "w+")
+            output.write(result)
+            output.close()
+            await term.client.send_file(
+                term.chat_id,
+                "output.txt",
+                reply_to=term.id,
+                caption="`Output terlalu besar, mengirim sebagai file`",
+            )
+            remove("output.txt")
+            return
+
+        if uid == 0:
+            await term.reply("`" f"{curruser} :~# {command}" f"\n{result}" "`")
+        else:
+            await term.reply("`" f"{curruser} :~$ {command}" f"\n{result}" "`")
+        """  
+        if BOTLOG:
+            await term.client.send_message(
+                BOTLOG_CHATID,
+                "Terminal Perintah " + command + " sukses dieksekusi"
+            )
+        """  
+
+"""  
+CMD_HELP.update(
+    {
+        "eval": "**✘ Plugin :** `Eval Teks`\
+        \n\n  •  **Perintah :** `.eval` 2 + 3\
+        \n  •  **Function : **Evaluasi ekspresi mini\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "exec": "**✘ Plugin :** `Exec Teks`\
+        \n\n  •  **Perintah :** `.exec` `print('hello')`\
+        \n  •  **Function : **Jalankan skript python kecil\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "term": "**✘ Plugin :** `Term Teks`\
+        \n\n  •  **Perintah :** `.term` <cmd>\
+        \n  •  **Function : **Jalankan perintah dan skript bash di server Anda\
+    "
+    }
+)
+"""  
+
+# ========================[EVAL, EXEC, TERM]========================
+# ==================================================================
 
 # =====[RESTART]=====  
 
@@ -4220,7 +4601,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta15</code>
+- version : <code>v3.1.1.11 beta28</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4231,7 +4612,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta15 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta28 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
