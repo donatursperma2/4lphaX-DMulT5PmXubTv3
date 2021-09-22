@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta36.6
+# Version : v3.1.1.12 beta1
 
 
 import os
@@ -241,7 +241,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta36.6 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.12 beta1 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -4446,6 +4446,142 @@ async def lst(event):
         else:
             await event.edit(msg)
 
+# ========================[COOL PROFILE PICS]========================
+
+# credits to the respective owner xD
+# imported by @heyworld
+import requests
+import re
+import random
+
+import urllib
+import os
+
+from telethon.tl import functions
+
+import asyncio
+
+
+from userbot.events import register
+from userbot import CMD_HELP
+
+COLLECTION_STRING = [
+    "epic-fantasy-wallpaper",
+    "castle-in-the-sky-wallpaper",
+    "fantasy-forest-wallpaper",
+    "fantasy-wallpaper-1080p",
+    "toothless-wallpaper-hd",
+    "japanese-art-wallpaper",
+    "star-wars-landscape-wallpaper",
+    "4k-sci-fi-wallpaper",
+    "minion-screensavers-wallpaper",
+    "zootopia-hd-wallpaper",
+    "gravity-falls-hd-wallpaper",
+    "cool-cartoon-wallpaper",
+    "disney-movie-wallpaper",
+    "cute-pokemon-wallpapers",
+    "4k-anime-wallpaper",
+    "balance-druid-wallpaper",
+    "harry-potter-wallpaper",
+    "funny-meme-wallpaper",
+    "minimalist-hd-wallpaper",
+    "cute-animal-wallpaper-backgrounds",
+    "3840-x-1080-wallpaper",
+    "wallpaper-outer-space",
+    "best-wallpapers-in-the-world",
+    "funny-desktop-backgrounds",
+    "funny-cats-wallpapers",
+    "cool-cat-wallpaper",
+    "doge-wallpaper-hd",
+    "ice-cream-cone-wallpaper",
+    "food-wallpaper-background",
+    "snowy-christmas-scenes-wallpaper",
+    "life-quotes-wallpaper"
+]
+
+
+async def animepp():
+
+    os.system("rm -rf donot.jpg")
+    rnd = random.randint(0, len(COLLECTION_STRING) - 1)
+    pack = COLLECTION_STRING[rnd]
+    pc = requests.get("http://getwallpapers.com/collection/" + pack).text
+    f = re.compile(r'/\w+/full.+.jpg')
+    f = f.findall(pc)
+    fy = "http://getwallpapers.com" + random.choice(f)
+    print(fy)
+
+    if not os.path.exists("f.ttf"):
+        urllib.request.urlretrieve(
+            "https://github.com/rebel6969/mym/raw/master/Rebel-robot-Regular.ttf", "f.ttf")
+    urllib.request.urlretrieve(fy, "donottouch.jpg")
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+
+# @register(outgoing=True, pattern=r"^\.pprandom(?: |$)(.*)")
+async def main(event):
+    if event.sender_id in SMEX_USERS:
+        await event.edit("`Sedang Mengubah Photo Profile Anda...`")
+
+        while True:
+            await animepp()
+            file = await event.client.upload_file("donottouch.jpg")
+
+            await event.client(functions.photos.UploadProfilePhotoRequest(file))
+            os.system("rm -rf donottouch.jpg")
+            await asyncio.sleep(3600)  # Edit this to your required needs
+
+
 
 # =====[RESTART]=====  
 
@@ -4812,18 +4948,16 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta36.6</code>
+- version : <code>v3.1.1.12 beta1</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
-
-    
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta36.6 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.12 beta1 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
