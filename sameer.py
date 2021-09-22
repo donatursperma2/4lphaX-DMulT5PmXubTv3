@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta1
+# Version : v3.1.1.12 beta2
 
 
 import os
@@ -241,7 +241,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.12 beta1 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.12 beta2 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -4517,56 +4517,56 @@ async def animepp():
     urllib.request.urlretrieve(fy, "donottouch.jpg")
 
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@tsi.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@tsf.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@teg.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@tnn.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@tth.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ton.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ttw.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ttr.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@tfr.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@tfv.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@tsx.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@tsv.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ttg.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ttn.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@fft.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ffo.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ftw.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ftr.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ffr.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@ffv.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@fsx.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@fsv.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@feg.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@fnn.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
-@fvt.on(events.NewMessage(incoming=True, pattern=r"\.pprandom(?: |$)(.*)"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.pprandom(?: |$)(.*)"))
 
 # @register(outgoing=True, pattern=r"^\.pprandom(?: |$)(.*)")
 async def main(event):
@@ -4943,12 +4943,13 @@ async def help(e):
 <code>.term</code>
 <code>.ls</code>
 <code>.setbio</code>
+<code>.pprandom</code>
 
 
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta1</code>
+- version : <code>v3.1.1.12 beta2</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4957,7 +4958,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.12 beta1 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.12 beta2 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
