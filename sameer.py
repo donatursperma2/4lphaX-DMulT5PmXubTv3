@@ -72,11 +72,7 @@ from telethon.utils import get_input_location
 import time
 
 
-from telethon import *
 
-api_id = (API_ID)
-api_hash = (API_HASH)
-bot = TelegramClient('sameer', api_id, api_hash).start
 
 
 
@@ -3789,7 +3785,11 @@ async def admem(event):
 
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
+from telethon import *
 
+api_id = (API_ID)
+api_hash = (API_HASH)
+bot = TelegramClient('sameer', api_id, api_hash).start
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"^\.limit(?: |$)(.*)"))
