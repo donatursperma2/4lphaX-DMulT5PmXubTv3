@@ -4197,10 +4197,8 @@ async def terminal_runner(term):
 
         if uid == 0:
             await term.reply("`" f"{curruser} :~# {command}" f"\n{result}" "`")
-        elif:
-            await term.reply("`" f"{curruser} :~$ {command}" f"\n{result}" "`")
         else:
-            await term.reply(usage, parse_mode=None, link_preview=None )
+            await term.reply("`" f"{curruser} :~$ {command}" f"\n{result}" "`")
 
 # ==================================================================
 
