@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.11 beta35
+# Version : v3.1.1.11 beta36
 
 
 import os
@@ -241,7 +241,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta35 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.11 beta36 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -3235,8 +3235,6 @@ async def set_profilepic(propic):
 
 # credit to geez, ultroid
 
-
-# @bot.on(geezbot_cmd(outgoing=True, pattern=r"delpfp"))
 async def remove_profilepic(delpfp):
     if delpfp.sender_id in SMEX_USERS:
         """ For .delpfp command, delete your current profile picture in Telegram. """
@@ -3322,6 +3320,70 @@ async def update_username(username):
             await username.reply(USERNAME_SUCCESS)
         except UsernameOccupiedError:
             await username.reply(USERNAME_TAKEN)
+
+
+# =======================[SET BIOGRAPH]=======================
+Credits to Paperplane, Geez
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.setbio (.*)"))
+
+async def set_biograph(setbio):
+    if setbio.sender_id in SMEX_USERS:
+        """ For .setbio command, set a new bio for your profile in Telegram. """
+        newbio = setbio.pattern_match.group(1)
+        await setbio.client(UpdateProfileRequest(about=newbio))
+        await setbio.edit(BIO_SUCCESS)
+
+
 
 
 # ==== COUNT CHATS
@@ -4202,6 +4264,171 @@ async def terminal_runner(term):
 
 # ==================================================================
 
+# =======================[LS = LIST DIRECTORY]=======================
+# credits to Cat, Geez
+
+import io
+import os
+import os.path
+import time
+from os.path import exists, isdir
+
+from userbot.events import register
+from userbot.utils import humanbytes
+
+MAX_MESSAGE_SIZE_LIMIT = 4095
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.ls ?(.*)"))
+
+
+async def lst(event):
+    if event.sender_id in SMEX_USERS:
+        if event.fwd_from:
+            return
+        cat = event.pattern_match.group(1)
+        path = cat if cat else os.getcwd()
+        if not exists(path):
+            await event.edit(
+                f"**There is no such directory or file with the name `{cat}` check again!**"
+            )
+            return
+        if isdir(path):
+            if cat:
+                msg = "**Folders and Files in `{}`** :\n\n".format(path)
+            else:
+                msg = "**Folders and Files in Current Directory** :\n\n"
+            lists = os.listdir(path)
+            files = ""
+            folders = ""
+            for contents in sorted(lists):
+                catpath = path + "/" + contents
+                if not isdir(catpath):
+                    size = os.stat(catpath).st_size
+                    if contents.endswith((".mp3", ".flac", ".wav", ".m4a")):
+                        files += "🎵 " + f"`{contents}`\n"
+                    if contents.endswith((".opus")):
+                        files += "🎙 " + f"`{contents}`\n"
+                    elif contents.endswith(
+                        (".mkv", ".mp4", ".webm", ".avi", ".mov", ".flv")
+                    ):
+                        files += "🎞 " + f"`{contents}`\n"
+                    elif contents.endswith(
+                        (".zip", ".tar", ".tar.gz", ".rar", ".7z", ".xz")
+                    ):
+                        files += "🗜 " + f"`{contents}`\n"
+                    elif contents.endswith(
+                        (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".ico", ".webp")
+                    ):
+                        files += "🖼 " + f"`{contents}`\n"
+                    elif contents.endswith((".exe", ".deb")):
+                        files += "⚙️ " + f"`{contents}`\n"
+                    elif contents.endswith((".iso", ".img")):
+                        files += "💿 " + f"`{contents}`\n"
+                    elif contents.endswith((".apk", ".xapk")):
+                        files += "📱 " + f"`{contents}`\n"
+                    elif contents.endswith((".py")):
+                        files += "🐍 " + f"`{contents}`\n"
+                    else:
+                        files += "📄 " + f"`{contents}`\n"
+                else:
+                    folders += f"📁 `{contents}`\n"
+            msg = msg + folders + files if files or folders else msg + "__empty path__"
+        else:
+            size = os.stat(path).st_size
+            msg = "**The details of given file** :\n\n"
+            if path.endswith((".mp3", ".flac", ".wav", ".m4a")):
+                mode = "🎵 "
+            if path.endswith((".opus")):
+                mode = "🎙 "
+            elif path.endswith((".mkv", ".mp4", ".webm", ".avi", ".mov", ".flv")):
+                mode = "🎞 "
+            elif path.endswith((".zip", ".tar", ".tar.gz", ".rar", ".7z", ".xz")):
+                mode = "🗜 "
+            elif path.endswith((".jpg", ".jpeg", ".png", ".gif", ".bmp", ".ico", ".webp")):
+                mode = "🖼 "
+            elif path.endswith((".exe", ".deb")):
+                mode = "⚙️ "
+            elif path.endswith((".iso", ".img")):
+                mode = "💿 "
+            elif path.endswith((".apk", ".xapk")):
+                mode = "📱 "
+            elif path.endswith((".py")):
+                mode = "🐍 "
+            else:
+                mode = "📄 "
+            time.ctime(os.path.getctime(path))
+            time2 = time.ctime(os.path.getmtime(path))
+            time3 = time.ctime(os.path.getatime(path))
+            msg += f"**Location :** `{path}`\n"
+            msg += f"**Icon :** `{mode}`\n"
+            msg += f"**Size :** `{humanbytes(size)}`\n"
+            msg += f"**Last Modified Time:** `{time2}`\n"
+            msg += f"**Last Accessed Time:** `{time3}`"
+
+        if len(msg) > MAX_MESSAGE_SIZE_LIMIT:
+            with io.BytesIO(str.encode(msg)) as out_file:
+                out_file.name = "ls.txt"
+                await event.client.send_file(
+                    event.chat_id,
+                    out_file,
+                    force_document=True,
+                    allow_cache=False,
+                    caption=path,
+                )
+                await event.delete()
+        else:
+            await event.edit(msg)
+
+
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -4560,11 +4787,14 @@ async def help(e):
 <code>.eval</code>
 <code>.exec</code>
 <code>.term</code>
+<code>.ls</code>
+<code>.setbio</code>
+
 
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.11 beta35</code>
+- version : <code>v3.1.1.11 beta36</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4575,7 +4805,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta35 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.11 beta36 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
