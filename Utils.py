@@ -1,3 +1,5 @@
+from Config import STRING
+
 # 'bot' variable
 if STRING:
     # pylint: disable=invalid-name
