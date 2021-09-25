@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta4
+# Version : v3.1.1.12 beta5
 
 
 import os
@@ -70,9 +70,10 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 from telethon.utils import get_input_location
 import time
-
-
-
+from telethon.tl.functions.photos import DeletePhotosRequest, GetUserPhotosRequest
+from telethon.tl.types import Channel, Chat, InputPhoto, User
+from telethon.errors.rpcerrorlist import UsernameOccupiedError
+from telethon.tl.functions.account import UpdateUsernameRequest
 
 
 
@@ -241,7 +242,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.12 beta4 IS STARTING... 💥💥\n")
+    print("\n💥💥 5PMX ubT v3.1.1.12 beta5 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -4583,6 +4584,7 @@ async def main(event):
 # "Shows usernames reserved by you. That is public groups or channels created by you"
 # credits to the vaders
 
+
 @idk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
@@ -5013,7 +5015,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta4</code>
+- version : <code>v3.1.1.12 beta5</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5022,7 +5024,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.12 beta4 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX A50X 5PMX ubT v3.1.1.12 beta5 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
