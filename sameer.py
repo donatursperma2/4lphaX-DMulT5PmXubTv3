@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta3
+# Version : v3.1.1.12 beta4
 
 
 import os
@@ -241,7 +241,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5P4MX UBOT v3.1.1.12 beta3 IS STARTING... 💥💥\n")
+    print("\n💥💥 5P4MX UBOT v3.1.1.12 beta4 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -4579,6 +4579,72 @@ async def main(event):
             await asyncio.sleep(3600)  # Edit this to your required needs
 
 
+# =======================[LS = LIST DIRECTORY]=======================
+# "Shows usernames reserved by you. That is public groups or channels created by you"
+# credits to the vaders
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
+
+# @bot.on(hell_cmd(pattern="myusernames$"))
+async def _(event):
+    if event.sender_id in SMEX_USERS:
+        if event.fwd_from:
+            return
+        result = await bot(GetAdminedPublicChannelsRequest())
+        output_str = ""
+        for channel_obj in result.chats:
+            output_str += f"- {channel_obj.title} @{channel_obj.username} \n"
+        await event.reply(output_str)
+
 
 # =====[RESTART]=====  
 
@@ -4941,12 +5007,13 @@ async def help(e):
 <code>.ls</code>
 <code>.setbio</code>
 <code>.pprandom</code>
+<code>.myusernames</code>
 
 
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta3</code>
+- version : <code>v3.1.1.12 beta4</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4955,7 +5022,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.12 beta3 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX A50X 5P4MX UBOT v3.1.1.12 beta4 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
