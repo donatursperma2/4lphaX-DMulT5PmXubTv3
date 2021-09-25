@@ -4584,9 +4584,9 @@ async def main(event):
 # "Shows usernames reserved by you. That is public groups or channels created by you"
 # credits to the vaders
 
-if STRING_SESSION:
+if STRING:
     # pylint: disable=invalid-name
-    bot = TelegramClient(StringSession(STRING_SESSION), API_KEY, API_HASH)
+    bot = TelegramClient(StringSession(STRING), API_KEY, API_HASH)
 else:
     # pylint: disable=invalid-name
     bot = TelegramClient("sameer", API_KEY, API_HASH)
