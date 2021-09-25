@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta5
+# Version : v3.1.1.12 beta6
 
 
 import os
@@ -39,7 +39,7 @@ from telethon.errors import (
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from Utils import RAID, RRAID, RABSEN
+from Utils import RAID, RRAID, RABSEN, bot
 import git
 import heroku3
 from asyncio import sleep
@@ -242,7 +242,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 5PMX ubT v3.1.1.12 beta5 IS STARTING... 💥💥\n")
+    print("\n💥💥 DLX50 5PMX ubT v3.1.1.12 beta6 IS STARTING... 💥💥\n")
     
     
     if smex:
@@ -4584,6 +4584,12 @@ async def main(event):
 # "Shows usernames reserved by you. That is public groups or channels created by you"
 # credits to the vaders
 
+if STRING_SESSION:
+    # pylint: disable=invalid-name
+    bot = TelegramClient(StringSession(STRING_SESSION), API_KEY, API_HASH)
+else:
+    # pylint: disable=invalid-name
+    bot = TelegramClient("sameer", API_KEY, API_HASH)
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"^\.myusernames$"))
@@ -5015,7 +5021,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta5</code>
+- version : <code>v3.1.1.12 beta6</code>
 - type \t\t: <code>DLX</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5024,7 +5030,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX A50X 5PMX ubT v3.1.1.12 beta5 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX50 5PMX ubT v3.1.1.12 beta6 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
