@@ -1,4 +1,5 @@
 from Config import STRING
+from telethon import TelegramClient
 
 # 'bot' variable
 if STRING:
@@ -6,7 +7,7 @@ if STRING:
     bot = TelegramClient(StringSession(STRING), API_KEY, API_HASH)
 else:
     # pylint: disable=invalid-name
-    bot = TelegramClient("userbot", API_KEY, API_HASH)
+    bot = TelegramClient("sameer", API_KEY, API_HASH)
 
 RAID = [
     "siapa, yang mengaku raja, tunjukkan kau punya muka",
