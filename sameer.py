@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8
+# Version : v3.1.1.12 beta8.5
 
 
 import os
@@ -242,7 +242,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8 IS STARTING... ⏳\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.5 IS STARTING... ⏳\n")
     
     
     if smex:
@@ -4588,7 +4588,7 @@ async def main(event):
 # ========================[SELF DESTRUCT MESSAGE]========================
 
 # credits to the respective owner xD
-# v2.0beta
+# v2.5
 from asyncio import sleep
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"^\.sd (\d*) (.*)"))
@@ -4643,24 +4643,23 @@ from asyncio import sleep
 @fvt.on(events.NewMessage(incoming=True, pattern=r"^\.sd (\d*) (.*)"))
 
 async def selfdestruct(destroy):
-    if event.sender_id in SMEX_USERS:
-        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
-            return await e.reply(usage, parse_mode=None, link_preview=None )
+    if destroy.sender_id in SMEX_USERS:
+        if destroy.text[0].isalpha() and destroy.text[0] in ("/", "#", "@", "!"):
+            return await destroy.reply(usage, parse_mode=None, link_preview=None )
         usage = """"header: To self destruct the message after paticualr time.,
         description: Suppose if you use .sdm 10 hi then message will be immediately send new message as hi and then after 10 sec this message will auto delete.`,
         usage: {tr}sdm [number] [text],
         examples: {tr}<code>sdm 10 hi</code>"""""
         cat = ("".join(destroy.text.split(maxsplit=1)[1:])).split(" ", 1)
-        message = cat[1]
-        ttl = int(cat[0])
-        await destroy.delete()
-        smsg = await destroy.client.send_message(destroy.chat_id, message)
-        await sleep(ttl)
-        await smsg.delete()
+        if len(cat) == 2:
+            message = cat[1]
+            ttl = int(cat[0])
+            await destroy.delete()
+            smsg = await destroy.client.send_message(destroy.chat_id, message)
+            await sleep(ttl)
+            await smsg.delete()
         else:
-            return await query.reply(usage, parse_mode='md', link_preview=None)
-
-
+            return await destroy.reply(usage, parse_mode='md', link_preview=None)
 
 
 
@@ -5032,7 +5031,7 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8</code>
+- version : <code>v3.1.1.12 beta8.5</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5041,7 +5040,7 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.5 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
