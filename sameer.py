@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta6
+# Version : v3.1.1.12 beta8
 
 
 import os
@@ -242,7 +242,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n💥💥 DLX50 5PMX ubT v3.1.1.12 beta7 IS STARTING... 💥💥\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8 IS STARTING... ⏳\n")
     
     
     if smex:
@@ -2739,58 +2739,62 @@ async def purgeme(delme):
         
 
         
-# ======[PINX!]======       
+# ======================== [PINX!]========================     
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@tsi.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@tsf.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@teg.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@tnn.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@tth.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ton.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ttw.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ttr.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@tfr.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@tfv.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@tsx.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@tsv.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ttg.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ttn.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@fft.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ffo.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ftw.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ftr.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ffr.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@ffv.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@fsx.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@fsv.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@feg.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@fnn.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
-@fvt.on(events.NewMessage(incoming=True, pattern=r"\.pinx$"))
+# var handler
+
+HNDLR = r"^[.!/]"
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
 
 async def ping(e):
     if e.sender_id in SMEX_USERS:
@@ -4580,6 +4584,79 @@ async def main(event):
             await asyncio.sleep(3600)  # Edit this to your required needs
 
 
+# ========================[SELF DESTRUCT MESSAGE]========================
+
+# credits to the respective owner xD
+from asyncio import sleep
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.selfdm (\d*) (.*)"))
+
+async def selfdestruct(destroy):
+    if event.sender_id in SMEX_USERS:
+        usage = """"header: To self destruct the message after paticualr time.,
+        description: Suppose if you use .sdm 10 hi then message will be immediately send new message as hi and then after 10 sec this message will auto delete.`,
+        usage: {tr}sdm [number] [text],
+        examples: {tr}<code>sdm 10 hi</code>"""""
+        cat = ("".join(destroy.text.split(maxsplit=1)[1:])).split(" ", 1)
+        message = cat[1]
+        ttl = int(cat[0])
+        await destroy.delete()
+        smsg = await destroy.client.send_message(destroy.chat_id, message)
+        await sleep(ttl)
+        await smsg.delete()
+    else:
+        return await query.reply(usage, parse_mode='md', link_preview=None)
+
+
 
 # =====[RESTART]=====  
 
@@ -4948,8 +5025,8 @@ async def help(e):
 For more help regarding usage \nof plugins type plugins name
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta7</code>
-- type \t\t: <code>DLX</code>
+- version : <code>v3.1.1.12 beta8</code>
+- type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
@@ -4957,12 +5034,12 @@ For more help regarding usage \nof plugins type plugins name
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX ubT v3.1.1.12 beta7 IS READY! 💥
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8 IS READY! 💥
 💥 Modded Code By @AlphaxProject Team 💥"""
 
 print(text)
 print("")
-print("🔥 SMEX! A50X 5P4MX UBOT STARTED SUCCESFULLY!. 🔥")
+print("🔥 SMEX! DLX50 5PMX UB STARTED SUCCESFULLY!. 🔥")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
