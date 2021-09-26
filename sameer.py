@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.6.1
+# Version : v3.1.1.12 beta8.6.2
 
 
 import os
@@ -242,7 +242,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.6.1 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.6.2 IS STARTING...\n")
     
     
     if smex:
@@ -2743,58 +2743,58 @@ async def purgeme(delme):
 # v3.0
 # var handler
 
-HNDLR = r"^[\.\!\/]"
+HNDLR = "."
 
-@idk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ydk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@wdk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@sdk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@adk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@bdk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@cdk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@edk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@hdk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ddk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@vkk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@kkk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@lkk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@mkk.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@sid.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@shy.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@aan.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ake.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@eel.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@khu.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@shi.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@yaa.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@dav.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@raj.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@put.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@tsi.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@tsf.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@teg.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@tnn.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@tth.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ton.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ttw.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ttr.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@tfr.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@tfv.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@tsx.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@tsv.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ttg.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ttn.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@fft.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ffo.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ftw.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ftr.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ffr.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@ffv.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@fsx.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@fsv.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@feg.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@fnn.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
-@fvt.on(events.NewMessage(incoming=True, pattern="{HNDLR}pinx$"))
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}pinx$"))
 
 
 async def ping(e):
@@ -3999,9 +3999,9 @@ from sys import executable
 
 async def evaluate(query):
     # eval
-    usage = """✘ Plugin :Eval Teks
-          •  Perintah : <code>.eval 2 + 3</code>
-          •  Function : Evaluasi ekspresi mini"""
+    usage = """✘ Plugin : Eval Teks
+•  Perintah : <code>.eval 2 + 3</code>
+•  Function : Evaluasi ekspresi mini"""
     if query.sender_id in SMEX_USERS:
         if query.is_channel and not query.is_group:
             return await query.reply("`Eval isn't permitted on channels`")
@@ -4105,8 +4105,8 @@ async def evaluate(query):
 async def run(run_q):
     # exec
     usage = """✘ Plugin : Exec Teks
-          •  Perintah : <code>.exec print('hello')</code>
-          •  Function : Jalankan skript python kecil"""
+•  Perintah : <code>.exec print('hello')</code>
+•  Function : Jalankan skript python kecil"""
     if run_q.sender_id in SMEX_USERS:
         code = run_q.pattern_match.group(1)
 
@@ -4158,7 +4158,7 @@ async def run(run_q):
                 remove("output.txt")
                 return
             await run_q.reply(
-                "**Query : **\n`" f"{codepre}" "`\n\n**Result : **\n\n`" f"{result}" "`"
+                "**Query : **\n`" f"{codepre}" "`\n\n**Result : **\n`" f"{result}" "`"
             )
         else:
             await run_q.reply(
@@ -4223,8 +4223,8 @@ async def run(run_q):
 async def terminal_runner(term):
     # term
     usage = """✘ Plugin : Term Teks
-          •  Perintah : <code>.term <cmd></code>
-          •  Function : Jalankan perintah dan skript bash di server Anda"""
+•  Perintah : <code>.term <cmd></code>
+•  Function : Jalankan perintah dan skript bash di server Anda"""
     if term.sender_id in SMEX_USERS:
         # curruser = TERM_ALIAS
         command = term.pattern_match.group(1)
@@ -5030,7 +5030,7 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.6.1</code>
+- version : <code>v3.1.1.12 beta8.6.2</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5039,7 +5039,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.6.1 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.6.2 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
