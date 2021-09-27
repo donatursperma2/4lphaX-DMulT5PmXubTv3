@@ -48,7 +48,7 @@
 * [Alpha-XProject](https://t.me/AlphaXProject) (Team-X)
 * [Yukki Team](https://github.com/YukkiBot/YukkiMultiSpamBot)
 * [Deadly Team](https://github.com/sameerpanthi/DEADLY-SPAM-BOT)
-* [RDX Team](https://github.com/unknownforall1/RDX-MULTI-SPAM-BOT) (RDX Team)
+* [RDX Team](https://github.com/unknownforall1/RDX-MULTI-SPAM-BOT)
 * [Geez Team](https://github.com/vckyou)
 * [Ultroid Team](https://github.com)
 * [Cat Team](https://github.com)
