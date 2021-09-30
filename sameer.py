@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.6.5
+# Version : v3.1.1.12 beta8.7
 
 
 import os
@@ -19,7 +19,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import HNDLR, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
+from Config import HNDLR, REPO_LINK, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
 import asyncio
 import telethon.utils
 
@@ -242,7 +242,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.6.5 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.7 IS STARTING...\n")
     
     
     if smex:
@@ -4619,6 +4619,126 @@ async def selfdestruct(destroy):
 
 
 
+# ======================== [REPO!]========================   
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}repo$"))
+
+async def repo(e):        
+    if e.sender_id in SMEX_USERS:
+        text = "wait.."
+        eventx = await e.reply(text, parse_mode=None, link_preview=None )
+        await event.edit(f"Link repo : `[⚡️ ALPHA-XPROJECT ⚡️]((REPO_LINK))`")
+
+# ======================== [VSUDO!]========================   
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}vsudo$"))
+
+async def vsudo(e):        
+    if e.sender_id in SMEX_USERS:
+        text = "wait.."
+        eventx = await e.reply(text, parse_mode=None, link_preview=None )
+        await event.edit(f"ID sudo users : `(SUDO)`")
+
+
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -4981,12 +5101,14 @@ async def help(e):
 <code>.setbio</code>
 <code>.pprandom</code> | <code><i>(bug)</i></code>
 <code>.sd</code>
+<code>.repo</code>
+<code>.vsudo</code>
 
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.6.5</code>
+- version : <code>v3.1.1.12 beta8.7</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -4995,7 +5117,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.6.5 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.7 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
