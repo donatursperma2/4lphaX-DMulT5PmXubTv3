@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.7.5
+# Version : v3.1.1.12 beta8.8.0
 
 
 import os
@@ -74,6 +74,7 @@ from telethon.tl.functions.photos import DeletePhotosRequest, GetUserPhotosReque
 from telethon.tl.types import Channel, Chat, InputPhoto, User
 from telethon.errors.rpcerrorlist import UsernameOccupiedError
 from telethon.tl.functions.account import UpdateUsernameRequest
+from telethon.errors import rpcbaseerrors
 
 
 
@@ -242,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.7.5 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 IS STARTING...\n")
     
     
     if smex:
@@ -4850,6 +4851,83 @@ async def send(event):
         await event.edit(f"`Mengirim pesan ini ke` `{chat.title}``!`")
 
 
+# =======================[!DEL]=======================
+# credits: geez & man ubot
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}del$"))
+
+# @bot.on(geezbot_cmd(outgoing=True, pattern=r"del$"))
+async def delete_it(delme):
+    if delme.sender_id in SMEX_USERS:
+        msg_src = await delme.get_reply_message()
+        if delme.reply_to_msg_id:
+            try:
+                await msg_src.delete()
+                await delme.delete()
+                """
+                if BOTLOG:
+                    await delme.client.send_message(
+                        BOTLOG_CHATID, "Deletion of message was successful")
+                """
+            except rpcbaseerrors.BadRequestError:
+                smsg = await delme.reply("Well, I can't delete a message")
+                await sleep(2)
+                await smsg.delete()
+                """
+                if BOTLOG:
+                    await delme.client.send_message(
+                        BOTLOG_CHATID, "Well, I can't delete a message")
+                """
+
 
 # =====[RESTART]=====  
 
@@ -5216,11 +5294,12 @@ async def help(e):
 <code>.repo</code>
 <code>.vsudo</code>
 <code>.send</code>
+<code>.del</code>
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.7.5</code>
+- version : <code>v3.1.1.12 beta8.8.0</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5229,7 +5308,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.7.5 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
