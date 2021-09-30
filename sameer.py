@@ -3922,7 +3922,7 @@ async def _(event):
                 )
                 await conv.send_message("/start")
                 response = await response
-                await bot.send_read_acknowledge(conv.chat_id)
+                await botme.send_read_acknowledge(conv.chat_id)
             except YouBlockedUserError:
                 await event.edit("`Please unblock @SpamBot and try again!`")
                 return
