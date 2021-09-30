@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.7.4
+# Version : v3.1.1.12 beta8.7.5
 
 
 import os
@@ -242,7 +242,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.7.4 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.7.5 IS STARTING...\n")
     
     
     if smex:
@@ -4777,6 +4777,79 @@ async def vsudo(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         await event.edit(f"ID sudo users : `{SUDO}`")
 
+# ========================[SEND TO BY REPLY]========================
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}send (.*)"))
+
+
+async def send(event):
+    if event.sender_id in SMEX_USERS:
+        await event.reply("`Sedang Memproses...`")
+
+        if not event.is_reply:
+            return await event.edit("`Mohon Balas ke pesan!`")
+
+        chat = event.pattern_match.group(1)
+        try:
+            chat = await event.client.get_entity(chat)
+        except (TypeError, ValueError):
+            return await event.edit("`Link yang diberikan tidak valid!`")
+
+        message = await event.get_reply_message()
+
+        await event.client.send_message(entity=chat, message=message)
+        await event.edit(f"`Mengirim pesan ini ke` `{chat.title}``!`")
+
+
 
 # =====[RESTART]=====  
 
@@ -5142,12 +5215,12 @@ async def help(e):
 <code>.sd</code>
 <code>.repo</code>
 <code>.vsudo</code>
-
+<code>.send</code>
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.7.4</code>
+- version : <code>v3.1.1.12 beta8.7.5</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5156,7 +5229,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.7.4 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.7.5 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
