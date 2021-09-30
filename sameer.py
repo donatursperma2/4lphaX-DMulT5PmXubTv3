@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.7.3
+# Version : v3.1.1.12 beta8.7.4
 
 
 import os
@@ -242,7 +242,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.7.3 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.7.4 IS STARTING...\n")
     
     
     if smex:
@@ -1943,14 +1943,61 @@ USTAD_PIC = "https://telegra.ph/file/36eb117322594ce579f66.jpg"
 @fnn.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @fvt.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 
-
-
 async def start(event):
     if event.sender_id in SMEX_USERS:
-        # eventx = await event.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
-        # await event.reply(eventx)
-        await event.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
-       
+     await idk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ydk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await wdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await hdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await sdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await adk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await bdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await cdk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await edk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ddk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await vkk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await kkk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await lkk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await mkk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await sid.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await shy.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await aan.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ake.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await eel.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await khu.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await shi.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await yaa.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await dav.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await raj.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await put.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )   
+     await tsi.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n")
+     await tsf.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await teg.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tnn.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tth.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ton.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ttw.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ttr.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tfr.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tfv.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tsx.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await tsv.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ttg.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ttn.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fft.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ffo.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ftw.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ftr.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ffr.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await ffv.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fsx.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fsv.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await feg.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fnn.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+     await fvt.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
+
+
+
 
 # ======[SPAM]======    
         
@@ -4600,12 +4647,6 @@ from asyncio import sleep
 
 async def selfdestruct(destroy):
     if destroy.sender_id in SMEX_USERS:
-        if destroy.text[0].isalpha() and destroy.text[0] in ("/", "#", "@", "!"):
-            return await destroy.reply(usage, parse_mode=None, link_preview=None )
-        usage = """"header: To self destruct the message after paticualr time.,
-        description: Suppose if you use .sdm 10 hi then message will be immediately send new message as hi and then after 10 sec this message will auto delete.`,
-        usage: {tr}sdm [number] [text],
-        examples: {tr}<code>sdm 10 hi</code>"""""
         cat = ("".join(destroy.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(cat) == 2:
             message = cat[1]
@@ -4614,8 +4655,6 @@ async def selfdestruct(destroy):
             smsg = await destroy.client.send_message(destroy.chat_id, message)
             await sleep(ttl)
             await smsg.delete()
-        else:
-            return await destroy.reply(usage, parse_mode='md', link_preview=None)
 
 
 
@@ -4676,7 +4715,7 @@ async def repo(e):
     if e.sender_id in SMEX_USERS:
         text = "wait.."
         event = await e.reply(text, parse_mode=None, link_preview=None )
-        await event.edit(f"Link repo : `[⚡️ ALPHA-XPROJECT ⚡️]({REPO_LINK})`")
+        await event.edit(f"Link repo : [⚡️ ALPHA-XPROJECT ⚡️]({REPO_LINK})")
 
 # ======================== [VSUDO!]========================   
 
@@ -5108,7 +5147,7 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.7.3</code>
+- version : <code>v3.1.1.12 beta8.7.4</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5117,7 +5156,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.7.3 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.7.4 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
