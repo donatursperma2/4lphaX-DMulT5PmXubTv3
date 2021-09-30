@@ -4675,7 +4675,7 @@ async def selfdestruct(destroy):
 async def repo(e):        
     if e.sender_id in SMEX_USERS:
         text = "wait.."
-        eventx = await e.reply(text, parse_mode=None, link_preview=None )
+        event = await e.reply(text, parse_mode=None, link_preview=None )
         await event.edit(f"Link repo : `[⚡️ ALPHA-XPROJECT ⚡️]((REPO_LINK))`")
 
 # ======================== [VSUDO!]========================   
@@ -4735,7 +4735,7 @@ async def repo(e):
 async def vsudo(e):        
     if e.sender_id in SMEX_USERS:
         text = "wait.."
-        eventx = await e.reply(text, parse_mode=None, link_preview=None )
+        event = await e.reply(text, parse_mode=None, link_preview=None )
         await event.edit(f"ID sudo users : `(SUDO)`")
 
 
