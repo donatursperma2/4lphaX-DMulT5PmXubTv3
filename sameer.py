@@ -1943,7 +1943,7 @@ USTAD_PIC = "https://telegra.ph/file/36eb117322594ce579f66.jpg"
 @fnn.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @fvt.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 
-"""
+varx = """
 async def start(event):
     if event.sender_id in SMEX_USERS:
      await idk.send_file(event.chat_id, USTAD_PIC, caption="╭┈─╼━━━━━━━━━━━━━╾─┈ \n│ 𝐇𝐄𝐋𝐋𝐎 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑 🔥\n│ 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 🔥\n│ 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 𝐇𝐀𝐓𝐄𝐑𝐒 🔥\n├┈─╼━━━━━━━━━━━━━╾─┈  \n│ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : \n│ ⚡️ 𝐀𝐋𝐏𝐇𝐀-𝐗𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ͭ ͤ ͣ ͫ\n╰┈─────────────┈\n" )
