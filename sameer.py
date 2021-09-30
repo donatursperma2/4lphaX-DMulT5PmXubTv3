@@ -3915,14 +3915,14 @@ bot = TelegramClient('sameer', api_id, api_hash)
 async def _(event):
     if event.sender_id in SMEX_USERS:
         await event.edit("`Please wait..`")
-        async with botme.conversation("@SpamBot") as conv:
+        async with botid.conversation("@SpamBot") as conv:
             try:
                 response = conv.wait_event(
                     events.NewMessage(incoming=True, from_users=178220800)
                 )
                 await conv.send_message("/start")
                 response = await response
-                await botme.send_read_acknowledge(conv.chat_id)
+                await botid.send_read_acknowledge(conv.chat_id)
             except YouBlockedUserError:
                 await event.edit("`Please unblock @SpamBot and try again!`")
                 return
