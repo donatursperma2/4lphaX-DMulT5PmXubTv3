@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.6.4
+# Version : v3.1.1.12 beta8.6.5
 
 
 import os
@@ -242,7 +242,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.6.4 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.6.5 IS STARTING...\n")
     
     
     if smex:
@@ -3915,7 +3915,7 @@ bot = TelegramClient('sameer', api_id, api_hash)
 async def _(event):
     if event.sender_id in SMEX_USERS:
         await event.edit("`Please wait..`")
-        async with bot.conversation("@SpamBot") as conv:
+        async with botme.conversation("@SpamBot") as conv:
             try:
                 response = conv.wait_event(
                     events.NewMessage(incoming=True, from_users=178220800)
@@ -5030,7 +5030,7 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.6.4</code>
+- version : <code>v3.1.1.12 beta8.6.5</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5039,12 +5039,12 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.6.4 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.6.5 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
 print("")
-print("🔥 SMEX! DLX50 5PMX UB STARTED SUCCESFULLY!. 🔥")
+print("🔥 SMEX! UB STARTED SUCCESFULLY!.")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
