@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.8.0
+# Version : v3.1.1.12 beta8.9.0
 
 
 import os
@@ -19,7 +19,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import HNDLR, REPO_LINK, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
+from Config import HNDLR, REPO_LINK, ALIVE_NAME, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
 import asyncio
 import telethon.utils
 
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.9.0 IS STARTING...\n")
     
     
     if smex:
@@ -4716,7 +4716,7 @@ async def repo(e):
     if e.sender_id in SMEX_USERS:
         text = "wait.."
         event = await e.reply(text, parse_mode=None, link_preview=None )
-        await event.edit(f"Link repo : [⚡️ ALPHA-XPROJECT ⚡️]({REPO_LINK})")
+        await event.edit(f"Link repo : [{ALIVE_NAME}]({REPO_LINK})")
 
 # ======================== [VSUDO!]========================   
 
@@ -4927,6 +4927,112 @@ async def delete_it(delme):
                     await delme.client.send_message(
                         BOTLOG_CHATID, "Well, I can't delete a message")
                 """
+
+# ======================== [INVITE]========================  
+
+# credit king userbot
+from asyncio import sleep
+# from userbot import ALIVE_NAME, BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
+from datetime import datetime
+from telethon import functions
+from emoji import emojize
+from math import sqrt
+from telethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest
+from telethon.tl.functions.messages import GetFullChatRequest, GetHistoryRequest
+from telethon.tl.types import MessageActionChannelMigrateFrom, ChannelParticipantsAdmins
+from telethon.errors import (
+    ChannelInvalidError,
+    ChannelPrivateError,
+    ChannelPublicGroupNaError)
+from telethon.utils import get_input_location
+from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantsBots
+# from userbot.events import register
+# from userbot.modules.admin import get_user_from_event
+from telethon.utils import pack_bot_file_id
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}invite(?: |$)(.*)"))
+
+# @register(outgoing=True, pattern="^.invite(?: |$)(.*)")
+async def _(event):
+	if event.sender_id in SMEX_USERS:
+	    if event.fwd_from:
+	        return
+	    to_add_users = event.pattern_match.group(1)
+	    if event.is_private:
+	        await event.reply("`.invite` Pengguna Ke Obrolan, Tidak Ke Pesan Pribadi")
+	    else:
+	        if not event.is_channel and event.is_group:
+	            # https://lonamiwebs.github.io/Telethon/methods/messages/add_chat_user.html
+	            for user_id in to_add_users.split(" "):
+	                try:
+	                    await event.client(functions.messages.AddChatUserRequest(
+	                        chat_id=event.chat_id,
+	                        user_id=user_id,
+	                        fwd_limit=1000000
+	                    ))
+	                except Exception as e:
+	                    await event.reply(str(e))
+	            await event.reply("`Sukses Menambahkan Pengguna Ke Obrolan`")
+	        else:
+	            # https://lonamiwebs.github.io/Telethon/methods/channels/invite_to_channel.html
+	            for user_id in to_add_users.split(" "):
+	                try:
+	                    await event.client(functions.channels.InviteToChannelRequest(
+	                        channel=event.chat_id,
+	                        users=[user_id]
+	                    ))
+	                except Exception as e:
+	                    await event.reply(str(e))
+	            await event.reply("`Sukses Menambahkan Pengguna Ke Obrolan`")
 
 
 # =====[RESTART]=====  
@@ -5295,11 +5401,12 @@ async def help(e):
 <code>.vsudo</code>
 <code>.send</code>
 <code>.del</code>
+<code>.invite</code>
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.8.0</code>
+- version : <code>v3.1.1.12 beta8.9.0</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5308,7 +5415,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.9.0 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
