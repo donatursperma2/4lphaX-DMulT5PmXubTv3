@@ -34,12 +34,17 @@
         "required": true
       },
       "ALIVE_NAME": {
-        "description": "Sudo Users Id",
+        "description": "Alive Name of Userbot",
         "value": "",
         "required": false
       },
       "HNDLR": {
-        "description": "Sudo Users Id",
+        "description": "Userbot Handler",
+        "value": "",
+        "required": false
+      },
+      "REPO_LINK": {
+        "description": "Repo Link of Userbot",
         "value": "",
         "required": false
       }
