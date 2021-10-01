@@ -4935,7 +4935,7 @@ from asyncio import sleep
 # from userbot import ALIVE_NAME, BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from datetime import datetime
 from telethon import functions
-from emoji import emojize
+# from emoji import emojize
 from math import sqrt
 from telethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest
 from telethon.tl.functions.messages import GetFullChatRequest, GetHistoryRequest
