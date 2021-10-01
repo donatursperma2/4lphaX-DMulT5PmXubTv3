@@ -32,6 +32,16 @@
         "description": "Sudo Users Id",
         "value": "",
         "required": true
+      },
+      "ALIVE_NAME": {
+        "description": "Sudo Users Id",
+        "value": "",
+        "required": false
+      },
+      "HNDLR": {
+        "description": "Sudo Users Id",
+        "value": "",
+        "required": false
       }
   },
   "addons": [{
