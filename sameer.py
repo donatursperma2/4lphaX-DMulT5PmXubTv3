@@ -5166,7 +5166,7 @@ async def gcast(event):
 
 # @register(outgoing=True, pattern=r"^\.reserved$")
 async def mine(event):
-	if e.sender_id in SMEX_USERS:
+	if event.sender_id in SMEX_USERS:
 	    """For .reserved command, get a list of your reserved usernames."""
 	    result = await event.client(GetAdminedPublicChannelsRequest())
 	    output_str = "".join(
