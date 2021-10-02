@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.9.0
+# Version : v3.1.1.13 beta0.0.1
 
 
 import os
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.9.0 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.0.1 IS STARTING...\n")
     
     
     if smex:
@@ -5035,6 +5035,81 @@ async def _(event):
 	            await event.reply("`Sukses Menambahkan Pengguna Ke Obrolan`")
 
 
+# =======================[!GCAST]=======================
+# credits: geez 
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+
+# @register(outgoing=True, pattern="^.gcast (.*)")
+async def gcast(event):
+	if event.sender_id in SMEX_USERS:
+	    xx = event.pattern_match.group(1)
+	    if not xx:
+	        return await event.reply("`Mohon Berikan Sebuah Pesan`")
+	    tt = event.text
+	    msg = tt[6:]
+	    kk = await event.reply("`Sedang Mengirim Pesan Secara Global... 📢`")
+	    er = 0
+	    done = 0
+	    async for x in bot.iter_dialogs():
+	        if x.is_group:
+	            chat = x.id
+	            try:
+	                done += 1
+	                await client.send_message(chat, msg)
+	            except BaseException:
+	                er += 1
+	    await kk.edit(f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
+
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -5402,11 +5477,12 @@ async def help(e):
 <code>.send</code>
 <code>.del</code>
 <code>.invite</code>
+<code>.gcast</code>
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.9.0</code>
+- version : <code>v3.1.1.13 beta0.0.1</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5415,7 +5491,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.9.0 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.0.1 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
