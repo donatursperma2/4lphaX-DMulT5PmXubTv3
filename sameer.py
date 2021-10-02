@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.13 beta0.0.3
+# Version : v3.1.1.13 beta0.1.0
 
 
 import os
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.0.3 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.1.0 IS STARTING...\n")
     
     
     if smex:
@@ -5110,6 +5110,72 @@ async def gcast(event):
 	                er += 1
 	    await kk.edit(f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
 
+
+# ======================== [RESERVED]========================  
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}reserved$"))
+
+# @register(outgoing=True, pattern=r"^\.reserved$")
+async def mine(event):
+	if e.sender_id in SMEX_USERS:
+	    """For .reserved command, get a list of your reserved usernames."""
+	    result = await event.client(GetAdminedPublicChannelsRequest())
+	    output_str = "".join(
+	        f"{channel_obj.title}\n@{channel_obj.username}\n\n"
+	        for channel_obj in result.chats
+	    )
+
+	    await event.reply(output_str)
+
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -5478,11 +5544,12 @@ async def help(e):
 <code>.del</code>
 <code>.invite</code>
 <code>.gcast</code>
+<code>.reserved</code>
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.13 beta0.0.3</code>
+- version : <code>v3.1.1.13 beta0.1.0</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5491,7 +5558,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.0.3 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.1.0 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
