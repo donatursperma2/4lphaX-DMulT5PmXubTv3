@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.13 beta0.1.0
+# Version : v3.1.1.13 beta0.1.1
 
 
 import os
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.1.0 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.1.1 IS STARTING...\n")
     
     
     if smex:
@@ -4578,7 +4578,7 @@ async def animepp():
 # @register(outgoing=True, pattern=r"^\.pprandom(?: |$)(.*)")
 async def main(event):
     if event.sender_id in SMEX_USERS:
-        await event.edit("`Sedang Mengubah Photo Profile Anda...`")
+        await event.reply("`Sedang Mengubah Photo Profile Anda...`")
 
         while True:
             await animepp()
@@ -5549,7 +5549,7 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.13 beta0.1.0</code>
+- version : <code>v3.1.1.13 beta0.1.1</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5558,7 +5558,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.1.0 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.1.1 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
