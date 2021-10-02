@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.13 beta0.0.1
+# Version : v3.1.1.13 beta0.0.2
 
 
 import os
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.0.1 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.0.2 IS STARTING...\n")
     
     
     if smex:
@@ -5100,12 +5100,12 @@ async def gcast(event):
 	    kk = await event.reply("`Sedang Mengirim Pesan Secara Global... 📢`")
 	    er = 0
 	    done = 0
-	    async for x in bot.iter_dialogs():
+	    async for x in event.client.iter_dialogs():
 	        if x.is_group:
 	            chat = x.id
 	            try:
 	                done += 1
-	                await client.send_message(chat, msg)
+	                await event.client.send_message(chat, msg)
 	            except BaseException:
 	                er += 1
 	    await kk.edit(f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
@@ -5482,7 +5482,7 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.13 beta0.0.1</code>
+- version : <code>v3.1.1.13 beta0.0.2</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5491,7 +5491,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.0.1 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.0.2 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
