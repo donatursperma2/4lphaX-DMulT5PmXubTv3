@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.13 beta0.0.2
+# Version : v3.1.1.13 beta0.0.3
 
 
 import os
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.0.2 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.0.3 IS STARTING...\n")
     
     
     if smex:
@@ -3919,14 +3919,14 @@ bot = TelegramClient('sameer', api_id, api_hash)
 async def _(event):
     if event.sender_id in SMEX_USERS:
         await event.reply("`Please wait..`")
-        async with idk.conversation("@SpamBot") as conv:
+        async with event.client.conversation("@SpamBot") as conv:
             try:
                 response = conv.wait_event(
                     events.NewMessage(incoming=True, from_users=178220800)
                 )
                 await conv.send_message("/start")
                 response = await response
-                await idk.send_read_acknowledge(conv.chat_id)
+                await event.client.send_read_acknowledge(conv.chat_id)
             except YouBlockedUserError:
                 await event.edit("`Please unblock @SpamBot and try again!`")
                 return
@@ -5482,7 +5482,7 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.13 beta0.0.2</code>
+- version : <code>v3.1.1.13 beta0.0.3</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5491,7 +5491,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.0.2 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.0.3 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
