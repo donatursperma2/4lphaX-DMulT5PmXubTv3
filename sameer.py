@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.13 beta0.1.1
+# Version : v3.1.1.14 beta0.0.1
 
 
 import os
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.13 beta0.1.1 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.14 beta0.0.1 IS STARTING...\n")
     
     
     if smex:
@@ -5036,68 +5036,71 @@ async def _(event):
 
 
 # =======================[!GCAST]=======================
-# credits: geez 
+# credits: geez & man ub
 
-@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
-@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast (.*)"))
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gcast(?: |$)(.*)"))
 
-# @register(outgoing=True, pattern="^.gcast (.*)")
+# @register(outgoing=True, pattern=r"^\.gcast(?: |$)(.*)")
 async def gcast(event):
 	if event.sender_id in SMEX_USERS:
 	    xx = event.pattern_match.group(1)
-	    if not xx:
-	        return await event.reply("`Mohon Berikan Sebuah Pesan`")
-	    tt = event.text
-	    msg = tt[6:]
-	    kk = await event.reply("`Sedang Mengirim Pesan Secara Global... 📢`")
+	    if xx:
+	        msg = xx
+	    elif event.is_reply:
+	        msg = await event.get_reply_message()
+	    else:
+	        await event.reply("**Berikan Sebuah Pesan atau Reply**")
+	        return
+	    kk = await event.reply("`Globally Broadcasting Msg...📢`")
 	    er = 0
 	    done = 0
 	    async for x in event.client.iter_dialogs():
@@ -5108,7 +5111,90 @@ async def gcast(event):
 	                await event.client.send_message(chat, msg)
 	            except BaseException:
 	                er += 1
-	    await kk.edit(f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
+	    await kk.edit(
+	        f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**"
+	    )
+
+
+# =======================[!GUCAST]=======================
+# credits: geez & man ub
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+
+# @register(outgoing=True, pattern=r"^\.gucast(?: |$)(.*)")
+async def gucast(event):
+	if event.sender_id in SMEX_USERS:
+	    xx = event.pattern_match.group(1)
+	    if xx:
+	        msg = xx
+	    elif event.is_reply:
+	        msg = await event.get_reply_message()
+	    else:
+	        await event.reply("**Berikan Sebuah Pesan atau Reply**")
+	        return
+	    kk = await event.reply("`Globally Broadcasting Msg to Users...`")
+	    er = 0
+	    done = 0
+	    async for x in event.client.iter_dialogs():
+	        if x.is_user and not x.entity.bot:
+	            chat = x.id
+	            try:
+	                done += 1
+	                await event.client.send_message(chat, msg)
+	            except BaseException:
+	                er += 1
+	    await kk.edit(
+	        f"**Berhasil Mengirim Pesan Ke** `{done}` **chats, Gagal Mengirim Pesan Ke** `{er}` **chats**"
+	    )
 
 
 # ======================== [RESERVED]========================  
@@ -5175,6 +5261,175 @@ async def mine(event):
 	    )
 
 	    await event.reply(output_str)
+
+
+# ========================[SENDBOT]========================
+# credit man ub
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+
+# @register(outgoing=True, pattern=r"^\.sendbot (.*)")
+async def sendbot(event):
+	if event.sender_id in SMEX_USERS:
+	    if event.fwd_from:
+	        return
+	    chat = str(event.pattern_match.group(1).split(" ", 1)[0])
+	    link = str(event.pattern_match.group(1).split(" ", 1)[1])
+	    if not link:
+	        return await event.reply("**Maaf BOT Tidak Merespond.**")
+
+	    botid = await event.client.get_entity(chat)
+	    await event.reply("`Processing...`")
+	    async with event.client.conversation(chat) as conv:
+	        try:
+	            response = conv.wait_event(
+	                events.NewMessage(incoming=True, from_users=botid)
+	            )
+	            msg = await event.client.send_message(chat, link)
+	            response = await response
+	            await event.client.send_read_acknowledge(conv.chat_id)
+	        except YouBlockedUserError:
+	            await event.reply(f"**Unblock Terlebih dahulu {chat} dan coba lagi.**")
+	            return
+	        except BaseException:
+	            await event.edit("**Tidak dapat menemukan bot itu 🥺**")
+	            await sleep(2)
+	            return await event.delete()
+
+	        await event.edit(f"**Pesan Terkirim:** `{link}`\n**Kepada: {chat}**")
+	        await event.client.send_message(event.chat_id, response.message)
+	        await event.client.send_read_acknowledge(event.chat_id)
+	        await event.client.delete_messages(conv.chat_id, [msg.id, response.id])
+
+
+# =======================[!GUCAST]=======================
+# credits: geez & man ub
+
+import os
+from asyncio import sleep
+
+from telethon import events
+from telethon.errors.rpcerrorlist import YouBlockedUserError
+from telethon.tl.functions.messages import ExportChatInviteRequest
+from telethon.tl.types import ChannelParticipantsKicked
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+
+# @register(outgoing=True, pattern=r"^\.tmsg (.*)")
+async def _(event):
+	if event.sender_id in SMEX_USERS:
+	    k = await event.get_reply_message()
+	    if k:
+	        a = await event.client.get_messages(event.chat_id, 0, from_user=k.sender_id)
+	        return await event.reply(
+	            f"**Total ada** `{a.total}` **Chat Yang dikirim Oleh** {u} **di Grup Chat ini**"
+	        )
+	    u = event.pattern_match.group(1)
+	    if not u:
+	        u = "me"
+	    a = await event.client.get_messages(event.chat_id, 0, from_user=u)
+	    await event.edit(
+	        f"**Total ada `{a.total}` Chat Yang dikirim Oleh saya di Grup Chat ini**"
+	    )
+
 
 # =====[RESTART]=====  
 
@@ -5543,22 +5798,26 @@ async def help(e):
 <code>.send</code>
 <code>.del</code>
 <code>.invite</code>
+<code>.gucast</code>
 <code>.gcast</code>
 <code>.reserved</code>
+<code>.sendbot</code>
+<code>.tmsg</code>
+
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.13 beta0.1.1</code>
-- type \t\t: <code>DLX50 UB</code>
-- project : <code>@AlphaXProject</code>"""
+- Version : <code>v3.1.1.14 beta0.0.1</code>
+- Type \t\t\t: <code>DLX50 UB</code>
+- Project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.13 beta0.1.1 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.14 beta0.0.1 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
