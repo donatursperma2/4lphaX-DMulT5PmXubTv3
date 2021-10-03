@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.8.0 [downgrade v0.6]
+# Version : v3.1.1.12 beta8.8.0 [downgrade v0.7]
 
 
 import os
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.6] IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.7] IS STARTING...\n")
     
     
     if smex:
@@ -5117,6 +5117,86 @@ async def gcast(event):
 	    )
 
 
+# =======================[!GUCAST]=======================
+# credits: geez & man ub
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gucast(?: |$)(.*)"))
+
+# @register(outgoing=True, pattern=r"^\.gucast(?: |$)(.*)")
+async def gucast(event):
+	if event.sender_id in SMEX_USERS:
+	    xx = event.pattern_match.group(1)
+	    if xx:
+	        msg = xx
+	    elif event.is_reply:
+	        msg = await event.get_reply_message()
+	    else:
+	        await event.reply("**Berikan Sebuah Pesan atau Reply**")
+	        return
+	    kk = await event.reply("`Globally Broadcasting Msg to Users...`")
+	    er = 0
+	    done = 0
+	    async for x in event.client.iter_dialogs():
+	        if x.is_user and not x.entity.bot:
+	            chat = x.id
+	            try:
+	                done += 1
+	                await event.client.send_message(chat, msg)
+	            except BaseException:
+	                er += 1
+	    await kk.edit(
+	        f"**Berhasil Mengirim Pesan Ke** `{done}` **chats, Gagal Mengirim Pesan Ke** `{er}` **chats**"
+	    )
+
 
 
 # =====[RESTART]=====  
@@ -5487,11 +5567,12 @@ async def help(e):
 <code>.del</code>
 <code>.invite</code>
 <code>.gcast</code>
+<code>.gucast</code>
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.6]</code>
+- version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.7]</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5500,7 +5581,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.6] IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.7] IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
