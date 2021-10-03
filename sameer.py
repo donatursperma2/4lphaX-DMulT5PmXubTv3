@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "v3.1.1.15 beta0.0.1 [build v0.13.1]"
+ubversi = "v3.1.1.17 beta0.0.1 [build v0.0.1]"
 
 
 idk = ""
@@ -5616,7 +5616,84 @@ async def restart(e):
         quit()
 
 
-        
+# ========================[ABOUT]========================
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}about$"))
+
+async def about(event):
+    if event.sender_id in SMEX_USERS:
+       text = f"""
+╭┈─╼━━━━━━━━━━━━━╾─┈ 
+│     
+│      「 ⚡️𝘿𝙇-𝙓 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ 」
+│     
+├┈─╼━━━━━━━━━━━━━╾─┈  
+├ [ UB Type ] : <b>DLX-50</b>
+├ [ Version ] : <code>{ubversi}</code>
+├ [ Language ] : #python
+├ [ Library ] : #telethon
+├ [ Platform ] : #telegram
+├ [ Command ] : <code>{HNDLR}about</code>
+├ [ Handler ] : <b>{HNDLR}</b>
+├ [ Host ] \t\t: Heroku
+├ [ AppName ] : <a href="https://dashboard.heroku.com/apps/{REPO_LINK}">{HEROKU_APP_NAME}</a>
+├ [ Repo ] \t\t: <a href="{REPO_LINK}">Link</a>
+├ [ Dev Team ] : @AlphaXProject
+├ [ Powered by ] : @AliansiAlphaX
+╰┈─────────────┈
+ - [ Sudo Users ] : {SUDO}
+ """
+       await event.reply(text, parse_mode='html', link_preview=None )
+  
         
 # =========[HELP]=========     
         
@@ -5727,6 +5804,7 @@ async def help(e):
 <code>.gucast</code>
 <code>.reserved</code>
 <code>.sendbot</code>
+<code>.about</code>
 
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
