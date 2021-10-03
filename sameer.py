@@ -5418,14 +5418,14 @@ async def _(event):
 	if event.sender_id in SMEX_USERS:
 	    k = await event.get_reply_message()
 	    if k:
-	        a = await client.get_messages(event.chat_id, 0, from_user=k.sender_id)
+	        a = await event.client.get_messages(event.chat_id, 0, from_user=k.sender_id)
 	        return await event.reply(
 	            f"**Total ada** `{a.total}` **Chat Yang dikirim Oleh** {u} **di Grup Chat ini**"
 	        )
 	    u = event.pattern_match.group(1)
 	    if not u:
 	        u = "me"
-	    a = await client.get_messages(event.chat_id, 0, from_user=u)
+	    a = await event.client.get_messages(event.chat_id, 0, from_user=u)
 	    await event.edit(
 	        f"**Total ada `{a.total}` Chat Yang dikirim Oleh saya di Grup Chat ini**"
 	    )
