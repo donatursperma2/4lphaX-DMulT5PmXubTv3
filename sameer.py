@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "v3.1.1.17 beta0.0.1 [build v0.0.1]"
+ubversi = "Beta v3.1.1.17 [build v0.0.2]"
 
 
 idk = ""
@@ -5677,20 +5677,20 @@ async def about(event):
 │      「 ⚡️𝘿𝙇-𝙓 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ 」
 │     
 ├┈─╼━━━━━━━━━━━━━╾─┈  
-├ [ UB Type ] : <b>DLX-50</b>
+├ [ UB Type ] : <b><a href="https://t.me/AlphaXProject/14">DLX-50</a></b>
 ├ [ Version ] : <code>{ubversi}</code>
 ├ [ Language ] : #python
 ├ [ Library ] : #telethon
 ├ [ Platform ] : #telegram
 ├ [ Command ] : <code>{HNDLR}about</code>
-├ [ Handler ] : <b>{HNDLR}</b>
+├ [ Handler ] : <b>" {HNDLR} "</b>
 ├ [ Host ] \t\t: Heroku
-├ [ AppName ] : <a href="https://dashboard.heroku.com/apps/{REPO_LINK}">{HEROKU_APP_NAME}</a>
+├ [ AppName ] : <a href="https://dashboard.heroku.com/apps/{HEROKU_APP_NAME}">{HEROKU_APP_NAME}</a>
 ├ [ Repo ] \t\t: <a href="{REPO_LINK}">Link</a>
 ├ [ Dev Team ] : @AlphaXProject
 ├ [ Powered by ] : @AliansiAlphaX
 ╰┈─────────────┈
- - [ Sudo Users ] : {SUDO}
+ - [ Sudo Users ] : <code>{SUDO}</code>
  """
        await event.reply(text, parse_mode='html', link_preview=None )
   
