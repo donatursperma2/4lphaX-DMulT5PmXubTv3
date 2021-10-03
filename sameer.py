@@ -5338,7 +5338,7 @@ async def sendbot(event):
 	            response = await response
 	            await event.client.send_read_acknowledge(conv.chat_id)
 	        except YouBlockedUserError:
-	            await event.reply(f"**Unblock Terlebih dahulu {chat} dan coba lagi.**")
+	            await event.edit(f"**Unblock Terlebih dahulu {chat} dan coba lagi.**")
 	            return
 	        except BaseException:
 	            await event.edit("**Tidak dapat menemukan bot itu 🥺**")
