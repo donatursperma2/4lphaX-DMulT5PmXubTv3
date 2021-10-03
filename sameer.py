@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.14 beta0.0.1
+# Version : v3.1.1.14 beta0.0.3
 
 
 import os
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.14 beta0.0.1 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.14 beta0.0.3 IS STARTING...\n")
     
     
     if smex:
@@ -5418,14 +5418,14 @@ async def _(event):
 	if event.sender_id in SMEX_USERS:
 	    k = await event.get_reply_message()
 	    if k:
-	        a = await event.client.get_messages(event.chat_id, 0, from_user=k.sender_id)
+	        a = await client.get_messages(event.chat_id, 0, from_user=k.sender_id)
 	        return await event.reply(
 	            f"**Total ada** `{a.total}` **Chat Yang dikirim Oleh** {u} **di Grup Chat ini**"
 	        )
 	    u = event.pattern_match.group(1)
 	    if not u:
 	        u = "me"
-	    a = await event.client.get_messages(event.chat_id, 0, from_user=u)
+	    a = await client.get_messages(event.chat_id, 0, from_user=u)
 	    await event.edit(
 	        f"**Total ada `{a.total}` Chat Yang dikirim Oleh saya di Grup Chat ini**"
 	    )
@@ -5808,7 +5808,7 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- Version : <code>v3.1.1.14 beta0.0.1</code>
+- Version : <code>v3.1.1.14 beta0.0.3</code>
 - Type \t\t\t: <code>DLX50 UB</code>
 - Project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5817,7 +5817,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.14 beta0.0.1 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.14 beta0.0.3 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
