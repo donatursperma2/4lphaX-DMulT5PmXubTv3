@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.8.0 [downgrade v0.11]
+# Version : v3.1.1.12 beta8.8.0 [downgrade v0.12]
 
 
 import os
@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-APP = HEROKU_APP_NAME
+
 
 idk = ""
 ydk = ""
@@ -241,10 +241,10 @@ async def start_yukki():
     global feg
     global fnn
     global fvt
-    global APP  
+ 
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.11] IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.12] IS STARTING...\n")
     
     
     if smex:
@@ -5673,7 +5673,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = """🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
+       text = f"""🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
 
 🛠 𝙐𝙩𝙞𝙡𝙨:
 <code>.ping</code>
@@ -5730,17 +5730,17 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.11]</code>
+- version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.12]</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>
-- appname : (APP)"""
+- appname : {HEROKU_APP_NAME}"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.11] IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.12] IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
