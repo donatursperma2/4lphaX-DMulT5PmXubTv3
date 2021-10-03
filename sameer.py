@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.8.0 [downgrade v0.12]
+
 
 
 import os
@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "v3.1.1.12 beta8.8.0 [downgrade v0.13]"
+ubversi = "v3.1.1.15 beta0.0.1 [build v0.13.1]"
 
 
 idk = ""
@@ -246,8 +246,8 @@ async def start_yukki():
  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.12] IS STARTING...\n")
-    print(f"\n⏳ Versi = {ubversi}...\n")
+    print(f"\n⏳ DLX50 5PMX UB {ubversi} IS STARTING...\n")
+
     
     if smex:
         session_name = str(smex)
@@ -5732,23 +5732,22 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.12]</code>
-- type \t\t: <code>DLX50 UB</code>
-- project : <code>@AlphaXProject</code>
-- appname : {HEROKU_APP_NAME}
-- UBVersi = {ubversi}"""
+- Version : <code>{ubversi}</code>
+- Type \t\t: <code>DLX50 UB</code>
+- Project : <code>@AlphaXProject</code>
+- AppName : <code>{HEROKU_APP_NAME}</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
         
-text = """
+text = f"""
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.12] IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB {ubversi} IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
 print("")
-print("🔥 SMEX! UB STARTED SUCCESFULLY!.\nVersi = {ubversi}")
+print(f"🔥 SMEX! UB STARTED SUCCESFULLY!.\nVersi = {ubversi}")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
