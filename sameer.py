@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "Beta v3.1.1.17 [build v0.0.2]"
+ubversi = "Beta v3.1.1.17 [build v0.0.3]"
 
 
 idk = ""
@@ -5677,20 +5677,20 @@ async def about(event):
 │      「 ⚡️𝘿𝙇-𝙓 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ 」
 │     
 ├┈─╼━━━━━━━━━━━━━╾─┈  
-├ [ UB Type ] : <b><a href="https://t.me/AlphaXProject/14">DLX-50</a></b>
-├ [ Version ] : <code>{ubversi}</code>
-├ [ Language ] : #python
-├ [ Library ] : #telethon
-├ [ Platform ] : #telegram
-├ [ Command ] : <code>{HNDLR}about</code>
-├ [ Handler ] : <b>" {HNDLR} "</b>
-├ [ Host ] \t\t: Heroku
-├ [ AppName ] : <a href="https://dashboard.heroku.com/apps/{HEROKU_APP_NAME}">{HEROKU_APP_NAME}</a>
-├ [ Repo ] \t\t: <a href="{REPO_LINK}">Link</a>
-├ [ Dev Team ] : @AlphaXProject
+├ [ UB Type ] \t\t: <b><a href="https://t.me/AlphaXProject/14">DLX-50</a></b>
+├ [ Version ] \t\t: <u>{ubversi}</u>
+├ [ Language ] \t\t: #python
+├ [ Library ] \t\t: #telethon
+├ [ Platform ] \t\t: #telegram
+├ [ Command ] \t\t: <b>{HNDLR}about</b>
+├ [ Handler ] \t\t: <b>" {HNDLR} "</b>
+├ [ Host ] \t\t\t\t: Heroku
+├ [ AppName ] \t\t: <a href="https://dashboard.heroku.com/apps/{HEROKU_APP_NAME}">{HEROKU_APP_NAME}</a>
+├ [ Repo ] \t\t\t\t: <a href="{REPO_LINK}">Link</a>
+├ [ Dev Team ] \t: @AlphaXProject
 ├ [ Powered by ] : @AliansiAlphaX
 ╰┈─────────────┈
- - [ Sudo Users ] : <code>{SUDO}</code>
+ - <i>[ Sudo Users ] : <code>{SUDO}</i>
  """
        await event.reply(text, parse_mode='html', link_preview=None )
   
