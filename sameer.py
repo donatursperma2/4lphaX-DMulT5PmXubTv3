@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.8.0 [downgrade v0.8]
+# Version : v3.1.1.12 beta8.8.0 [downgrade v0.9]
 
 
 import os
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.8] IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.9] IS STARTING...\n")
     
     
     if smex:
@@ -5263,6 +5263,95 @@ async def mine(event):
 
 	    await event.reply(output_str)
 
+
+# ========================[SENDBOT]========================
+# credit man ub
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}sendbot (.*)"))
+
+# @register(outgoing=True, pattern=r"^\.sendbot (.*)")
+async def sendbot(event):
+	if event.sender_id in SMEX_USERS:
+	    if event.fwd_from:
+	        return
+	    chat = str(event.pattern_match.group(1).split(" ", 1)[0])
+	    link = str(event.pattern_match.group(1).split(" ", 1)[1])
+	    if not link:
+	        return await event.reply("**Maaf BOT Tidak Merespond.**")
+
+	    botid = await event.client.get_entity(chat)
+	    mc1 = await event.reply("`Processing...`")
+	    async with event.client.conversation(chat) as conv:
+	        try:
+	            response = conv.wait_event(
+	                events.NewMessage(incoming=True, from_users=botid)
+	            )
+	            msg = await event.client.send_message(chat, link)
+	            response = await response
+	            await event.client.send_read_acknowledge(conv.chat_id)
+	        except YouBlockedUserError:
+	            await event.edit(f"**Unblock Terlebih dahulu {chat} dan coba lagi.**")
+	            return
+	        except BaseException:
+	            await event.edit("**Tidak dapat menemukan bot itu 🥺**")
+	            await sleep(2)
+	            return await event.delete()
+
+	        await mc1.edit(f"**Pesan Terkirim:** `{link}`\n**Kepada: {chat}**")
+	        await event.client.send_message(event.chat_id, response.message)
+	        await event.client.send_read_acknowledge(event.chat_id)
+	        await event.client.delete_messages(conv.chat_id, [msg.id, response.id])
+
+
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -5633,11 +5722,13 @@ async def help(e):
 <code>.gcast</code>
 <code>.gucast</code>
 <code>.reserved</code>
+<code>.sendbot</code>
+
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.8]</code>
+- version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.9]</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5646,7 +5737,7 @@ async def help(e):
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.8] IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.9] IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
