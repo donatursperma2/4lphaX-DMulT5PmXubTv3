@@ -2423,6 +2423,7 @@ async def _(event):
             
 # ======[ACTION]======
 
+
            
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
@@ -5338,7 +5339,7 @@ async def sendbot(event):
 	            response = await response
 	            await event.client.send_read_acknowledge(conv.chat_id)
 	        except YouBlockedUserError:
-	            await event.edit(f"**Unblock Terlebih dahulu {chat} dan coba lagi.**")
+	            await event.reply(f"**Unblock Terlebih dahulu {chat} dan coba lagi.**")
 	            return
 	        except BaseException:
 	            await event.edit("**Tidak dapat menemukan bot itu 🥺**")
@@ -5751,19 +5752,16 @@ async def restart(e):
 async def help(e):
     if e.sender_id in SMEX_USERS:
        text = """🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
-
 🛠 𝙐𝙩𝙞𝙡𝙨:
 <code>.ping</code>
 <code>.alive</code>
 <code>.restart</code>
-
 🎛 𝙐𝙨𝙚𝙧𝙗𝙤𝙩:
 <code>.bio</code>
 <code>.join</code>
 <code>.pjoin</code>
 <code>.leave</code>
 <code>.inviteall</code>
-
 ☠️ 𝙎𝙥𝙖𝙢:
 <code>.spam</code>
 <code>.delayspam</code>
@@ -5771,7 +5769,6 @@ async def help(e):
 <code>.raid</code>
 <code>.replyraid</code>
 <code>.dreplyraid</code>
-
 ⚔️ 𝙓𝙩𝙧𝙖:
 <code>.absen</code>
 <code>.pinx</code>
@@ -5803,12 +5800,9 @@ async def help(e):
 <code>.reserved</code>
 <code>.sendbot</code>
 <code>.tmsg</code>
-
-
 <i>For more help regarding usage \nof plugins type plugins name</i>
-
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- Version : <code>v3.1.1.14 beta0.0.3</code>
+- Version : <code>v3.1.1.14 beta0.0.1</code>
 - Type \t\t\t: <code>DLX50 UB</code>
 - Project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
@@ -5816,8 +5810,7 @@ async def help(e):
         
         
 text = """
-
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.14 beta0.0.3 IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.14 beta0.0.1 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
