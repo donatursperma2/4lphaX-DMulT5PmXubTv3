@@ -130,6 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
+ubversi = "v3.1.1.12 beta8.8.0 [downgrade v0.13]"
 
 
 idk = ""
@@ -241,11 +242,12 @@ async def start_yukki():
     global feg
     global fnn
     global fvt
+    global ubversi
  
 
 
     print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.12] IS STARTING...\n")
-    
+    print(f"\n⏳ Versi = {ubversi}...\n")
     
     if smex:
         session_name = str(smex)
@@ -5733,7 +5735,8 @@ async def help(e):
 - version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.12]</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>
-- appname : {HEROKU_APP_NAME}"""
+- appname : {HEROKU_APP_NAME}
+- UBVersi = {ubversi}"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
@@ -5745,7 +5748,7 @@ text = """
 
 print(text)
 print("")
-print("🔥 SMEX! UB STARTED SUCCESFULLY!.")
+print("🔥 SMEX! UB STARTED SUCCESFULLY!.\nVersi = {ubversi}")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
