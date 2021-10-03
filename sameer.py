@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.8.0 [downgrade v0.10]
+# Version : v3.1.1.12 beta8.8.0 [downgrade v0.11]
 
 
 import os
@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-
+APP = HEROKU_APP_NAME
 
 idk = ""
 ydk = ""
@@ -240,10 +240,11 @@ async def start_yukki():
     global fsv
     global feg
     global fnn
-    global fvt  
+    global fvt
+    global APP  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.10] IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.11] IS STARTING...\n")
     
     
     if smex:
@@ -5617,7 +5618,8 @@ async def restart(e):
         
 # =========[HELP]=========     
         
-        
+
+
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.help$"))
@@ -5728,17 +5730,17 @@ async def help(e):
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.10]</code>
+- version : <code>v3.1.1.12 beta8.8.0 [downgrade v0.11]</code>
 - type \t\t: <code>DLX50 UB</code>
 - project : <code>@AlphaXProject</code>
-- appname : {HEROKU_APP_NAME}"""
+- appname : (APP)"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
         
 text = """
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.10] IS READY!
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.12 beta8.8.0 [downgrade v0.11] IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
