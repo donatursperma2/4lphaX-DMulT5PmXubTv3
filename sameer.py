@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.12 beta8.8.0
+# Version : v3.1.1.12 beta8.8.0 [downgrade]
 
 
 import os
