@@ -8,7 +8,7 @@
 #
 # Created by : https://t.me/AlphaXProject 
 # Support by : https://t.me/CariTemanLink 
-# Version : v3.1.1.14 beta0.0.3
+# Version : v3.1.1.14 beta0.0.4
 
 
 import os
@@ -19,7 +19,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import HNDLR, REPO_LINK, ALIVE_NAME, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
+from Config import HNDLR, REPO_LINK, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
 import asyncio
 import telethon.utils
 
@@ -243,7 +243,7 @@ async def start_yukki():
     global fvt  
 
 
-    print("\n⏳ DLX50 5PMX UB v3.1.1.14 beta0.0.3 IS STARTING...\n")
+    print("\n⏳ DLX50 5PMX UB v3.1.1.14 beta0.0.4 IS STARTING...\n")
     
     
     if smex:
@@ -2423,7 +2423,6 @@ async def _(event):
             
 # ======[ACTION]======
 
-
            
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
@@ -3920,14 +3919,14 @@ bot = TelegramClient('sameer', api_id, api_hash)
 async def _(event):
     if event.sender_id in SMEX_USERS:
         await event.reply("`Please wait..`")
-        async with event.client.conversation("@SpamBot") as conv:
+        async with idk.conversation("@SpamBot") as conv:
             try:
                 response = conv.wait_event(
                     events.NewMessage(incoming=True, from_users=178220800)
                 )
                 await conv.send_message("/start")
                 response = await response
-                await event.client.send_read_acknowledge(conv.chat_id)
+                await idk.send_read_acknowledge(conv.chat_id)
             except YouBlockedUserError:
                 await event.edit("`Please unblock @SpamBot and try again!`")
                 return
@@ -4579,7 +4578,7 @@ async def animepp():
 # @register(outgoing=True, pattern=r"^\.pprandom(?: |$)(.*)")
 async def main(event):
     if event.sender_id in SMEX_USERS:
-        await event.reply("`Sedang Mengubah Photo Profile Anda...`")
+        await event.edit("`Sedang Mengubah Photo Profile Anda...`")
 
         while True:
             await animepp()
@@ -4717,7 +4716,7 @@ async def repo(e):
     if e.sender_id in SMEX_USERS:
         text = "wait.."
         event = await e.reply(text, parse_mode=None, link_preview=None )
-        await event.edit(f"Link repo : [{ALIVE_NAME}]({REPO_LINK})")
+        await event.edit(f"Link repo : [⚡️ ALPHA-XPROJECT ⚡️]({REPO_LINK})")
 
 # ======================== [VSUDO!]========================   
 
@@ -4928,6 +4927,7 @@ async def delete_it(delme):
                     await delme.client.send_message(
                         BOTLOG_CHATID, "Well, I can't delete a message")
                 """
+
 
 # ======================== [INVITE]========================  
 
@@ -5339,7 +5339,7 @@ async def sendbot(event):
 	            response = await response
 	            await event.client.send_read_acknowledge(conv.chat_id)
 	        except YouBlockedUserError:
-	            await event.reply(f"**Unblock Terlebih dahulu {chat} dan coba lagi.**")
+	            await event.edit(f"**Unblock Terlebih dahulu {chat} dan coba lagi.**")
 	            return
 	        except BaseException:
 	            await event.edit("**Tidak dapat menemukan bot itu 🥺**")
@@ -5350,86 +5350,6 @@ async def sendbot(event):
 	        await event.client.send_message(event.chat_id, response.message)
 	        await event.client.send_read_acknowledge(event.chat_id)
 	        await event.client.delete_messages(conv.chat_id, [msg.id, response.id])
-
-
-# =======================[!GUCAST]=======================
-# credits: geez & man ub
-
-import os
-from asyncio import sleep
-
-from telethon import events
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-from telethon.tl.functions.messages import ExportChatInviteRequest
-from telethon.tl.types import ChannelParticipantsKicked
-
-@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
-
-# @register(outgoing=True, pattern=r"^\.tmsg (.*)")
-async def _(event):
-	if event.sender_id in SMEX_USERS:
-	    k = await event.get_reply_message()
-	    if k:
-	        a = await event.client.get_messages(event.chat_id, 0, from_user=k.sender_id)
-	        return await event.reply(
-	            f"**Total ada** `{a.total}` **Chat Yang dikirim Oleh** {u} **di Grup Chat ini**"
-	        )
-	    u = event.pattern_match.group(1)
-	    if not u:
-	        u = "me"
-	    a = await event.client.get_messages(event.chat_id, 0, from_user=u)
-	    await event.edit(
-	        f"**Total ada `{a.total}` Chat Yang dikirim Oleh saya di Grup Chat ini**"
-	    )
 
 
 # =====[RESTART]=====  
@@ -5752,16 +5672,19 @@ async def restart(e):
 async def help(e):
     if e.sender_id in SMEX_USERS:
        text = """🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
+
 🛠 𝙐𝙩𝙞𝙡𝙨:
 <code>.ping</code>
 <code>.alive</code>
 <code>.restart</code>
+
 🎛 𝙐𝙨𝙚𝙧𝙗𝙤𝙩:
 <code>.bio</code>
 <code>.join</code>
 <code>.pjoin</code>
 <code>.leave</code>
 <code>.inviteall</code>
+
 ☠️ 𝙎𝙥𝙖𝙢:
 <code>.spam</code>
 <code>.delayspam</code>
@@ -5769,6 +5692,7 @@ async def help(e):
 <code>.raid</code>
 <code>.replyraid</code>
 <code>.dreplyraid</code>
+
 ⚔️ 𝙓𝙩𝙧𝙖:
 <code>.absen</code>
 <code>.pinx</code>
@@ -5794,23 +5718,20 @@ async def help(e):
 <code>.vsudo</code>
 <code>.send</code>
 <code>.del</code>
-<code>.invite</code>
-<code>.gucast</code>
-<code>.gcast</code>
-<code>.reserved</code>
-<code>.sendbot</code>
-<code>.tmsg</code>
+
 <i>For more help regarding usage \nof plugins type plugins name</i>
+
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- Version : <code>v3.1.1.14 beta0.0.1</code>
-- Type \t\t\t: <code>DLX50 UB</code>
-- Project : <code>@AlphaXProject</code>"""
+- version : <code>v3.1.1.14 beta0.0.4</code>
+- type \t\t: <code>DLX50 UB</code>
+- project : <code>@AlphaXProject</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
         
 text = """
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.14 beta0.0.1 IS READY!
+
+💥 [CONGRATULATIONS] UR DLX50 5PMX UB v3.1.1.14 beta0.0.4 IS READY!
 💥 Recoded By @AlphaXProject Team"""
 
 print(text)
