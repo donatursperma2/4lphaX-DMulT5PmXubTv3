@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "Beta v3.1.1.17 [build v0.0.3.1]"
+ubversi = "Beta v3.1.1.17 [build v0.0.3]"
 
 
 idk = ""
@@ -5682,7 +5682,7 @@ async def about(event):
 ├ [ Language ] \t\t: #python
 ├ [ Library ] \t\t: #telethon
 ├ [ Platform ] \t\t: #telegram
-├ [ Command ] \t\t: <i>{HNDLR}about</i>
+├ [ Command ] \t\t: <b>{HNDLR}about</b>
 ├ [ Handler ] \t\t: <b>" {HNDLR} "</b>
 ├ [ Host ] \t\t\t\t: Heroku
 ├ [ AppName ] \t\t: <a href="https://dashboard.heroku.com/apps/{HEROKU_APP_NAME}">{HEROKU_APP_NAME}</a>
@@ -5752,8 +5752,7 @@ async def about(event):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = f"""
-🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
+       text = f"""🔰 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
 
 🛠 𝙐𝙩𝙞𝙡𝙨:
 <code>.ping</code>
@@ -5814,7 +5813,7 @@ async def help(e):
 - Version : <code>{ubversi}</code>
 - Type \t\t: <code>DLX50 UB</code>
 - Project : <code>@AlphaXProject</code>
-"""
+- AppName : <code>{HEROKU_APP_NAME}</code>"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
@@ -5826,7 +5825,7 @@ text = f"""
 
 print(text)
 print("")
-print(f"🔥 SMEX! UB STARTED SUCCESFULLY!.\nVERSION = {ubversi}")
+print(f"🔥 SMEX! UB STARTED SUCCESFULLY!.\nVersi = {ubversi}")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
