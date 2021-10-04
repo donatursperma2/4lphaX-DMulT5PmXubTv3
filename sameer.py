@@ -130,7 +130,9 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "Beta v3.1.1.17 [build v0.0.5]"
+ubversi = "Beta v3.1.1.17 [build v0.0.6]"
+LOG_GROUP = HASH_CHAT
+
 
 
 idk = ""
@@ -243,6 +245,7 @@ async def start_yukki():
     global fnn
     global fvt
     global ubversi
+    global LOG_GROUP
  
 
 
@@ -261,7 +264,7 @@ async def start_yukki():
             await idk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await idk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await idk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
-            await idk(functions.messages.ImportChatInviteRequest(hash=f"{HASH_CHAT}"))
+            await idk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
