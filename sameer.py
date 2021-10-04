@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "Beta v3.1.1.18 [build v0.0.4]"
+ubversi = "Beta v3.1.1.17 [build v0.0.3.1]"
 
 
 idk = ""
@@ -5355,89 +5355,6 @@ async def sendbot(event):
 	        await event.client.delete_messages(conv.chat_id, [msg.id, response.id])
 
 
-# ========================[POTO]========================
-# credit ultroid
-# Upload the photo of Chat/User if Available.
-
-import os
-
-from telethon.tl.functions.account import UpdateProfileRequest
-from telethon.tl.functions.photos import DeletePhotosRequest, UploadProfilePhotoRequest
-
-@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}poto ?(.*)"))
-
-# @ultroid_cmd(pattern="poto ?(.*)")
-async def gpoto(e):
-	if e.sender_id in SMEX_USERS:
-	    ult = e.pattern_match.group(1)
-	    a = await reply(e, "`Processing...`")
-	    if not ult and e.is_reply:
-	        gs = await e.get_reply_message()
-	        ult = gs.sender_id
-	    if not (ult or e.is_reply):
-	        ult = e.chat_id
-	    try:
-	        okla = await e.client.download_profile_photo(
-	            ult,
-	            "profile.jpg",
-	            download_big=True,
-	        )
-	        await a.delete()
-	        await e.reply(file=okla)
-	        os.remove(okla)
-	    except Exception as er:
-	        await reply(e, f"ERROR - {er}")
-
-
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -5765,7 +5682,7 @@ async def about(event):
 ├ [ Language ] \t\t: #python
 ├ [ Library ] \t\t: #telethon
 ├ [ Platform ] \t\t: #telegram
-├ [ Command ] \t\t: <b>{HNDLR}about</b>
+├ [ Command ] \t\t: <i>{HNDLR}about</i>
 ├ [ Handler ] \t\t: <b>" {HNDLR} "</b>
 ├ [ Host ] \t\t\t\t: Heroku
 ├ [ AppName ] \t\t: <a href="https://dashboard.heroku.com/apps/{HEROKU_APP_NAME}">{HEROKU_APP_NAME}</a>
@@ -5889,7 +5806,6 @@ async def help(e):
 <code>.reserved</code>
 <code>.sendbot</code>
 <code>.about</code>
-<code>.poto</code>
 
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
@@ -5910,7 +5826,7 @@ text = f"""
 
 print(text)
 print("")
-print(f"🔥 SMEX! UB STARTED SUCCESFULLY!.\nVersi = {ubversi}")
+print(f"🔥 SMEX! UB STARTED SUCCESFULLY!.\nVERSION = {ubversi}")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
