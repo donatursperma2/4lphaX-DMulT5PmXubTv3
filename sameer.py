@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "Beta v3.1.1.20 [build v0.0.1]"
+ubversi = "Beta v3.1.1.21 [build v0.0.1]"
 
 
 idk = ""
@@ -5435,6 +5435,84 @@ async def _(event):
 	    )
 
 
+# =======================[FTYPING]=======================
+
+import asyncio
+
+# from userbot import CMD_HELP
+# from userbot.events import register
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}ftyping(?: |$)(.*)"))
+
+# @register(outgoing=True, pattern=r"^\.ftyping(?: |$)(.*)")
+async def _(event):
+	if event.sender_id in SMEX_USERS:
+	    t = event.pattern_match.group(1)
+	    if not (t or t.isdigit()):
+	        t = 100
+	    else:
+	        try:
+	            t = int(t)
+	        except BaseException:
+	            try:
+	                t = await event.ban_time(t)
+	            except BaseException:
+	                return await event.edit("`Masukan jumlah detik yang benar`")
+	    await event.reply(f"**Memulai Pengetikan Palsu Selama** `{t}` **detik.**")
+	    await asyncio.sleep(3)
+	    await event.delete()
+	    async with event.client.action(event.chat_id, "typing"):
+	        await asyncio.sleep(t)
+
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -5886,6 +5964,7 @@ async def help(e):
 <code>.sendbot</code>
 <code>.about</code>
 <code>.tmsg</code>
+<code>.ftyping</code>
 
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
