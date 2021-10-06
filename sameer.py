@@ -130,7 +130,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "Beta v3.1.1.17 [build v0.0.3]"
+ubversi = "Beta v3.1.1.20 [build v0.0.1]"
 
 
 idk = ""
@@ -5355,6 +5355,86 @@ async def sendbot(event):
 	        await event.client.delete_messages(conv.chat_id, [msg.id, response.id])
 
 
+# =======================[TMSG]=======================
+# credits: geez & man ub
+
+import os
+from asyncio import sleep
+
+from telethon import events
+from telethon.errors.rpcerrorlist import YouBlockedUserError
+from telethon.tl.functions.messages import ExportChatInviteRequest
+from telethon.tl.types import ChannelParticipantsKicked
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}tmsg (.*)"))
+
+# @register(outgoing=True, pattern=r"^\.tmsg (.*)")
+async def _(event):
+	if event.sender_id in SMEX_USERS:
+	    k = await event.get_reply_message()
+	    if k:
+	        a = await event.client.get_messages(event.chat_id, 0, from_user=k.sender_id)
+	        return await event.reply(
+	            f"**Total ada** `{a.total}` **Chat Yang dikirim Oleh** {u} **di Grup Chat ini**"
+	        )
+	    u = event.pattern_match.group(1)
+	    if not u:
+	        u = "me"
+	    a = await event.client.get_messages(event.chat_id, 0, from_user=u)
+	    await event.reply(
+	        f"**Total ada `{a.total}` Chat Yang dikirim Oleh saya di Grup Chat ini**"
+	    )
+
+
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -5805,6 +5885,7 @@ async def help(e):
 <code>.reserved</code>
 <code>.sendbot</code>
 <code>.about</code>
+<code>.tmsg</code>
 
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
