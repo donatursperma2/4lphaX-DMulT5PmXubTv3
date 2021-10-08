@@ -19,7 +19,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import HNDLR, REPO_LINK, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
+from Config import HNDLR, ALIVE_NAME, HASH_CHAT, REPO_LINK, STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12, STRING13, STRING14, STRING15, STRING16, STRING17, STRING18, STRING19, STRING20, STRING21, STRING22, STRING23, STRING24, STRING25, STRING26, STRING27, STRING28, STRING29 ,STRING30, STRING31, STRING32, STRING33 ,STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50, HEROKU_API_KEY, UPSTREAM_REPO, HEROKU_APP_NAME
 import asyncio
 import telethon.utils
 
@@ -75,6 +75,7 @@ from telethon.tl.types import Channel, Chat, InputPhoto, User
 from telethon.errors.rpcerrorlist import UsernameOccupiedError
 from telethon.tl.functions.account import UpdateUsernameRequest
 from telethon.errors import rpcbaseerrors
+import requests
 
 
 
@@ -130,7 +131,8 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "Beta v3.1.1.21 [build v0.0.1]"
+ubversi = "Beta v3.1.1.23 [build 0.1]" #versi
+LOG_GROUP = HASH_CHAT
 
 
 idk = ""
@@ -183,7 +185,7 @@ fsv = ""
 feg = ""
 fnn = ""
 fvt = ""
-
+HASH_CHAT = ""
 
 que = {}
 
@@ -243,16 +245,18 @@ async def start_yukki():
     global fnn
     global fvt
     global ubversi
+    global LOG_GROUP
  
 
 
-    print(f"\n⏳ DLX50 5PMX UB {ubversi} IS STARTING...\n")
+    print(f"\n⏳ 「 ⚡️𝘿𝙇-𝙓𝟓𝟎 𝙐𝘽⚡️ 」 {ubversi} IS STARTING...\n")
 
     
     if smex:
         session_name = str(smex)
         print("String 1 Found")
         idk = TelegramClient(StringSession(session_name), a, b)
+        LOG_GROUP = HASH_CHAT
         try:
             print("Booting Up The Client 1")
             await idk.start()
@@ -261,10 +265,10 @@ async def start_yukki():
             await idk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await idk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await idk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await idk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            idk = "smex"
             print(e)
             pass
     else:
@@ -5513,6 +5517,279 @@ async def _(event):
 	    async with event.client.action(event.chat_id, "typing"):
 	        await asyncio.sleep(t)
 
+
+# =======================[GPOTO]=======================
+# credit ultro
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}gpoto ?(.*)"))
+
+# @ultroid_cmd(pattern="poto ?(.*)")
+async def gpoto(e):
+    if e.sender_id in SMEX_USERS:
+        ult = e.pattern_match.group(1)
+        a = await e.reply("`Processing...`")
+        if not ult and e.is_reply:
+            gs = await e.get_reply_message()
+            ult = gs.sender_id
+        if not (ult or e.is_reply):
+            ult = e.chat_id
+        try:
+            okla = await e.client.download_profile_photo(
+                ult,
+                "profile.jpg",
+                download_big=True,
+            )
+            await a.delete()
+            await e.reply(file=okla)
+            os.remove(okla)
+        except Exception as er:
+            await e.reply(f"ERROR - {str(er)}")
+
+
+# =======================[ASUPAN|WIBU|CHIKA]=======================
+# credit man
+
+
+import requests
+
+# from userbot import CMD_HELP
+# from userbot.events import register
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}asupan$"))
+
+# @register(outgoing=True, pattern=r"^\.asupan$")
+async def _(event):
+    if event.sender_id in SMEX_USERS:
+        try:
+            response = requests.get("https://api-tede.herokuapp.com/api/asupan/ptl").json()
+            await event.client.send_file(event.chat_id, response["url"])
+            await event.delete()
+        except Exception:
+            await event.reply("**Tidak bisa menemukan video asupan.**")
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}wibu$"))
+
+# @register(outgoing=True, pattern=r"^\.wibu$")
+async def _(event):
+    if event.sender_id in SMEX_USERS:
+        try:
+            response = requests.get("https://api-tede.herokuapp.com/api/asupan/wibu").json()
+            await event.client.send_file(event.chat_id, response["url"])
+            await event.delete()
+        except Exception:
+            await event.reply("**Tidak bisa menemukan video wibu.**")
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}chika$"))
+
+# @register(outgoing=True, pattern=r"^\.chika$")
+async def _(event):
+    if event.sender_id in SMEX_USERS:
+        try:
+            response = requests.get("https://api-tede.herokuapp.com/api/chika").json()
+            await event.client.send_file(event.chat_id, response["url"])
+            await event.delete()
+        except Exception:
+            await event.reply("**Tidak bisa menemukan video chikakiku.**")
+
 # =====[RESTART]=====  
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -5965,23 +6242,27 @@ async def help(e):
 <code>.about</code>
 <code>.tmsg</code>
 <code>.ftyping</code>
+<code>.gpoto</code>
+<code>.asupan</code>
+<code>.wibu</code>
+<code>.chika</code>
 
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
 
 🤖 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤 
-- Version : <code>{ubversi}</code>
-- Type \t\t: <code>DLX50 UB</code>
-- Project : <code>@AlphaXProject</code>
-- AppName : <code>{HEROKU_APP_NAME}</code>"""
+- <i>Version :</i> <code>{ubversi}</code>
+- <i>Type \t\t\t:</i> <code>DLX50 UB</code>
+- <i>Project :</i> <code>@AlphaXProject</code>
+"""
        await e.reply(text, parse_mode='html', link_preview=None )
 
         
         
 text = f"""
 
-💥 [CONGRATULATIONS] UR DLX50 5PMX UB {ubversi} IS READY!
-💥 Recoded By @AlphaXProject Team"""
+💥 [CONGRATULATIONS] UR 「 ⚡️𝘿𝙇-𝙓𝟓𝟎 𝙐𝘽⚡️ 」 {ubversi} IS READY!
+💥 Recode By @AlphaXProject Team"""
 
 print(text)
 print("")
