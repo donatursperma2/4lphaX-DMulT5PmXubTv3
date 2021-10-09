@@ -131,7 +131,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "Beta v3.1.1.23 [build 0.20]" #versi
+ubversi = "Beta v3.1.1.24 [build 0.1]" #versi
 LOG_GROUP = HASH_CHAT
 
 
