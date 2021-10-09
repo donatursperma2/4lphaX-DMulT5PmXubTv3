@@ -131,7 +131,7 @@ forsv = STRING47
 forig = STRING48
 fornn = STRING49
 fivty = STRING50
-ubversi = "Beta v3.1.1.23 [build 0.14]" #versi
+ubversi = "Beta v3.1.1.23 [build 0.20]" #versi
 LOG_GROUP = HASH_CHAT
 
 
@@ -185,7 +185,7 @@ fsv = ""
 feg = ""
 fnn = ""
 fvt = ""
-HASH_CHAT = ""
+
 
 que = {}
 
@@ -256,7 +256,6 @@ async def start_yukki():
         session_name = str(smex)
         print("String 1 Found")
         idk = TelegramClient(StringSession(session_name), a, b)
-        LOG_GROUP = HASH_CHAT
         try:
             print("Booting Up The Client 1")
             await idk.start()
@@ -291,6 +290,7 @@ async def start_yukki():
             await ydk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ydk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ydk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ydk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -318,6 +318,7 @@ async def start_yukki():
             await wdk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await wdk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await wdk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await wdk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -345,6 +346,7 @@ async def start_yukki():
             await hdk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await hdk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await hdk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await hdk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -372,6 +374,7 @@ async def start_yukki():
             await sdk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await sdk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await sdk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await sdk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -399,6 +402,7 @@ async def start_yukki():
             await adk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await adk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await adk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await adk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -426,6 +430,7 @@ async def start_yukki():
             await bdk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await bdk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await bdk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await bdk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -454,6 +459,7 @@ async def start_yukki():
             await cdk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await cdk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await cdk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await cdk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -481,6 +487,7 @@ async def start_yukki():
             await ddk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ddk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ddk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ddk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -509,6 +516,7 @@ async def start_yukki():
             await edk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await edk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await edk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await edk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -537,6 +545,7 @@ async def start_yukki():
             await vkk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await vkk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await vkk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await vkk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -565,6 +574,7 @@ async def start_yukki():
             await kkk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await kkk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await kkk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await kkk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -593,6 +603,7 @@ async def start_yukki():
             await lkk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await lkk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await lkk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await lkk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -621,6 +632,7 @@ async def start_yukki():
             await mkk(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await mkk(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await mkk(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await mkk(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -649,6 +661,7 @@ async def start_yukki():
             await sid(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await sid(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await sid(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await sid(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -678,6 +691,7 @@ async def start_yukki():
             await shy(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await shy(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await shy(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await shy(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -704,6 +718,7 @@ async def start_yukki():
             await aan(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await aan(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await aan(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await aan(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -730,6 +745,7 @@ async def start_yukki():
             await ake(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ake(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ake(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ake(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -756,6 +772,7 @@ async def start_yukki():
             await eel(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await eel(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await eel(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await eel(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -782,6 +799,7 @@ async def start_yukki():
             await khu(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await khu(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await khu(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await khu(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -808,6 +826,7 @@ async def start_yukki():
             await shi(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await shi(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await shi(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await shi(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -834,6 +853,7 @@ async def start_yukki():
             await yaa(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await yaa(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await yaa(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await yaa(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -860,6 +880,7 @@ async def start_yukki():
             await dav(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await dav(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await dav(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await dav(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -886,6 +907,7 @@ async def start_yukki():
             await raj(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await raj(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await raj(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await raj(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -912,6 +934,7 @@ async def start_yukki():
             await put(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await put(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await put(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await put(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -938,6 +961,7 @@ async def start_yukki():
             await tsi(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await tsi(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await tsi(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await tsi(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -964,6 +988,7 @@ async def start_yukki():
             await tsf(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await tsf(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await tsf(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await tsf(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -989,6 +1014,7 @@ async def start_yukki():
             await teg(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await teg(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await teg(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await teg(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await teg.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1016,6 +1042,7 @@ async def start_yukki():
             await tnn(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await tnn(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await tnn(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await tnn(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await tnn.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1043,6 +1070,7 @@ async def start_yukki():
             await tth(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await tth(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await tth(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await tth(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await tth.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1070,6 +1098,7 @@ async def start_yukki():
             await ton(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ton(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ton(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ton(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await ton.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1097,6 +1126,7 @@ async def start_yukki():
             await ttw(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ttw(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ttw(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ttw(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await ttw.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1124,6 +1154,7 @@ async def start_yukki():
             await ttr(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ttr(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ttr(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ttr(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await ttr.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1152,6 +1183,7 @@ async def start_yukki():
             await tfr(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await tfr(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await tfr(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await tfr(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await tfr.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1179,6 +1211,7 @@ async def start_yukki():
             await tfv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await tfv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await tfv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await tfv(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await tfv.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1207,6 +1240,7 @@ async def start_yukki():
             await tsx(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await tsx(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await tsx(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await tsx(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await tsx.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1235,6 +1269,7 @@ async def start_yukki():
             await tsv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await tsv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await tsv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await tsv(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await tsv.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1263,6 +1298,7 @@ async def start_yukki():
             await ttg(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ttg(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ttg(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ttg(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await ttg.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1291,6 +1327,7 @@ async def start_yukki():
             await ttn(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ttn(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ttn(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ttn(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await ttn.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1319,6 +1356,7 @@ async def start_yukki():
             await fft(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await fft(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await fft(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await fft(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await fft.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1347,6 +1385,7 @@ async def start_yukki():
             await ffo(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ffo(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ffo(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ffo(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botme = await ffo.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1376,6 +1415,7 @@ async def start_yukki():
             await ftw(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ftw(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ftw(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ftw(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1402,6 +1442,7 @@ async def start_yukki():
             await ftr(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ftr(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ftr(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ftr(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1428,6 +1469,7 @@ async def start_yukki():
             await ffr(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ffr(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ffr(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ffr(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1454,6 +1496,7 @@ async def start_yukki():
             await ffv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await ffv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await ffv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await ffv(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1480,6 +1523,7 @@ async def start_yukki():
             await fsx(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await fsx(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await fsx(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await fsx(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1506,6 +1550,7 @@ async def start_yukki():
             await fsv(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await fsv(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await fsv(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await fsv(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1532,6 +1577,7 @@ async def start_yukki():
             await feg(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await feg(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await feg(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await feg(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1558,6 +1604,7 @@ async def start_yukki():
             await fnn(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await fnn(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await fnn(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await fnn(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1584,6 +1631,7 @@ async def start_yukki():
             await fvt(functions.channels.JoinChannelRequest(channel="@cariteman1"))
             await fvt(functions.channels.JoinChannelRequest(channel="@tgreceh"))
             await fvt(functions.channels.JoinChannelRequest(channel="@AlphaXProject"))
+            await fvt(functions.messages.ImportChatInviteRequest(hash=f"{LOG_GROUP}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1678,11 +1726,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(yukki[0])
-            text = "Changing Bio"
+            text = "Changing Bio.."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio By MULTI 5P4MXUBOT")
+                await event.edit("Succesfully Changed Bio!")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1901,15 +1949,15 @@ async def _(e):
 caption_alive = f"""
 ╭┈─╼━━━━━━━━━━━━━╾─┈
 │ 
-│      「 ⚡️𝘿𝙇-𝙓 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ 」
+│     「 ⚡️𝘿𝙇-𝙓 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ 」
 │ 
 ├┈─╼━━━━━━━━━━━━━╾─┈  
-│ 𝙃𝙀𝙇𝙇𝙊 𝙈𝙔 𝙈𝘼𝙎𝙏𝙀𝙍 🔥
-│ 𝙄 𝘼𝙈 𝘼𝙇𝙄𝙑𝙀 🔥
-│ 𝙍𝙀𝘼𝘿𝙔 𝙏𝙊 𝙁𝙐𝘾𝙆 𝙔𝙊𝙐𝙍 𝙃𝘼𝙏𝙀𝙍 🔥
+│ 𝙃𝙚𝙡𝙡𝙤 𝙈𝙖𝙨𝙩𝙚𝙧
+│ 𝙄 𝙖𝙢 𝙖𝙡𝙞𝙫𝙚
+│ 𝙍𝙚𝙖𝙙𝙮 𝙩𝙤 𝙛𝙪𝙘𝙠 𝙮𝙤𝙪𝙧 𝙃𝙖𝙩𝙚𝙧𝙨
 │ 
 │ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮: 
-│    𝘼𝙇𝙋𝙃𝘼-𝙓 𝙋𝙧𝙤𝙟𝙚𝙘𝙩  ͭ ͤ ͣ ͫ
+│   𝘼𝙇𝙋𝙃𝘼-𝙓 𝙋𝙧𝙤𝙟𝙚𝙘𝙩  ͭ ͤ ͣ ͫ
 ╰┈─╼━━━━━━━━━━━━━╾─┈
 """
 
@@ -1982,6 +2030,7 @@ async def start(event):
         await event.reply(alv)
         # os.remove(alv)
         await alv.delete()
+
 
 
 
@@ -3937,56 +3986,56 @@ from sys import executable
 
 # ======[EVAL]======
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@put.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@tsi.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@tsf.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@teg.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@tnn.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@tth.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ton.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ttw.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ttr.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@tfr.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@tfv.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@tsx.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@tsv.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ttg.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ttn.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@fft.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ffo.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ftw.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ftr.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ffr.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@ffv.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@fsx.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@fsv.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@feg.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@fnn.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
-@fvt.on(events.NewMessage(incoming=True, pattern=r"^\.eval(?: |$)(.*)"))
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}eval(?: |$|\n)([\s\S]*)"))
 
 async def evaluate(query):
     # eval
@@ -5491,9 +5540,9 @@ async def _(event):
 	                t = await event.ban_time(t)
 	            except BaseException:
 	                return await event.edit("`Masukan jumlah detik yang benar`")
-	    await event.reply(f"**Memulai Pengetikan Palsu Selama** `{t}` **detik.**")
+	    notif = await event.reply(f"**Memulai Pengetikan Palsu Selama** `{t}` **detik.**")
 	    await asyncio.sleep(3)
-	    await event.delete()
+	    await notif.delete()
 	    async with event.client.action(event.chat_id, "typing"):
 	        await asyncio.sleep(t)
 
@@ -5769,6 +5818,134 @@ async def _(event):
             await event.delete()
         except Exception:
             await event.reply("**Tidak bisa menemukan video chikakiku.**")
+
+
+
+# ========================[EVIL SAME AS EVAL]========================
+
+
+# Copyright (C) 2019 The Raphielscape Company LLC.
+#
+# Licensed under the Raphielscape Public License, Version 1.d (the "License");
+# you may not use this file except in compliance with the License.
+#
+"""Userbot module for executing code and terminal commands from Telegram."""
+
+import asyncio
+import sys
+from io import StringIO
+from os import remove
+from traceback import format_exc
+
+# from userbot import CMD_HELP, bot
+# from userbot.events import register
+
+MAX_MESSAGE_SIZE_LIMIT = 4095
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ydk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@wdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@sdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@adk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@bdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@cdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@edk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@hdk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ddk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@vkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@kkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@lkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@mkk.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@sid.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@shy.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@aan.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ake.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@eel.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@khu.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@shi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@yaa.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@dav.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@raj.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@put.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@tsi.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@tsf.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@teg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@tnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@tth.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ton.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ttw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ttr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@tfr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@tfv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@tsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@tsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ttg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ttn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@fft.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ffo.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ftw.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ftr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ffr.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@ffv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@fsx.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@fsv.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@feg.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@fnn.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+@fvt.on(events.NewMessage(incoming=True, pattern=f"\\{HNDLR}evil(?: |$|\n)([\s\S]*)"))
+
+# @register(outgoing=True, pattern=r"^\.eval(?: |$|\n)([\s\S]*)")
+async def evaluate(event):
+    if event.sender_id in SMEX_USERS:
+        """For .eval command, evaluates the given Python expression."""
+        expression = event.pattern_match.group(1)
+        if not expression:
+            return await event.reply("`Give an expression to evaluate.`")
+
+        if expression in ("userbot.session", "config.env"):
+            return await event.reply("`Itu operasi yang berbahaya! Tidak diperbolehkan!`")
+
+        pro = await event.reply("`Processing...`")
+        old_stderr = sys.stderr
+        old_stdout = sys.stdout
+        redirected_output = sys.stdout = StringIO()
+        redirected_error = sys.stderr = StringIO()
+        stdout, stderr, exc, returned = None, None, None, None
+
+        async def aexec(code, event):
+            head = "async def __aexec(event):\n "
+            code = "".join(f"\n {line}" for line in code.split("\n"))
+            exec(head + code)  # pylint: disable=exec-used
+            return await locals()["__aexec"](event)
+
+        try:
+            returned = await aexec(expression, event)
+        except Exception:  # pylint: disable=broad-except
+            exc = format_exc()
+
+        stdout = redirected_output.getvalue().strip()
+        stderr = redirected_error.getvalue().strip()
+        sys.stdout = old_stdout
+        sys.stderr = old_stderr
+        expression.encode("unicode-escape").decode().replace("\\\\", "\\")
+
+        evaluation = str(exc or stderr or stdout or returned)
+        if evaluation and evaluation != "":
+            evaluation = evaluation.encode("unicode-escape").decode().replace("\\\\", "\\")
+        else:
+            evaluation = "Success"
+
+        if len(str(evaluation)) >= 4096:
+            with open("output.txt", "w+") as file:
+                file.write(evaluation)
+            await event.client.send_file(
+                event.chat_id,
+                "output.txt",
+                reply_to=event.id,
+                caption="**Output terlalu besar, dikirim sebagai file**",
+            )
+            return remove("output.txt")
+        await pro.edit(f"**Query:**\n`{expression}`\n\n**Result:**\n`{evaluation}`")
 
 # =====[RESTART]=====  
 
@@ -6092,20 +6269,20 @@ async def about(event):
 │      「 ⚡️𝘿𝙇-𝙓 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ 」
 │     
 ├┈─╼━━━━━━━━━━━━━╾─┈  
-├ [ UB Type ] \t\t: <b><a href="https://t.me/AlphaXProject/14">DLX-50</a></b>
-├ [ Version ] \t\t: <u>{ubversi}</u>
-├ [ Language ] \t\t: #python
-├ [ Library ] \t\t: #telethon
-├ [ Platform ] \t\t: #telegram
-├ [ Command ] \t\t: <b>{HNDLR}about</b>
-├ [ Handler ] \t\t: <b>" {HNDLR} "</b>
-├ [ Host ] \t\t\t\t: Heroku
-├ [ AppName ] \t\t: <a href="https://dashboard.heroku.com/apps/{HEROKU_APP_NAME}">{HEROKU_APP_NAME}</a>
-├ [ Repo ] \t\t\t\t: <a href="{REPO_LINK}">Link</a>
-├ [ Dev Team ] \t: @AlphaXProject
-├ [ Powered by ] : @AliansiAlphaX
+├ [ UB Type ]\t\t       : <b><a href="https://t.me/AlphaXProject/14">DLX-50</a></b>
+├ [ Version ]\t\t       : <u>{ubversi}</u>
+├ [ Language ]      : #python
+├ [ Library ]\t       : #telethon
+├ [ Platform ]\t      : #telegram
+├ [ Command ]       : <b>{HNDLR}about</b>
+├ [ Handler ]\t\t       : <b>" {HNDLR} "</b>
+├ [ Host ]\t\t\t          : Heroku
+├ [ AppName ]       : <a href="https://dashboard.heroku.com/apps/{HEROKU_APP_NAME}">{HEROKU_APP_NAME}</a>
+├ [ Repo ]\t\t\t          : <a href="{REPO_LINK}">Link Here</a>
+├ [ Dev Team ]      : @AlphaXProject
+├ [ Powered by ]    : @AliansiAlphaX
 ╰┈─────────────┈
- - <i>[ Sudo Users ] : <code>{SUDO}</i>
+ - [ Sudo Users ]   : <i>{SUDO}</i>
  """
        await event.reply(text, parse_mode='html', link_preview=None )
   
@@ -6226,6 +6403,7 @@ async def help(e):
 <code>.asupan</code>
 <code>.wibu</code>
 <code>.chika</code>
+<code>.evil</code>
 
 
 <i>For more help regarding usage \nof plugins type plugins name</i>
